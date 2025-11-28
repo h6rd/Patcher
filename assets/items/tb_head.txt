@@ -5,7 +5,7 @@
             "creation_date"		"2014-02-06"
 			"has_store_custom_item_details_panel"		"1"
 			"image_inventory"		"econ/heroes/terrorblade/arcana_terrorblade"
-			"item_description"		"#DOTA_Item_Desc_Fractal_Shard_of_Inner_Abysm"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Fractal_Horns_of_Inner_Abysm"
 			"item_rarity"		"arcana"
 			"item_slot"		"head"

@@ -5,7 +5,7 @@
 			"creation_date"		"2022-03-15"
 			"event_id"		"EVENT_ID_INTERNATIONAL_2022"
 			"image_inventory"		"econ/items/razor/razor_arcana/razor_arcana_arms"
-			"item_description"		"#DOTA_Item_Desc_Voidstorm_Asylum_Bracers"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Voidstorm_Asylum_Bracers"
 			"item_rarity"		"legendary"
 			"item_slot"		"arms"

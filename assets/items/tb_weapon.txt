@@ -5,7 +5,7 @@
             "creation_date"		"2019-07-08"
 			"event_id"		"EVENT_ID_INTERNATIONAL_2019"
 			"image_inventory"		"econ/items/terrorblade/tb_ti9_immortal_weapon/tb_ti9_immortal_weapon"
-			"item_description"		"#DOTA_Item_Desc_Scythes_of_Sorrow"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Scythes_of_Sorrow"
 			"item_rarity"		"immortal"
 			"item_type_name"		"#DOTA_WearableType_Weapon"

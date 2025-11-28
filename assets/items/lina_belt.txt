@@ -5,7 +5,7 @@
             "creation_date"		"2017-05-10"
 			"event_id"		"EVENT_ID_INTERNATIONAL_2017"
 			"image_inventory"		"econ/items/lina/lina_ti7/lina_ti7"
-			"item_description"		"#DOTA_Item_Desc_Wyrmwrought_Flare"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Wyrmwrought_Flare"
 			"item_rarity"		"immortal"
 			"item_slot"		"belt"

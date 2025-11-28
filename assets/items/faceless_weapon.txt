@@ -5,7 +5,7 @@
 			"creation_date"		"2016-02-21"
 			"event_id"		"EVENT_ID_INTERNATIONAL_2016"
 			"image_inventory"		"econ/items/faceless_void/mace_of_aeons/mace_of_aeons"
-			"item_description"		"#DOTA_Item_Desc_Mace_of_Aeons"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Mace_of_Aeons"
 			"item_rarity"		"immortal"
 			"item_type_name"		"#DOTA_WearableType_Mace"

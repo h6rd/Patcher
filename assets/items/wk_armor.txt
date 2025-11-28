@@ -6,7 +6,7 @@
 			"creation_date"		"2020-05-25"
 			"event_id"		"EVENT_ID_INTERNATIONAL_2020"
 			"image_inventory"		"econ/items/wraith_king/arcana/wraith_king_arcana_armor"
-			"item_description"		"#DOTA_Item_Desc_Armor_of_the_One_True_King"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Armor_of_the_One_True_King"
 			"item_rarity"		"legendary"
 			"item_slot"		"armor"

@@ -5,7 +5,7 @@
             "creation_date"		"2018-08-01"
 			"event_id"		"EVENT_ID_INTERNATIONAL_2018"
 			"image_inventory"		"econ/items/rubick/rubick_ti8_immortal_shoulders/rubick_ti8_immortal_shoulders"
-			"item_description"		"#DOTA_Item_Desc_Crux_of_Perplex"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Crux_of_Perplex"
 			"item_rarity"		"immortal"
 			"item_slot"		"shoulder"

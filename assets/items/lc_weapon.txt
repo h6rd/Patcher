@@ -5,7 +5,7 @@
             "creation_date"		"2013-12-12"
 			"has_store_custom_item_details_panel"		"1"
 			"image_inventory"		"econ/items/legion_commander/demon_sword"
-			"item_description"		"#DOTA_Item_Desc_Blades_of_Voth_Domosh"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Blades_of_Voth_Domosh"
 			"item_rarity"		"arcana"
 			"item_type_name"		"#DOTA_WearableType_Twin_Demon_Blades"

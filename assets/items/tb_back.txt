@@ -5,7 +5,7 @@
             "creation_date"		"2018-03-29"
 			"event_id"		"EVENT_ID_INTERNATIONAL_2018"
 			"image_inventory"		"econ/items/terrorblade/terrorblade_ti8_immortal_back/terrorblade_ti8_immortal_back"
-			"item_description"		"#DOTA_Item_Desc_Span_of_Sorrow"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Span_of_Sorrow"
 			"item_rarity"		"immortal"
 			"item_slot"		"back"

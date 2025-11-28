@@ -7,7 +7,7 @@
 			"event_id"		"EVENT_ID_INTERNATIONAL_2020"
 			"hide_tradecraftdelete"		"1"
 			"image_inventory"		"econ/tools/ti10_dire_tower"
-			"item_description"		"#DOTA_Item_Desc_Declaration_of_the_Divine_Shadow_Dire_Towers"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Declaration_of_the_Divine_Shadow_Dire_Towers"
 			"item_rarity"		"legendary"
 			"portraits"

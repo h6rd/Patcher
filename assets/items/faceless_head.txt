@@ -4,7 +4,7 @@
 			"prefab"		"default_item"
 			"creation_date"		"2022-08-22"
 			"image_inventory"		"econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana"
-			"item_description"		"#DOTA_Item_Desc_Claszian_Apostasy_Head"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Claszian_Apostasy_Head"
 			"item_rarity"		"arcana"
 			"item_slot"		"body_head"

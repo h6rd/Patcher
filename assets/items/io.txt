@@ -5,7 +5,7 @@
             "creation_date"		"2017-05-18"
 			"event_id"		"EVENT_ID_INTERNATIONAL_2017"
 			"image_inventory"		"econ/items/io/io_ti7/io_ti7"
-			"item_description"		"#DOTA_Item_Desc_Benevolent_Companion"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Benevolent_Companion"
 			"item_rarity"		"arcana"
 			"item_slot"		"head"

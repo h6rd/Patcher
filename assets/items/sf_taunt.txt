@@ -5,7 +5,7 @@
 			"baseitem"		"1"
 			"creation_date"		"2015-02-28"
 			"image_inventory"		"econ/taunts/taunt_icon_shadow_fiend_fiendish_swag"
-			"item_description"		"#DOTA_Item_Desc_Taunt_Fiendish_Swag"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Taunt_Fiendish_Swag"
 			"item_rarity"		"rare"
 			"used_by_heroes"

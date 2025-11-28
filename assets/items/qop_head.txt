@@ -5,7 +5,7 @@
             "creation_date"		"2020-06-11"
 			"event_id"		"EVENT_ID_INTERNATIONAL_2020"
 			"image_inventory"		"econ/items/queenofpain/queenofpain_arcana/queenofpain_arcana_head"
-			"item_description"		"#DOTA_Item_Desc_Crown_of_the_Eminence_of_Ristul"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Crown_of_the_Eminence_of_Ristul"
 			"item_rarity"		"legendary"
 			"item_slot"		"head"

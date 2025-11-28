@@ -6,7 +6,7 @@
 			"creation_date"		"2021-04-14"
 			"event_id"		"EVENT_ID_SPRING_2021"
 			"image_inventory"		"econ/taunts/dota_item_taunt_io"
-			"item_description"		"#DOTA_Item_Desc_Taunt_Pop_the_Question"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Taunt_Pop_the_Question"
 			"item_rarity"		"mythical"
 			"match_cycle_to_parent"		"0"

@@ -7,7 +7,7 @@
 			"event_id"		"EVENT_ID_INTERNATIONAL_2020"
 			"hide_tradecraftdelete"		"1"
 			"image_inventory"		"econ/items/pudge/ti10_immortal_armhook/pudge_ti10_immortal_arm_hook"
-			"item_description"		"#DOTA_Item_Desc_The_Abscesserator"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_The_Abscesserator"
 			"item_rarity"		"immortal"
 			"match_cycle_to_parent"		"0"

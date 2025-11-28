@@ -5,7 +5,7 @@
             "creation_date"		"2020-09-04"
 			"event_id"		"EVENT_ID_INTERNATIONAL_2020"
 			"image_inventory"		"econ/items/windrunner/windrunner_arcana/wr_arcana_weapon"
-			"item_description"		"#DOTA_Item_Desc_Windranger_Arcana_Weapon"
+			"item_description"		"by @dota2pornfx"
 			"item_name"		"#DOTA_Item_Longbow_of_the_Rising_Gale"
 			"item_rarity"		"legendary"
 			"model_player"		"models/items/windrunner/windrunner_arcana/wr_arcana_weapon.vmdl"

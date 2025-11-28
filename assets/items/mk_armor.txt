@@ -1,0 +1,151 @@
+"608"
+		{
+			"name"		"Monkey King Armor"
+			"prefab"		"default_item"
+            "creation_date"		"2019-05-14"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+			"image_inventory"		"econ/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor"
+			"item_name"		"#DOTA_Item_Armor_of_the_Demon_Trickster"
+			"item_rarity"		"immortal"
+			"item_slot"		"armor"
+			"item_type_name"		"#DOTA_WearableType_Armor"
+			"match_cycle_to_parent"		"0"
+			"model_player"		"models/items/monkey_king/mk_ti9_immortal_armor/mk_ti9_immortal_armor.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"48.670227 -670.007446 339.781464"
+							"PortraitAngles"		"18.100885 94.005363 0.000000"
+							"PortraitFOV"		"22.716000"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitLightPosition"		"220.829590 103.968933 270.828278"
+					"PortraitLightAngles"		"22.954588 -149.628555 -167.577881"
+					"PortraitLightFOV"		"57.405998"
+					"PortraitLightDistance"		"443.820007"
+					"PortraitLightColor"		"243 237 230"
+					"PortraitLightScale"		"6.355000"
+					"PortraitShadowColor"		"89 89 89"
+					"PortraitShadowScale"		"0.300000"
+					"PortraitGroundShadowScale"		"0.300000"
+					"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+					"PortraitAmbientColor"		"123 168 168"
+					"PortraitAmbientScale"		"0.500000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"1"
+					"PortraitHideHero"		"0"
+					"PortraitHideParticles"		"1"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"can_equip_as_ability_effects"
+				{
+					"attribute_class"		"can_equip_as_ability_effects"
+					"value"		"4"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_monkey_king"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"ti9_cape"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_monkey_king/monkey_king_furarmy_ring.vpcf"
+					"modifier"		"particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_ring.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_monkey_king_fur_army.vpcf"
+					"modifier"		"particles/econ/items/monkey_king/mk_ti9_immortal/status_effect_mk_ti9_immortal_army.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Style_Monkey_King_Immortal_Base"
+						"skin"		"0"
+						"auto_style_rule"		"monkey_king_wukongs_command == 0"
+						"auto_style_reason"		"#DOTA_AutoStyle_Initial_Style_Reason"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Style_Monkey_King_Immortal_Water"
+						"skin"		"1"
+						"auto_style_rule"		"monkey_king_wukongs_command == 1"
+						"auto_style_reason"		"#DOTA_Style_Monkey_King_Arcana_Water_Reason"
+					}
+					"2"
+					{
+						"name"		"#DOTA_Style_Monkey_King_Immortal_Death"
+						"skin"		"2"
+						"auto_style_rule"		"monkey_king_wukongs_command == 2"
+						"auto_style_reason"		"#DOTA_Style_Monkey_King_Arcana_Death_Reason"
+					}
+					"3"
+					{
+						"name"		"#DOTA_Style_Monkey_King_Immortal_Fire"
+						"skin"		"3"
+						"auto_style_rule"		"monkey_king_wukongs_command == 3"
+						"auto_style_reason"		"#DOTA_Style_Monkey_King_Arcana_Fire_Reason"
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_armor_ambient.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"monkey_king_wukongs_command"
+					"modifier"		"monkey_king_wukongs_command_ti9"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_monkey_king/monkey_king_fur_army_cast.vpcf"
+					"modifier"		"particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_cast.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_monkey_king/monkey_king_fur_army_positions.vpcf"
+					"modifier"		"particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_army_positions.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+			}
+		}

@@ -1,0 +1,69 @@
+"609"
+		{
+			"name"		"Monkey King Weapon"
+			"prefab"		"default_item"
+            "creation_date"		"2019-08-06"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+			"image_inventory"		"econ/items/monkey_king/mk_ti9_immortal_weapon/mk_ti9_immortal_weapon"
+			"item_name"		"#DOTA_Item_Staff_of_the_Demon_Trickster"
+			"item_rarity"		"immortal"
+			"item_type_name"		"#DOTA_WearableType_Weapon"
+			"model_player"		"models/items/monkey_king/mk_ti9_immortal_weapon/mk_ti9_immortal_weapon.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"173.118851 -115.785614 -18.424973"
+							"PortraitAngles"		"319.699707 189.370071 -138.240005"
+							"PortraitFOV"		"22.716000"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitLightPosition"		"220.829590 103.968933 59.116272"
+					"PortraitLightAngles"		"1.839214 -152.237534 -179.483871"
+					"PortraitLightFOV"		"57.405998"
+					"PortraitLightDistance"		"443.820007"
+					"PortraitLightColor"		"243 237 230"
+					"PortraitLightScale"		"2.539000"
+					"PortraitShadowColor"		"89 89 89"
+					"PortraitShadowScale"		"0.300000"
+					"PortraitGroundShadowScale"		"0.300000"
+					"PortraitAmbientDirection"		"400.000 -400.000 -50.000"
+					"PortraitAmbientColor"		"123 168 168"
+					"PortraitAmbientScale"		"0.500000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"1"
+					"PortraitHideHero"		"1"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitAnimationActivity"		"ACT_DOTA_FORCESTAFF_END"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_monkey_king"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/monkey_king/mk_ti9_immortal/mk_ti9_immortal_weapon_ambient.vpcf"
+				}
+			}
+		}

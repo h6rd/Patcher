@@ -1,0 +1,98 @@
+"576"
+		{
+			"name"		"Morphling's Arms"
+			"prefab"		"default_item"
+            "creation_date"		"2014-06-23"
+			"image_inventory"		"econ/items/morphling/ethereal_blade/ethereal_blade"
+			"item_description"		"#DOTA_Item_Desc_Blade_of_Tears"
+			"item_name"		"#DOTA_Item_Blade_of_Tears"
+			"item_rarity"		"immortal"
+			"item_slot"		"arms"
+			"item_type_name"		"#DOTA_WearableType_Ethereal_Blades"
+			"model_player"		"models/items/morphling/ethereal_blade/ethereal_blade.vmdl"
+			"particle_folder"		"particles/econ/items/morphling/morphling_ethereal"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"25.847677 160.763870 160.737747"
+					"PortraitLightAngles"		"34.887085 233.014526 0.000000"
+					"PortraitLightFOV"		"61"
+					"PortraitLightDistance"		"197"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"25.260 74.460 -28.780"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"542.412476 -284.208771 83.431206"
+							"PortraitAngles"		"359.675049 154.186005 0.000000"
+							"PortraitFOV"		"19.910000"
+							"PortraitFar"		"1000"
+						}
+					}
+					"hero_presets"
+					{
+						"Default"
+						{
+							"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+						}
+					}
+					"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+				}
+			}
+			"static_attributes"
+			{
+				"can_equip_as_ability_effects"		"2"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_morphling"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_morphling/morphling_adaptive_strike.vpcf"
+					"modifier"		"particles/econ/items/morphling/morphling_ethereal/morphling_adaptive_strike_ethereal.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier1"
+				{
+					"type"		"ability_icon"
+					"asset"		"morphling_adaptive_strike_agi"
+					"modifier"		"morphling_adaptive_strike_agi_ethereal_blade"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier2"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/morphling/morphling_ethereal/morphling_ethereal_ambient.vpcf"
+				}
+			}
+		}

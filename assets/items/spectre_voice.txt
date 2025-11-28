@@ -1,0 +1,146 @@
+"580"
+		{
+			"name"		"Spectre's Default Voice"
+			"prefab"		"default_item"
+            "creation_date"		"2021-06-24"
+			"event_id"		"EVENT_ID_SPRING_2021"
+			"image_inventory"		"econ/items/spectre/spectre_arcana/spectre_arcana_voice"
+			"item_name"		"#DOTA_Item_Phantom_Advent__Voice"
+			"item_rarity"		"legendary"
+			"item_slot"		"voice"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"480.132111 302.748627 403.187500"
+							"PortraitAngles"		"28.490007 212.830048 0.000000"
+							"PortraitFOV"		"16"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+					"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+					"PortraitLightFOV"		"120"
+					"PortraitLightDistance"		"336"
+					"PortraitLightColor"		"254 248 242"
+					"PortraitLightScale"		"2"
+					"PortraitShadowColor"		"74 74 74"
+					"PortraitShadowScale"		"1"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+					"PortraitAmbientColor"		"79 108 108"
+					"PortraitAmbientScale"		"1"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"1"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+				}
+			}
+			"static_attributes"
+			{
+				"cannot trade"		"1"
+				"giftable"		"0"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_spectre"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier"
+				{
+					"type"		"response_criteria"
+					"asset"		"spec_arc_low"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"spectre_spec_laugh_13"
+					"modifier"		"spectre_spectre_wwa_laugh_13"
+					"label"		"#dota_chatwheel_label_spectre_arcana_laugh"
+					"message"		"#dota_chatwheel_message_spectre_arcana_laugh"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"spectre_spec_ability_haunt_01"
+					"modifier"		"spectre_spectre_wwa_wheel_thanks_01"
+					"label"		"#dota_chatwheel_label_spectre_arcana_thank"
+					"message"		"#dota_chatwheel_message_spectre_arcana_thank"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"spectre_spec_deny_01"
+					"modifier"		"spectre_spectre_wwa_wheel_deny_03"
+					"label"		"#dota_chatwheel_label_spectre_arcana_deny"
+					"message"		"#dota_chatwheel_message_spectre_arcana_deny"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"spectre_spec_death_07"
+					"modifier"		"spectre_spectre_wwa_wheel_all_01"
+					"label"		"#dota_chatwheel_label_spectre_arcana_1"
+					"message"		"#dota_chatwheel_message_spectre_arcana_1"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"spectre_spec_lasthit_01"
+					"modifier"		"spectre_spectre_wwa_wheel_all_09"
+					"label"		"#dota_chatwheel_label_spectre_arcana_2"
+					"message"		"#dota_chatwheel_message_spectre_arcana_2"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"spectre_spec_doubdam_02"
+					"modifier"		"spectre_spectre_wwa_rival_199"
+					"label"		"#dota_chatwheel_label_spectre_arcana_3"
+					"message"		"#dota_chatwheel_message_spectre_arcana_3"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"spectre_spec_kill_02"
+					"modifier"		"spectre_spectre_wwa_levelup_14"
+					"label"		"#dota_chatwheel_label_spectre_arcana_4"
+					"message"		"#dota_chatwheel_message_spectre_arcana_4"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"spectre_spec_kill_01"
+					"modifier"		"spectre_spectre_wwa_lasthit_07"
+					"label"		"#dota_chatwheel_label_spectre_arcana_5"
+					"message"		"#dota_chatwheel_message_spectre_arcana_5"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"spectre_spec_respawn_04"
+					"modifier"		"spectre_spectre_wwa_respawn_10"
+					"label"		"#dota_chatwheel_label_spectre_arcana_6"
+					"message"		"#dota_chatwheel_message_spectre_arcana_6"
+				}
+			}
+		}

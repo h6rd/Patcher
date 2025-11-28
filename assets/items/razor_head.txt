@@ -1,0 +1,78 @@
+"341"
+		{
+			"name"		"Razor's Head"
+			"prefab"		"default_item"
+			"creation_date"		"2022-03-15"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2022"
+			"image_inventory"		"econ/items/razor/razor_arcana/razor_arcana_head"
+			"item_description"		"#DOTA_Item_Desc_Voidstorm_Asylum_Helm"
+			"item_name"		"#DOTA_Item_Voidstorm_Asylum_Helm"
+			"item_rarity"		"legendary"
+			"item_slot"		"head"
+			"model_player"		"models/items/razor/razor_arcana/razor_arcana_head.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"331.612793 -3.375196 329.836487"
+							"PortraitAngles"		"13.081774 179.507904 -20.000610"
+							"PortraitFOV"		"16"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitLightPosition"		"21.158527 -56.604420 268.401154"
+					"PortraitLightAngles"		"51.124878 156.676025 0.000000"
+					"PortraitLightFOV"		"90"
+					"PortraitLightDistance"		"95"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitLightScale"		"1.750000"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"8.460 65.500 10.300"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+					"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+					"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+					"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+				}
+			}
+			"static_attributes"
+			{
+				"giftable"		"0"
+				"cannot trade"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_razor"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_head_ambient.vpcf"
+					"style"		"0"
+				}
+			}
+		}

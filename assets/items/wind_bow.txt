@@ -1,0 +1,80 @@
+"22"
+		{
+			"name"		"Wind Ranger's Bow"
+			"prefab"		"default_item"
+            "creation_date"		"2020-09-04"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+			"image_inventory"		"econ/items/windrunner/windrunner_arcana/wr_arcana_weapon"
+			"item_description"		"#DOTA_Item_Desc_Windranger_Arcana_Weapon"
+			"item_name"		"#DOTA_Item_Longbow_of_the_Rising_Gale"
+			"item_rarity"		"legendary"
+			"model_player"		"models/items/windrunner/windrunner_arcana/wr_arcana_weapon.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"107.771370 58.272099 157.103699"
+					"PortraitLightAngles"		"25.600000 201.360001 0.000000"
+					"PortraitLightFOV"		"90"
+					"PortraitLightDistance"		"120"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"0.100000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"2.700000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"1.830 -13.960 -6.470"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"147.203323 121.825607 231.076660"
+							"PortraitAngles"		"40.638424 224.066162 2.296143"
+							"PortraitFOV"		"45"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"giftable"		"0"
+				"cannot trade"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_windrunner"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/windrunner/windranger_arcana/windranger_arcana_bowstring_ambient.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/windrunner/windranger_arcana/windranger_arcana_bow_ambient.vpcf"
+				}
+			}
+		}

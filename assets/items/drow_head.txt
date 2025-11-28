@@ -1,0 +1,73 @@
+"267"
+		{
+			"name"		"Drow's Headwear"
+			"prefab"		"default_item"
+			"creation_date"		"2021-12-14"
+			"image_inventory"		"econ/items/drow/dread_retribution/drow_arcana_head"
+			"item_description"		"#DOTA_Item_Desc_Dread_Retribution__Headwear"
+			"item_name"		"#DOTA_Item_Dread_Retribution__Headwear"
+			"item_rarity"		"legendary"
+			"item_slot"		"head"
+			"item_type_name"		"#DOTA_WearableType_Misc"
+			"model_player"		"models/items/drow/drow_arcana/drow_arcana_head.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"6.970000 39.520000 167.710007"
+					"PortraitLightAngles"		"36.459999 259.640015 0.000000"
+					"PortraitLightFOV"		"84"
+					"PortraitLightDistance"		"73"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"1"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"11.230 -7.930 -16.650"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"130.591370 24.987955 178.373978"
+							"PortraitAngles"		"18.631842 194.260071 0.000000"
+							"PortraitFOV"		"36"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+				}
+			}
+			"static_attributes"
+			{
+				"giftable"		"0"
+				"cannot trade"		"1"
+				"not marketable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+			}
+		}

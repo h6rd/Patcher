@@ -1,0 +1,930 @@
+"77"
+		{
+			"name"		"Drow's Bow"
+			"prefab"		"default_item"
+			"creation_date"		"2021-12-14"
+			"image_inventory"		"econ/items/drow/dread_retribution/drow_arcana_weapon"
+			"item_description"		"#DOTA_Item_Desc_Dread_Retribution"
+			"item_name"		"#DOTA_Item_Dread_Retribution"
+			"item_rarity"		"arcana"
+			"item_type_name"		"#DOTA_WearableType_Weapon"
+			"model_player"		"models/items/drow/drow_arcana/drow_arcana_weapon.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+					"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+					"PortraitLightFOV"		"69"
+					"PortraitLightDistance"		"377"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0.849858"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"185.774857 114.532738 100.103333"
+							"PortraitAngles"		"13.928362 216.855179 -19.204102"
+							"PortraitFOV"		"62"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+				}
+			}
+			"static_attributes"
+			{
+				"cannot trade"		"1"
+				"giftable"		"0"
+				"not marketable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_hero_drow_ranger"
+					"modifier"		"models/items/drow/drow_arcana/drow_arcana.vmdl"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Style_DrowRanger_Arcana_Style0"
+						"skin"		"0"
+						"alternate_icon"		"0"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Style_DrowRanger_Arcana_Style1"
+						"skin"		"1"
+						"alternate_icon"		"1"
+						"unlock"
+						{
+							"gem"
+							{
+								"def_index"		"3039"
+								"type_field"		"strange_type"
+								"type_value"		"275"
+								"unlock_field"		"strange_value"
+								"unlock_value"		"100"
+							}
+						}
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"custom_kill_effect"
+					"asset"		"kill"
+					"modifier"		"modifier_spectre_arcana_kill_effect"
+				}
+				"asset_modifier"
+				{
+					"type"		"model_skin"
+					"style"		"0"
+					"skin"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"model_skin"
+					"style"		"1"
+					"skin"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"arcana_level"
+					"level"		"1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"arcana_level"
+					"level"		"2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"buff_modifier"
+					"modifier"		"modifier_drow_ranger_arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_drow_ranger"
+					"modifier"		"npc_dota_hero_drow_ranger_alt1"
+					"style"		"0"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_drow_ranger"
+					"modifier"		"npc_dota_hero_drow_ranger_alt2"
+					"style"		"1"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_drow_ranger"
+					"modifier"		"npc_dota_hero_drow_ranger_alt1"
+					"style"		"0"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_drow_ranger"
+					"modifier"		"npc_dota_hero_drow_ranger_alt2"
+					"style"		"1"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_base_attack.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_base_attack.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_frost_arrow.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_frost_arrow.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_drow_frost_arrow.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_status_effect_frost_arrow.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_frost_arrow_debuff.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_frost_arrow_debuff.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_marksmanship_attack.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_marksmanship_attack.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_marksmanship_frost_arrow.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_marksmanship_frost_arrow.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_base_attack_linear_proj.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_multishot_linear_proj_base.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_multishot_proj_linear_proj.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_multishot_linear_proj_frost.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_silence_wave.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_silence_wave.vpcf"
+					"minimum_priority"		"1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/items_fx/force_staff.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_item_force_staff.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_marksmanship.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_marksmanship_buff.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_silence_wave_wide.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_silence_wave_wide.vpcf"
+					"minimum_priority"		"1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_hero_silence.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_silence_impact_dust.vpcf"
+					"minimum_priority"		"1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/generic_gameplay/generic_lifesteal.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_lifesteal.vpcf"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_loadout.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_weapon_ambient.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_marksmanship_start.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_marksmanship_crossbow_start.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/msg_fx/msg_deny.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_msg_deny.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"drow_ranger_wave_of_silence"
+					"modifier"		"drow_ranger_silence_arcana"
+					"style"		"0"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"drow_ranger_multishot"
+					"modifier"		"drow_ranger_multishot_arcana"
+					"style"		"0"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"drow_ranger_frost_arrows"
+					"modifier"		"drow_ranger_frost_arrow_arcana"
+					"style"		"0"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"drow_ranger_marksmanship"
+					"modifier"		"drow_ranger_marksmanship_arcana"
+					"style"		"0"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"drow_ranger_wave_of_silence"
+					"modifier"		"drow_ranger_silence_arcana_alt1"
+					"style"		"1"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"drow_ranger_multishot"
+					"modifier"		"drow_ranger_multishot_arcana_alt1"
+					"style"		"1"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"drow_ranger_frost_arrows"
+					"modifier"		"drow_ranger_frost_arrow_arcana_alt1"
+					"style"		"1"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"drow_ranger_marksmanship"
+					"modifier"		"drow_ranger_marksmanship_arcana_alt1"
+					"style"		"1"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_shard_hypothermia_projectile.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_shard_hypothermia_projectile.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_shard_hypothermia_death.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_shard_hypothermia_death.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"additional_wearable"
+					"asset"		"models/items/drow/drow_arcana/drow_arcana_frost.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"default_idle_expression"
+					"asset"		"scenes/drowranger/drowranger_exp_idle_01.vcd"
+					"modifier"		"scenes/drowranger/drowranger_arcana_capture.vcd"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_DrowRanger.Attack"
+					"modifier"		"Hero_DrowRanger.Attack.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"response_criteria"
+					"asset"		"drow_arcana"
+				}
+				"alternate_icons"
+				{
+					"0"
+					{
+						"icon_path"		"econ/items/drow/dread_retribution/drow_arcana_weapon"
+					}
+					"1"
+					{
+						"icon_path"		"econ/items/drow/dread_retribution/drow_arcana_weapon_style1"
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_marksmanship.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_marksmanship_buff_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_marksmanship.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_null.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_ambient.vpcf"
+					"style"		"0"
+					"spawn_in_loadout_only"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_footsteps.vpcf"
+					"style"		"0"
+					"spawn_in_loadout_only"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_frost_arrow.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_frost_arrow_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_base_attack.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_base_attack_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_marksmanship_frost_arrow.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_v2_marksmanship_frost_arrow.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_frost_arrow_debuff.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_frost_arrow_debuff_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_base_attack_linear_proj.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_v2_multishot_linear_proj_base.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_multishot_proj_linear_proj.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_multishot_linear_proj_frost_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_weapon_v2_ambient.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_silence_wave.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_silence_wave_v2.vpcf"
+					"style"		"1"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_silence_wave_wide.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_silence_wave_v2_wide.vpcf"
+					"style"		"1"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"red"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_v2_arm_ambient.vpcf"
+					"asset"		"particles/econ/items/drow/drow_arcana/drow_arcana_arm_ambient.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/items_fx/force_staff.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_item_force_staff_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_v2_footsteps.vpcf"
+					"style"		"1"
+					"spawn_in_loadout_only"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_ambient_v2.vpcf"
+					"style"		"1"
+					"spawn_in_loadout_only"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/drow/drow_arcana/drow_arcana_silenced.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_silenced_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_hero_silence.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_silence_impact_v2_dust.vpcf"
+					"style"		"1"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/drow/drow_arcana/drow_arcana_revenge_kill_effect_target.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_v2_arcana_revenge_kill_effect_target.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/drow/drow_arcana/drow_arcana_revenge_kill_effect_caster.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_v2_arcana_revenge_kill_effect_caster.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/heroes/drow/drow_quiver.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/drow_quiver_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"hurricane_pike"
+					"modifier"		"hurricane_pike_drow_arcana"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"satanic"
+					"modifier"		"satanic_drow_arcana"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"greater_crit"
+					"modifier"		"greater_crit_drow_arcana"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"hurricane_pike"
+					"modifier"		"hurricane_pike_drow_arcana_alt1"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"satanic"
+					"modifier"		"satanic_drow_arcana_alt1"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"greater_crit"
+					"modifier"		"greater_crit_drow_arcana_alt1"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/msg_fx/msg_deny.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_msg_deny_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_shard_hypothermia_death.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_shard_hypothermia_death_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_shard_hypothermia_projectile.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_shard_v2_hypothermia_projectile.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/royalguard_misc/royalguard_misc.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/royalguard_misc_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/quiver_of_the_boreal_watch/quiver_of_the_boreal_watch.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/quiver_of_the_boreal_watch_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/quiver_of_the_shadowcat/quiver_of_the_shadowcat.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/quiver_of_the_shadowcat_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/death_shadow_quiver/death_shadow_quiver.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/death_shadow_quiver_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/thief_quiver/thief_quiver.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/thief_quiver_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/black_wind_quiver/black_wind_quiver.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/black_wind_quiver_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/dragonstouch_quiver/dragonstouch_quiver.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/dragonstouch_quiver_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/quiver_of_the_envious_archer/quiver_of_the_envious_archer.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/quiver_of_the_envious_archer_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/anuxi_wurm_quiver/anuxi_wurm_quiver.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/anuxi_wurm_quiver_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/misty_huntress_misc/misty_huntress_misc.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/misty_huntress_misc_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/frostfeather_huntress_misc/frostfeather_huntress_misc.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/frostfeather_huntress_misc_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/arvalias_legacy_misc/arvalias_legacy_misc.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/arvalias_legacy_misc_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/vestment_of_the_dragonborn_maiden_quiver/vestment_of_the_dragonborn_maiden_quiver.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/vestment_of_the_dragonborn_maiden_quiver_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/drow_runic_archer_misc/drow_runic_archer_misc.vmdl"
+					"modifier"		"models/items/drow/drow_runic_archer_misc/drow_runic_archer_misc_arcana_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/drow/drow_runic/drow_runic_misc.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_runic/drow_runic_misc_refit.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/drow_sentinel_quiver/drow_sentinel_quiver.vmdl"
+					"modifier"		"models/items/drow/drow_sentinel_quiver/drow_sentinel_quiver_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/frostivus2018_drow_gaze_of_the_zebulon_misc/frostivus2018_drow_gaze_of_the_zebulon_misc.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/frostivus2018_drow_gaze_of_the_zebulon_misc_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/dplus_teardrop_of_winterwood_misc/dplus_teardrop_of_winterwood_misc.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/dplus_teardrop_of_winterwood_misc_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/snowstorm_ranger_misc/snowstorm_ranger_misc.vmdl"
+					"modifier"		"models/items/drow/drow_arcana/refit/snowstorm_ranger_misc_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/aghsbp_2021_drow_misc/aghsbp_2021_drow_misc.vmdl"
+					"modifier"		"models/items/drow/aghsbp_2021_drow_misc/aghsbp_2021_drow_misc_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/ti6_immortal_cape/mesh/drow_ti6_immortal_cape.vmdl"
+					"modifier"		"models/items/drow/ti6_immortal_cape/drow_ti6_immortal_arcana_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/wandering_ranger_shoulder/wandering_ranger_shoulder.vmdl"
+					"modifier"		"models/items/drow/wandering_ranger_shoulder/wandering_ranger_shoulder_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/wandering_ranger_arms/wandering_ranger_arms.vmdl"
+					"modifier"		"models/items/drow/wandering_ranger_arms/wandering_ranger_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"portrait_background_model"
+					"asset"		"models/items/drow/drow_arcana/drow_arcana_pedestal.vmdl"
+					"style"		"0"
+					"skin"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"portrait_background_model"
+					"asset"		"models/items/drow/drow_arcana/drow_arcana_pedestal.vmdl"
+					"style"		"1"
+					"skin"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_loadout.vpcf"
+					"style"		"0"
+					"spawn_in_loadout_only"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_loadout_v2.vpcf"
+					"style"		"1"
+					"spawn_in_loadout_only"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_drow/drow_marksmanship_start.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_marksmanship_v2_crossbow_start.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/drow/drow_arcana/drow_arcana_ambient_head.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/drow/drow_ti6/drow_ti6_ambient.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_ti6/drow_ti6_ambient_refit.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/drow/drow_ti6/drow_ti6_witness_ambient.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_ti6/drow_ti6_refit_witness_ambient.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/drow/drow_ti6_gold/drow_ti6_ambient_gold.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_ti6_gold/drow_ti6_ambient_gold_refit.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/drow/drow_2022_cc/drow_2022_cc_arms.vpcf"
+					"modifier"		"particles/econ/items/drow/drow_2022_cc/drow_2022_cc_arms_refit.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"drowranger_dro_laugh_04"
+					"modifier"		"drowranger_drow_arc_laugh_04"
+					"label"		"#dota_chatwheel_label_drow_ranger_arcana_laugh"
+					"message"		"#dota_chatwheel_message_drow_ranger_arcana_laugh"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"drowranger_dro_win_04"
+					"modifier"		"drowranger_drow_arc_thanks_04"
+					"label"		"#dota_chatwheel_label_drow_ranger_arcana_thank"
+					"message"		"#dota_chatwheel_message_drow_ranger_arcana_thank"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"drowranger_dro_deny_02"
+					"modifier"		"drowranger_drow_arc_deny_02"
+					"label"		"#dota_chatwheel_label_drow_ranger_arcana_deny"
+					"message"		"#dota_chatwheel_message_drow_ranger_arcana_deny"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"drowranger_drow_kill_13"
+					"modifier"		"drowranger_drow_arc_wheel_all_02"
+					"label"		"#dota_chatwheel_label_drow_ranger_arcana_1"
+					"message"		"#dota_chatwheel_message_drow_ranger_arcana_1"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"drowranger_drow_rival_13"
+					"modifier"		"drowranger_drow_arc_wheel_all_04_02"
+					"label"		"#dota_chatwheel_label_drow_ranger_arcana_2"
+					"message"		"#dota_chatwheel_message_drow_ranger_arcana_2"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"drowranger_dro_kill_05"
+					"modifier"		"drowranger_drow_arc_wheel_all_07"
+					"label"		"#dota_chatwheel_label_drow_ranger_arcana_3"
+					"message"		"#dota_chatwheel_message_drow_ranger_arcana_3"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"drowranger_dro_win_03"
+					"modifier"		"drowranger_drow_arc_wheel_all_12_02"
+					"label"		"#dota_chatwheel_label_drow_ranger_arcana_4"
+					"message"		"#dota_chatwheel_message_drow_ranger_arcana_4"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"drowranger_drow_kill_17"
+					"modifier"		"drowranger_drow_arc_wheel_all_14"
+					"label"		"#dota_chatwheel_label_drow_ranger_arcana_5"
+					"message"		"#dota_chatwheel_message_drow_ranger_arcana_5"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"drowranger_drow_kill_08"
+					"modifier"		"drowranger_drow_arc_wheel_all_08"
+					"label"		"#dota_chatwheel_label_drow_ranger_arcana_6"
+					"message"		"#dota_chatwheel_message_drow_ranger_arcana_6"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/2023_crownfall_arms/drow_scree_arms.vmdl"
+					"modifier"		"models/items/drow/2023_crownfall_arms/drow_scree_arms_arcana_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/2023_crownfall_legs/drow_scree_legs.vmdl"
+					"modifier"		"models/items/drow/2023_crownfall_legs/drow_scree_legs_arcana_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/2023_crownfall_shoulders/drow_scree_shoulders.vmdl"
+					"modifier"		"models/items/drow/2023_crownfall_shoulders/drow_scree_shoulders_arcana_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"mvp_map_override"
+					"modifier"		"maps/scenes/mvp/mvp_drow_ranger_arcana.vmap"
+				}
+			}
+		}

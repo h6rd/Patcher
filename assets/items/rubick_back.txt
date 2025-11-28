@@ -1,0 +1,714 @@
+"204"
+		{
+			"name"		"Rubick's Cape"
+			"prefab"		"default_item"
+            "creation_date"		"2018-12-19"
+			"image_inventory"		"econ/items/rubick/arcana/magus_cypher"
+			"item_description"		"#DOTA_Item_Desc_The_Magus_Cypher"
+			"item_name"		"#DOTA_Item_The_Magus_Cypher"
+			"item_rarity"		"arcana"
+			"item_slot"		"back"
+			"model_player"		"models/items/rubick/rubick_arcana/rubick_arcana_back.vmdl"
+			"price_info"
+			{
+				"category_tags"		"Equipment"
+				"date"		"12/19/2018"
+				"price"		"0"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_rubick"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"hide_styles_from_ui"		"1"
+				"only_display_on_hero_model_change"		"0"
+				"styles"
+				{
+					"0"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style < 12"
+					}
+					"1"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style == 12"
+					}
+					"2"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style == 13"
+					}
+					"3"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 14 && rubick_arcana_auto_style < 21"
+					}
+					"4"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style == 21"
+					}
+					"5"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 22 && rubick_arcana_auto_style < 24"
+					}
+					"6"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 24 && rubick_arcana_auto_style < 31"
+					}
+					"7"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 31 && rubick_arcana_auto_style < 34"
+					}
+					"8"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 34 &&  rubick_arcana_auto_style < 44"
+					}
+					"9"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 44 &&  rubick_arcana_auto_style < 51"
+					}
+					"10"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style == 51"
+					}
+					"11"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style == 52"
+					}
+					"12"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style == 53"
+					}
+					"13"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 54 &&  rubick_arcana_auto_style < 62"
+					}
+					"14"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 62 &&  rubick_arcana_auto_style < 64"
+					}
+					"15"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 64 &&  rubick_arcana_auto_style < 71"
+					}
+					"16"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style == 71"
+					}
+					"17"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 72 &&  rubick_arcana_auto_style < 74"
+					}
+					"18"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 74 &&  rubick_arcana_auto_style < 81"
+					}
+					"19"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 81 &&  rubick_arcana_auto_style < 84"
+					}
+					"20"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 84 &&  rubick_arcana_auto_style < 93"
+					}
+					"21"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style == 93"
+					}
+					"22"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 94 &&  rubick_arcana_auto_style < 102"
+					}
+					"23"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style == 102"
+					}
+					"24"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style == 103"
+					}
+					"25"
+					{
+						"auto_style_rule"		"rubick_arcana_auto_style >= 104"
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_hero_rubick"
+					"modifier"		"models/items/rubick/rubick_arcana/rubick_arcana_base.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"healthbar_offset"
+					"offset"		"275"
+				}
+				"asset_modifier"
+				{
+					"type"		"arcana_level"
+					"level"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"rubick_arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rubick_arc_ambient_default.vpcf"
+					"custom_type"		"rubick_arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"rubick_arcana_follower"
+					"min_level"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Rubick.SpellSteal.Cast"
+					"modifier"		"Hero_Rubick.SpellSteal.Cast.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_rubick"
+					"modifier"		"npc_dota_hero_rubick_alt1"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_rubick"
+					"modifier"		"npc_dota_hero_rubick_alt"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"rubick_arcane_supremacy"
+					"modifier"		"rubick/arcana/rubick_arcane_supremacy_arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"rubick_fade_bolt"
+					"modifier"		"rubick/arcana/rubick_fade_bolt_arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"rubick_spell_steal"
+					"modifier"		"rubick/arcana/rubick_spell_steal_arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"rubick_telekinesis"
+					"modifier"		"rubick/arcana/rubick_telekinesis_arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"rubick_telekinesis_land"
+					"modifier"		"rubick/arcana/rubick_telekinesis_land_arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"portrait_background_model"
+					"asset"		"models/items/rubick/rubick_arcana/rubick_arcana_pedestal.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_lone_druid_bear"
+					"modifier"		"models/heroes/lone_druid/spirit_bear_rubick.vmdl"
+					"criteria"		"isbetween( style, 1, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_venomancer/venomancer_poison_nova.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arc_venomancer_poison_nova.vpcf"
+					"criteria"		"isbetween( style, 1, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_rattletrap_cog"
+					"modifier"		"models/heroes/rattletrap/rattletrap_cog_rubick.vmdl"
+					"criteria"		"isbetween( style, 2, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_doom_bringer/doom_bringer_doom.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_doom.vpcf"
+					"criteria"		"isbetween( style, 3, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"hero_model_change"
+					"asset"		"models/heroes/pangolier/pangolier_gyroshell2.vmdl"
+					"modifier"		"models/items/rubick/rubick_arcana/rubick_arcana_cube_pangolier.vmdl"
+					"criteria"		"isbetween( style, 4, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_skeletonking/skeletonking_hellfireblast.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arc_skeletonking_hellfireblast.vpcf"
+					"criteria"		"isbetween( style, 4, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_omniknight/omniknight_guardian_angel_wings_buff.vpcf"
+					"modifier"		"particles/units/heroes/hero_omniknight/omniknight_guardian_angel_wings_buff_rubick.vpcf"
+					"criteria"		"isbetween( style, 5, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_omniknight/omniknight_guardian_angel_omni.vpcf"
+					"modifier"		"particles/units/heroes/hero_omniknight/omniknight_guardian_angel_omni_rubick.vpcf"
+					"criteria"		"isbetween( style, 5, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_omniknight/omniknight_guardian_angel_ally.vpcf"
+					"modifier"		"particles/units/heroes/hero_omniknight/omniknight_guardian_angel_ally_rubick.vpcf"
+					"criteria"		"isbetween( style, 5, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earth_spirit/espirit_magnetize_target.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_espirit_magnetize_target.vpcf"
+					"criteria"		"isbetween( style, 5, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_jakiro/jakiro_macropyre.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_macropyre.vpcf"
+					"criteria"		"isbetween( style, 6, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_kunkka/kunkka_ghost_ship.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arc_kunkka_ghost_ship.vpcf"
+					"criteria"		"isbetween( style, 7, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_dark_willow_creature"
+					"modifier"		"models/items/rubick/rubick_arcana/rubick_dark_willow_wisp.vmdl"
+					"criteria"		"isbetween( style, 7, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_warlock_golem_scepter_"
+					"modifier"		"models/heroes/warlock/warlock_demon_rubick.vmdl"
+					"criteria"		"isbetween( style, 8, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_warlock_golem_"
+					"modifier"		"models/heroes/warlock/warlock_demon_rubick.vmdl"
+					"criteria"		"isbetween( style, 8, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_warlock/warlock_rain_of_chaos_start.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_rain_of_chaos_start.vpcf"
+					"criteria"		"isbetween( style, 8, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_warlock/warlock_rain_of_chaos.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_rain_of_chaos.vpcf"
+					"criteria"		"isbetween( style, 8, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_warlock/golem_ambient.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_golem_ambient.vpcf"
+					"criteria"		"isbetween( style, 8, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_tidehunter/tidehunter_spell_ravage.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_spell_ravage.vpcf"
+					"criteria"		"isbetween( style, 9, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_tidehunter/tidehunter_spell_ravage_hit.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_spell_ravage_hit.vpcf"
+					"criteria"		"isbetween( style, 9, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"hero_model_change"
+					"asset"		"models/heroes/lycan/lycan_wolf.vmdl"
+					"modifier"		"models/heroes/lycan/lycan_wolf_rubick.vmdl"
+					"criteria"		"isbetween( style, 10, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"hero_model_change"
+					"asset"		"models/heroes/undying/undying_flesh_golem.vmdl"
+					"modifier"		"models/heroes/undying/undying_flesh_golem_rubick.vmdl"
+					"criteria"		"isbetween( style, 11, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_witchdoctor/witchdoctor_ward_skull.vpcf"
+					"modifier"		"particles/units/heroes/hero_witchdoctor/witchdoctor_ward_skull_rubick.vpcf"
+					"criteria"		"isbetween( style, 11, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_witchdoctor/witchdoctor_ward_cast_staff_fire.vpcf"
+					"modifier"		"particles/units/heroes/hero_witchdoctor/witchdoctor_ward_cast_staff_fire_rubick.vpcf"
+					"criteria"		"isbetween( style, 11, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_witchdoctor/witchdoctor_ward_attack.vpcf"
+					"modifier"		"particles/units/heroes/hero_witchdoctor/witchdoctor_ward_attack_rubick.vpcf"
+					"criteria"		"isbetween( style, 11, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_fire_remnant.vpcf"
+					"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_rubick_fire_remnant.vpcf"
+					"criteria"		"isbetween( style, 12, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_fire_remnant_trail.vpcf"
+					"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_fire_remnant_trail_rubick.vpcf"
+					"criteria"		"isbetween( style, 12, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_ember_spirit/ember_spirit_remnant_dash.vpcf"
+					"modifier"		"particles/units/heroes/hero_ember_spirit/ember_spirit_remnant_dash_rubick.vpcf"
+					"criteria"		"isbetween( style, 12, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_enigma/enigma_blackhole.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_blackhole.vpcf"
+					"criteria"		"isbetween( style, 13, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_shadow_shaman_ward"
+					"modifier"		"models/heroes/shadowshaman/shadowshaman_totem_rubick.vmdl"
+					"criteria"		"isbetween( style, 14, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_shadowshaman/shadow_shaman_ward_base_attack.vpcf"
+					"modifier"		"particles/units/heroes/hero_shadowshaman/shadow_shaman_ward_base_attack_rubick.vpcf"
+					"criteria"		"isbetween( style, 14, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_skywrath_mage/skywrath_mage_mystic_flare_ambient.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arc_skywrath_mage_mystic_flare_ambient.vpcf"
+					"criteria"		"isbetween( style, 14, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_phoenix_sun"
+					"modifier"		"models/items/rubick/rubick_arcana/rubick_arcana_phoenix_egg.vmdl"
+					"criteria"		"isbetween( style, 15, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_phoenix/phoenix_supernova_egg.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_supernova_egg.vpcf"
+					"criteria"		"isbetween( style, 15, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_visage_familiar1"
+					"modifier"		"models/heroes/visage/rubick_visage_familiar.vmdl"
+					"criteria"		"isbetween( style, 16, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_visage_familiar2"
+					"modifier"		"models/heroes/visage/rubick_visage_familiar.vmdl"
+					"criteria"		"isbetween( style, 16, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_visage_familiar3"
+					"modifier"		"models/heroes/visage/rubick_visage_familiar.vmdl"
+					"criteria"		"isbetween( style, 16, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_windrunner/windrunner_spell_powershot.vpcf"
+					"modifier"		"particles/units/heroes/hero_windrunner/windrunner_spell_powershot_rubick.vpcf"
+					"criteria"		"isbetween( style, 17, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_crystalmaiden/maiden_freezing_field_explosion.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_freezing_field_explosion.vpcf"
+					"criteria"		"isbetween( style, 18, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_crystalmaiden/maiden_freezing_field_snow.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_freezing_field_snow.vpcf"
+					"criteria"		"isbetween( style, 18, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_techies_remote_mine"
+					"modifier"		"models/heroes/techies/fx_techies_remote_cart_rubick.vmdl"
+					"criteria"		"isbetween( style, 19, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_techies/techies_remote_cart_explode.vpcf"
+					"modifier"		"particles/units/heroes/hero_techies/techies_remote_cart_explode_rubick.vpcf"
+					"criteria"		"isbetween( style, 19, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"dota_death_prophet_exorcism_spirit"
+					"modifier"		"models/heroes/death_prophet/rubick_arcana_death_prophet_ghost.vmdl"
+					"criteria"		"isbetween( style, 19, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_lion/lion_spell_finger_of_death.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_finger_of_death.vpcf"
+					"criteria"		"isbetween( style, 20, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_zuus/zuus_thundergods_wrath_start.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_thundergods_wrath_start.vpcf"
+					"criteria"		"isbetween( style, 21, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_zuus/zuus_thundergods_wrath.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_thundergods_wrath.vpcf"
+					"criteria"		"isbetween( style, 21, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_invoker/invoker_chaos_meteor.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_chaos_meteor.vpcf"
+					"criteria"		"isbetween( style, 22, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_invoker/invoker_chaos_meteor_fly.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_chaos_meteor_fly.vpcf"
+					"criteria"		"isbetween( style, 22, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_sandking/sandking_epicenter.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arc_sandking_epicenter.vpcf"
+					"criteria"		"isbetween( style, 23, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_lich/lich_chain_frost.vpcf"
+					"modifier"		"particles/units/heroes/hero_lich/lich_chain_frost_rubick.vpcf"
+					"criteria"		"isbetween( style, 23, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_shadow_demon/shadow_demon_demonic_purge.vpcf"
+					"modifier"		"particles/units/heroes/hero_shadow_demon/shadow_demon_demonic_purge_rubick.vpcf"
+					"criteria"		"isbetween( style, 24, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_shadow_demon/shadow_demon_demonic_purge_cast.vpcf"
+					"modifier"		"particles/units/heroes/hero_shadow_demon/shadow_demon_demonic_purge_cast_rubick.vpcf"
+					"criteria"		"isbetween( style, 24, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_chronosphere.vpcf"
+					"modifier"		"particles/units/heroes/hero_rubick/rubick_faceless_void_chronosphere.vpcf"
+					"criteria"		"isbetween( style, 25, 100 )"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rubick_arc_ambient_lines.vpcf"
+					"criteria"		"isbetween( style, 25, 100 )"
+					"custom_type"		"rubick_arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_snapfire/snapfire_lizard_blobs_arced.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arc_snapfire_lizard_blobs_arced.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_linger.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arcana_ultimate_linger.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_snapfire/hero_snapfire_ultimate_impact.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arcana_snapfire_impact.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_hoodwink/hoodwink_acorn_shot_initial.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arcana_acorn_shot_initial.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_hoodwink/hoodwink_acorn_shot_tracking.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arcana_acorn_shot_tracking.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arcana_void_spirit_dissimilate.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_dmg.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arcana_void_spirit_dissimilate_dmg.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_void_spirit/dissimilate/void_spirit_dissimilate_exit.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arcana_void_spirit_dissimilate_exit.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/rubick/puppet_master_doll/puppet_master_doll.vmdl"
+					"modifier"		"models/items/rubick/puppet_master_doll/puppet_master_doll_arcana_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_muerta/muerta_calling.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arc_revenant.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_muerta/muerta_calling_aoe.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arc_revenant_aoe.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_primal_beast/primal_beast_pulverize_hit.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rbck_arc_pulverize_hit.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_ringmaster/ringmaster_hex_poof.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rubick_arcana_hex_poof.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_ringmaster/ringmaster_hex_poof_end.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rubick_arcana_hex_poof_end.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"hero_model_change"
+					"asset"		"models/heroes/ringmaster/ringmaster_box.vmdl"
+					"modifier"		"models/heroes/ringmaster/ringmaster_box.vmdl"
+					"skin"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/units/heroes/hero_ringmaster/ringmaster_hex_magic_end.vpcf"
+					"control_point_number"		"1"
+					"cp_position"		"1 0 0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_kez/kez_hungering_blades_channel.vpcf"
+					"modifier"		"particles/units/heroes/hero_kez/kez_hungering_blades_channel_rubick.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_kez/kez_hungering_blades.vpcf"
+					"modifier"		"particles/units/heroes/hero_kez/kez_hungering_blades_rubick.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"mvp_map_override"
+					"modifier"		"maps/scenes/mvp/mvp_rubick_arcana.vmap"
+				}
+			}
+		}

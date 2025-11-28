@@ -1,0 +1,4 @@
+"499"
+		{
+			"name"		"Techies Sign"
+			"prefab"		"default_item"

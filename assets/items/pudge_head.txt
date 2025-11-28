@@ -1,0 +1,131 @@
+"262"
+		{
+			"name"		"Pudge's Toupee"
+			"prefab"		"default_item"
+			"branding"
+			{
+				"corporation_id"		"690740"
+			}
+			"creation_date"		"2014-03-13"
+			"image_inventory"		"econ/items/pudge/blackdeath_head/blackdeath_head"
+			"item_name"		"#DOTA_Item_Crazed_Tassels_of_the_Black_Death"
+			"item_rarity"		"legendary"
+			"item_slot"		"head"
+			"item_type_name"		"#DOTA_WearableType_Tassels"
+			"model_player"		"models/items/pudge/blackdeath_head_s3/blackdeath_head_s3.vmdl"
+			"particle_folder"		"particles/econ/items/pudge/pudge_tassles_of_black_death"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"112.404594 97.127350 253.851578"
+					"PortraitLightAngles"		"44.912109 224.170532 0.000000"
+					"PortraitLightFOV"		"42"
+					"PortraitLightDistance"		"195"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"2"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"0.600000 1.000000 0.200000"
+					"PortraitBackgroundColor3"		"0.800000 1.000000 0.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"-80.370 -163.950 25.750"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"149.654984 88.055077 143.411484"
+							"PortraitAngles"		"3.746338 212.041626 0.000000"
+							"PortraitFOV"		"32"
+							"PortraitFar"		"1000"
+						}
+					}
+				}
+			}
+			"price_info"
+			{
+				"bucket"		"Normal"
+				"class"		"NoPrice"
+				"category_tags"		"Equipment"
+				"date"		"3/14/2014"
+				"price"		"0"
+			}
+			"static_attributes"
+			{
+				"can_equip_as_ability_effects"
+				{
+					"attribute_class"		"can_equip_as_ability_effects"
+					"value"		"1"
+				}
+				"can_equip_as_ability_effects"
+				{
+					"attribute_class"		"can_equip_as_ability_effects"
+					"value"		"2"
+				}
+				"can_equip_as_ability_effects"
+				{
+					"attribute_class"		"can_equip_as_ability_effects"
+					"value"		"3"
+				}
+				"can_equip_as_ability_effects"
+				{
+					"attribute_class"		"can_equip_as_ability_effects"
+					"value"		"4"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_pudge"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_meat_hook"
+					"modifier"		"blackdeath_hookicon"
+				}
+				"asset_modifier1"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_rot"
+					"modifier"		"blackdeath_roticon"
+				}
+				"asset_modifier2"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_flesh_heap"
+					"modifier"		"blackdeath_fleshheapicon"
+				}
+				"asset_modifier3"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_dismember"
+					"modifier"		"blackdeath_dismembericon"
+				}
+				"asset_modifier4"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_rot.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_tassles_of_black_death/pudge_black_death_rot.vpcf"
+				}
+				"asset_modifier5"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_rot_recipient.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_tassles_of_black_death/pudge_black_death_rot_recipient.vpcf"
+				}
+			}
+		}

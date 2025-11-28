@@ -1,0 +1,174 @@
+"319"
+		{
+			"name"		"Lina's Hair"
+			"prefab"		"default_item"
+            "creation_date"		"2013-03-07"
+			"has_store_custom_item_details_panel"		"1"
+			"image_inventory"		"econ/items/lina/origins_flamehair/origins_flamehair"
+			"item_description"		"#DOTA_Item_Desc_Fiery_Soul_of_the_Slayer"
+			"item_name"		"#DOTA_Item_Fiery_Soul_of_the_Slayer"
+			"item_rarity"		"arcana"
+			"item_slot"		"head"
+			"item_type_name"		"#DOTA_WearableType_Hair"
+			"model_player"		"models/items/lina/origins_flamehair/origins_flamehair.vmdl"
+			"particle_folder"		"particles/econ/items/lina/lina_head_headflame"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"76.599998 19.350000 205.639999"
+					"PortraitLightAngles"		"37.009998 213.539993 0.000000"
+					"PortraitLightFOV"		"90.000000"
+					"PortraitLightDistance"		"102.000000"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 38 63"
+					"PortraitShadowScale"		"1.125000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"187 187 187"
+					"PortraitAmbientScale"		"1.825000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16.000000"
+					"PortraitBackgroundColor1"		"0.600000 0.700000 1.000000"
+					"PortraitBackgroundColor2"		"0.600000 0.500000 1.000000"
+					"PortraitBackgroundColor3"		"0.700000 0.610000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 0.600000 0.200000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitParticle"		"particles/units/heroes/hero_lina/portrait_lina.vpcf"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0.000000"
+					"PortraitAnimationRate"		"0.000000"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.158825"
+					"PortraitAmbientDirection"		"-50.840 -60.010 -32.950"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"210.795563 -162.735321 222.715958"
+							"PortraitAngles"		"7.174072 142.976074 0.000000"
+							"PortraitFOV"		"11.000000"
+							"PortraitFar"		"1000.000000"
+						}
+					}
+				}
+				"game"
+				{
+					"PortraitLightPosition"		"-20.02 60.32 203.53"
+					"PortraitLightAngles"		"25.14 281.96 0.00"
+					"PortraitLightFOV"		"90"
+					"PortraitLightDistance"		"102"
+					"PortraitLightColor"		"254 208 171"
+					"PortraitShadowColor"		"69 38 63"
+					"PortraitShadowScale"		"5.000000"
+					"PortraitAmbientColor"		"100 93 38"
+					"PortraitAmbientScale"		"5.000000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_gradient_top.vmat"
+					"PortraitBackgroundColor1"		"1 0 0"
+					"PortraitBackgroundColor2"		".3 0 0"
+					"PortraitBackgroundColor3"		"0 0 0"
+					"PortraitBackgroundColor4"		"1 .5 0"
+					"PortraitParticle"		"particles/econ/items/lina/lina_head_headflame/portrait_lina_alt1.vpcf"
+					"PortraitLightScale"		"1.100000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"-8.920 -59.790 -31.790"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"203.58 -180.36 236.44"
+							"PortraitAngles"		"10.20 139.08 0.00"
+							"PortraitFOV"		"7"
+						}
+					}
+				}
+			}
+			"price_info"
+			{
+				"bucket"		"Normal"
+				"class"		"Legendary"
+				"category_tags"		"Bundles"
+				"date"		"9/23/2013"
+				"price"		"3499"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_lina"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_lina/lina_spell_dragon_slave.vpcf"
+					"modifier"		"particles/econ/items/lina/lina_head_headflame/lina_spell_dragon_slave_headflame.vpcf"
+				}
+				"asset_modifier1"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Lina.DragonSlave.Cast"
+					"modifier"		"Hero_Lina.DragonSlave.FireHair"
+				}
+				"asset_modifier2"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_lina"
+					"modifier"		"npc_dota_hero_lina_alt1"
+					"force_display"		"1"
+				}
+				"asset_modifier3"
+				{
+					"type"		"ability_icon"
+					"asset"		"lina_fiery_soul"
+					"modifier"		"lina_fiery_soul_alt1"
+				}
+				"asset_modifier4"
+				{
+					"type"		"ability_icon"
+					"asset"		"lina_dragon_slave"
+					"modifier"		"lina_dragon_slave_alt1"
+				}
+				"asset_modifier5"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_lina/lina_spell_dragon_slave_impact.vpcf"
+					"modifier"		"particles/econ/items/lina/lina_head_headflame/lina_spell_dragon_slave_impact_headflame.vpcf"
+				}
+				"asset_modifier6"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_lina/lina_flame_hand_dual.vpcf"
+					"modifier"		"particles/econ/items/lina/lina_head_headflame/lina_flame_hand_dual_headflame.vpcf"
+				}
+				"asset_modifier7"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"fiery_soul"
+				}
+				"asset_modifier8"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/lina/lina_head_headflame/lina_headflame.vpcf"
+				}
+				"asset_modifier9"
+				{
+					"type"		"model_skin"
+					"skin"		"1"
+				}
+				"asset_modifier10"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_lina"
+					"modifier"		"npc_dota_hero_lina_alt1"
+					"force_display"		"1"
+				}
+				"asset_modifier11"
+				{
+					"type"		"arcana_level"
+					"level"		"1"
+				}
+			}
+		}

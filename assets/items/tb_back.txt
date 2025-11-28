@@ -1,0 +1,106 @@
+"306"
+		{
+			"name"		"Terrorblade's Wings"
+			"prefab"		"default_item"
+            "creation_date"		"2018-03-29"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2018"
+			"image_inventory"		"econ/items/terrorblade/terrorblade_ti8_immortal_back/terrorblade_ti8_immortal_back"
+			"item_description"		"#DOTA_Item_Desc_Span_of_Sorrow"
+			"item_name"		"#DOTA_Item_Span_of_Sorrow"
+			"item_rarity"		"immortal"
+			"item_slot"		"back"
+			"item_type_name"		"#DOTA_WearableType_Back"
+			"match_cycle_to_parent"		"0"
+			"model_player"		"models/items/terrorblade/terrorblade_ti8_immortal_back/terrorblade_ti8_immortal_back.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"-194.687424 -99.419907 367.955505"
+					"PortraitLightAngles"		"48.368889 25.598379 -94.276520"
+					"PortraitLightFOV"		"91.558998"
+					"PortraitLightDistance"		"527.400024"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"3.439000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"2.377000"
+					"PortraitAmbientDirection"		"-0.426 0.904 -0.020"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"-473.773315 497.788391 156.790466"
+							"PortraitAngles"		"2.726043 313.205292 -1.080002"
+							"PortraitFOV"		"27.344000"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"tradable after date"
+				{
+					"attribute_class"		"tradable_after_date"
+					"value"		"1567296000"
+				}
+				"additional_tooltip_text"
+				{
+					"attribute_class"		"additional_tooltip_text"
+					"value"		"#DOTA_EconItemSet_Tooltip_Immortals_Exclusive_To_TI7_BattlePass_Owners"
+				}
+				"can_equip_as_ability_effects"
+				{
+					"attribute_class"		"can_equip_as_ability_effects"
+					"value"		"4"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_terrorblade"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_sunder.vpcf"
+					"modifier"		"particles/econ/items/terrorblade/terrorblade_back_ti8/terrorblade_sunder_ti8.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/terrorblade/terrorblade_back_ti8/terrorblade_back_ambient_ti8.vpcf"
+					"style"		"0"
+				}
+				"skip_model_combine"		"0"
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"terrorblade_sunder"
+					"modifier"		"terrorblade/ti8_immortal_back/terrorblade_sunder_immortal"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+			}
+		}

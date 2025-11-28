@@ -1,0 +1,200 @@
+"47"
+		{
+			"name"		"Pudge's Rusty Meathook"
+			"prefab"		"default_item"
+			"creation_date"		"2020-05-25"
+			"equip_all_items_in_set"		"1"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+			"hide_tradecraftdelete"		"1"
+			"image_inventory"		"econ/items/pudge/ti10_immortal_armhook/pudge_ti10_immortal_arm_hook"
+			"item_description"		"#DOTA_Item_Desc_The_Abscesserator"
+			"item_name"		"#DOTA_Item_The_Abscesserator"
+			"item_rarity"		"immortal"
+			"match_cycle_to_parent"		"0"
+			"model_player"		"models/items/pudge/ti10_immortal_armhook/pudge_ti10_immortal_arm_hook.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"204.759460 -286.589508 192.102722"
+							"PortraitAngles"		"18.023041 140.400467 82.190002"
+							"PortraitFOV"		"41.762001"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitLightPosition"		"7.751400 -99.899773 216.943787"
+					"PortraitLightAngles"		"52.248852 39.759315 103.045769"
+					"PortraitLightFOV"		"70.019997"
+					"PortraitLightDistance"		"248.800003"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitLightScale"		"2.485000"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"-4.580 -3.380 -12.900"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.450000 0.505000 0.680000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"0.180000 0.200000 0.280000"
+					"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0.344262"
+					"PortraitAnimationRate"		"0"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideHero"		"1"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"1"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"hero_presets"
+					{
+						"Default"
+						{
+							"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+						}
+					}
+					"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+					"PortraitVignetteItem"		"0"
+					"PortraitAllowAnimatedPortrait"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"can_equip_as_ability_effects"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_pudge"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"ti10_hook"
+				}
+				"asset_modifier1"
+				{
+					"type"		"additional_wearable"
+					"asset"		"models/items/pudge/ti10_immortal_armhook/pudge_ti10_immortal_arm_bracer_model.vmdl"
+					"style"		"0"
+					"skin"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"additional_wearable"
+					"asset"		"models/items/pudge/ti10_immortal_armhook/pudge_ti10_immortal_arm_bracer_model.vmdl"
+					"style"		"1"
+					"skin"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_ti10_immortal/pudge_ti10_immortal_meathook.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_ambient_chain_right.vpcf"
+					"modifier"		"particles/error/null.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/pudge/pudge_ti10_immortal/pudge_ti10_immortal_claw_ambient.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_ti10_immortal/pudge_ti10_immortal_meathook_arcana_green.vpcf"
+					"style"		"1"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/aberrant/red_arcana/aberrant_red_arcana_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_ti10_immortal/pudge_ti10_immortal_meathook.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/aberrant/green_arcana/aberrant_green_arcana_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_ti10_immortal/pudge_ti10_immortal_meathook_arcana_green.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/pudge/pudge_ti10_immortal/pudge_ti10_immortal_claw_ambient_arcana_green.vpcf"
+					"style"		"1"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Style_Pudges_TI10_Hook_Base"
+						"skin"		"0"
+						"alternate_icon"		"0"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Style_Pudges_TI10_Hook_Arcana_Alt_Style"
+						"skin"		"1"
+						"alternate_icon"		"1"
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Pudge.AttackHookImpact"
+					"modifier"		"Hero_Pudge.Hook.Target.TI10"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_meat_hook"
+					"modifier"		"pudge/ti_10_pudge_immortal_hook/pudge_meat_hook_immortal"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_meat_hook"
+					"modifier"		"pudge/ti_10_pudge_immortal_hook/pudge_meat_hook_immortal_alt"
+					"style"		"1"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"alternate_icons"
+				{
+					"0"
+					{
+						"icon_path"		"econ/items/pudge/ti10_immortal_armhook/pudge_ti10_immortal_arm_hook"
+					}
+					"1"
+					{
+						"icon_path"		"econ/items/pudge/ti10_immortal_armhook/pudge_ti10_immortal_arm_hook_style1"
+					}
+				}
+			}
+		}

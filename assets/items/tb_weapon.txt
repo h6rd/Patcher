@@ -1,0 +1,134 @@
+"307"
+		{
+			"name"		"Terrorblade's Weapons"
+			"prefab"		"default_item"
+            "creation_date"		"2019-07-08"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+			"image_inventory"		"econ/items/terrorblade/tb_ti9_immortal_weapon/tb_ti9_immortal_weapon"
+			"item_description"		"#DOTA_Item_Desc_Scythes_of_Sorrow"
+			"item_name"		"#DOTA_Item_Scythes_of_Sorrow"
+			"item_rarity"		"immortal"
+			"item_type_name"		"#DOTA_WearableType_Weapon"
+			"model_player"		"models/items/terrorblade/tb_ti9_immortal_weapon/tb_ti9_immortal_weapon.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"-215.971542 -180.820251 303.684601"
+					"PortraitLightAngles"		"25.622929 48.015072 -3.585670"
+					"PortraitLightFOV"		"22.896000"
+					"PortraitLightDistance"		"471.679993"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"4.627000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"1.234000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_CAST_ABILITY_4"
+					"PortraitAnimationCycle"		"0.342857"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"1"
+					"PortraitLightScale"		"1.324000"
+					"PortraitAmbientDirection"		"-0.589 -0.363 -0.722"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"-367.103821 -4.803596 -177.076324"
+							"PortraitAngles"		"322.633362 15.370397 37.800003"
+							"PortraitFOV"		"25.475000"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"additional_tooltip_text"
+				{
+					"attribute_class"		"additional_tooltip_text"
+					"value"		"#DOTA_EconItemSet_Tooltip_Immortals_Exclusive_To_TI7_BattlePass_Owners"
+				}
+				"tradable after date"
+				{
+					"attribute_class"		"tradable_after_date"
+					"value"		"1598997600"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_terrorblade"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"0"
+				"asset_modifier0"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_l.vpcf"
+				}
+				"asset_modifier1"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_r.vpcf"
+				}
+				"asset_modifier2"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_blade.vpcf"
+				}
+				"asset_modifier3"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_blade_2.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_snapshot"
+					"asset"		"particles/models/heroes/terrorblade/weapon.vsnap"
+					"modifier"		"particles/models/items/terrorblade/knight_of_foulfell_terrorblade_weapon/knight_of_foulfell_terrorblade_weapon_fx.vsnap"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_blade.vpcf"
+					"modifier"		"particles/econ/items/terrorblade/terrorblade_ti9_immortal/terrorblade_ti9_immortal_weapon.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_blade_2.vpcf"
+					"modifier"		"particles/econ/items/terrorblade/terrorblade_ti9_immortal/terrorblade_ti9_immortal_weapon_left.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_l.vpcf"
+					"modifier"		"particles/error/null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_ambient_sword_r.vpcf"
+					"modifier"		"particles/error/null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_terrorblade/terrorblade_metamorphosis_base_attack.vpcf"
+					"modifier"		"particles/econ/items/terrorblade/terrorblade_ti9_immortal/terrorblade_ti9_immortal_metamorphosis_base_attack.vpcf"
+				}
+			}
+		}

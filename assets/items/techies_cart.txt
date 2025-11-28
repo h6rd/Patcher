@@ -1,0 +1,187 @@
+"490"
+		{
+			"name"		"Techies Cart"
+			"prefab"		"default_item"
+            "creation_date"		"2014-09-04"
+			"image_inventory"		"econ/items/techies/bigshot/bigshot"
+			"item_description"		"#DOTA_Item_Desc_The_Swine_of_the_Sunken_Galley"
+			"item_name"		"#DOTA_Item_Swine_of_the_Sunken_Galley"
+			"item_rarity"		"arcana"
+			"item_slot"		"mount"
+			"item_type_name"		"#DOTA_WearableType_Swine_Cannon"
+			"model_player"		"models/items/techies/bigshot/bigshot.vmdl"
+			"particle_folder"		"particles/econ/items/techies/techies_arcana"
+			"portraits"
+			{
+				"game"
+				{
+					"PortraitLightPosition"		"-186.42 17.85 261.67"
+					"PortraitLightAngles"		"32.21 358.68 0.00"
+					"PortraitLightFOV"		"50"
+					"PortraitLightDistance"		"395"
+					"PortraitLightColor"		"254 126 0"
+					"PortraitShadowColor"		"74 48 48"
+					"PortraitShadowScale"		"5.000000"
+					"PortraitAmbientColor"		"120 104 56"
+					"PortraitAmbientScale"		"5.000000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitBackgroundColor1"		"1.000000 0.100000 0.100000"
+					"PortraitBackgroundColor2"		"1.000000 .500000 0.000000"
+					"PortraitBackgroundColor3"		"1.000000 .500000 0.000000"
+					"PortraitBackgroundColor4"		"1.000000 0.900000 0.200000"
+					"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_techies.vmat"
+					"PortraitLightScale"		"5.000000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"66.690 -116.260 -53.570"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"422.84 174.15 107.14"
+							"PortraitAngles"		"355.19 203.35 0.00"
+							"PortraitFOV"		"13"
+						}
+					}
+				}
+				"icon"
+				{
+					"PortraitLightPosition"		"141.630005 103.870003 239.710007"
+					"PortraitLightAngles"		"49.830002 231.880005 0.000000"
+					"PortraitLightFOV"		"90.000000"
+					"PortraitLightDistance"		"574.000000"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5.000000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"2.550000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16.000000"
+					"PortraitBackgroundColor1"		"1.000000 0.900000 0.800000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 0.900000 0.800000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0.000000"
+					"PortraitAnimationRate"		"1.000000"
+					"PortraitHideHero"		"1"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"-103.870 -67.580 222.340"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"288.941864 302.343842 132.510651"
+							"PortraitAngles"		"8.613281 229.026489 0.000000"
+							"PortraitFOV"		"42.000000"
+							"PortraitFar"		"1000.000000"
+						}
+					}
+				}
+			}
+			"price_info"
+			{
+				"category_tags"		"Equipment"
+				"date"		"8/29/2014"
+				"price"		"0"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_techies"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"techies_arcana"
+				}
+				"asset_modifier1"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_techies/techies_base_attack.vpcf"
+					"modifier"		"particles/econ/items/techies/techies_arcana/techies_base_attack_arcana.vpcf"
+				}
+				"asset_modifier5"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_techies/techies_loadout.vpcf"
+					"modifier"		"particles/econ/items/techies/techies_arcana/techies_loadout_arcana.vpcf"
+				}
+				"asset_modifier6"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_techies/techies_remote_mines_detonate.vpcf"
+					"modifier"		"particles/econ/items/techies/techies_arcana/techies_remote_mines_detonate_arcana.vpcf"
+				}
+				"asset_modifier2"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_techies/techies_remote_mine_plant.vpcf"
+					"modifier"		"particles/econ/items/techies/techies_arcana/techies_remote_mine_plant_arcana.vpcf"
+				}
+				"asset_modifier4"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Techies.Suicide"
+					"modifier"		"Hero_Techies.Suicide.Arcana"
+				}
+				"asset_modifier7"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Techies.RemoteMine.Detonate"
+					"modifier"		"Hero_Techies.RemoteMine.Detonate.Arcana"
+				}
+				"asset_modifier3"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Techies.Attack"
+					"modifier"		"Hero_Techies.Attack.Arcana"
+				}
+				"asset_modifier8"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_techies/techies_suicide.vpcf"
+					"modifier"		"particles/econ/items/techies/techies_arcana/techies_suicide_arcana.vpcf"
+				}
+				"asset_modifier9"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_techies"
+					"modifier"		"npc_dota_hero_techies_alt1"
+					"force_display"		"1"
+				}
+				"asset_modifier10"
+				{
+					"type"		"ability_icon"
+					"asset"		"techies_remote_mines"
+					"modifier"		"techies_remote_swines"
+				}
+				"asset_modifier11"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/techies/techies_arcana/techies_ambient_arcana.vpcf"
+				}
+				"asset_modifier12"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/techies/techies_arcana/techies_bigshot_fuse.vpcf"
+				}
+				"asset_modifier13"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_techies"
+					"modifier"		"npc_dota_hero_techies_alt1"
+					"force_display"		"1"
+				}
+				"asset_modifier14"
+				{
+					"type"		"arcana_level"
+					"level"		"1"
+				}
+			}
+		}

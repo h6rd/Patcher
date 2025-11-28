@@ -1,0 +1,211 @@
+"80"
+		{
+			"name"		"Drow's Shoulder Armor"
+			"prefab"		"default_item"
+			"creation_date"		"2021-12-14"
+			"image_inventory"		"econ/items/drow/dread_retribution/drow_arcana_shoulder"
+			"item_description"		"#DOTA_Item_Desc_Dread_Retribution__Shoulder_Armor"
+			"item_name"		"#DOTA_Item_Dread_Retribution__Shoulder_Armor"
+			"item_rarity"		"legendary"
+			"item_slot"		"shoulder"
+			"item_type_name"		"#DOTA_WearableType_Shoulder"
+			"model_player"		"models/items/drow/drow_arcana/drow_arcana_shoulder.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"6.970000 39.520000 167.710007"
+					"PortraitLightAngles"		"36.459999 259.640015 0.000000"
+					"PortraitLightFOV"		"84"
+					"PortraitLightDistance"		"73"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"11.230 -7.930 -16.650"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"22.459402 382.215546 151.531433"
+							"PortraitAngles"		"12.119384 268.976135 -0.120850"
+							"PortraitFOV"		"15"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideParticles"		"1"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+				}
+			}
+			"static_attributes"
+			{
+				"giftable"		"0"
+				"cannot trade"		"1"
+				"not marketable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_drow_ranger"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/drow_jeweloftheforest_scarf/drow_jeweloftheforest_scarf.vmdl"
+					"modifier"		"models/items/drow/drow_jeweloftheforest_scarf/drow_jeweloftheforest_scarf_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/drow_traveler_head/drow_traveler_head.vmdl"
+					"modifier"		"models/items/drow/drow_traveler_head/drow_traveler_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/trophy_of_the_shadowcat/trophy_of_the_shadowcat.vmdl"
+					"modifier"		"models/items/drow/trophy_of_the_shadowcat/trophy_of_the_shadowcat_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/death_shadow_cowl/death_shadow_cowl.vmdl"
+					"modifier"		"models/items/drow/death_shadow_cowl/death_shadow_cowl_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/drowranger_headdress/drowranger_headdress.vmdl"
+					"modifier"		"models/items/drow/drowranger_headdress/drowranger_headdress_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/drow_sentinel_helm/drow_sentinel_helm.vmdl"
+					"modifier"		"models/items/drow/drow_sentinel_helm/drow_sentinel_helm_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/thief_hood/thief_hood.vmdl"
+					"modifier"		"models/items/drow/thief_hood/thief_hood_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/black_wind_head/black_wind_head.vmdl"
+					"modifier"		"models/items/drow/black_wind_head/black_wind_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/mask_of_madness/mask_of_madness.vmdl"
+					"modifier"		"models/items/drow/mask_of_madness/mask_of_madness_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/dragonstouch_head/dragonstouch_head.vmdl"
+					"modifier"		"models/items/drow/dragonstouch_head/dragonstouch_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/mask_of_the_envious_archer/mask_of_the_envious_archer.vmdl"
+					"modifier"		"models/items/drow/mask_of_the_envious_archer/mask_of_the_envious_archer_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/anuxi_wurm_head/anuxi_wurm_head.vmdl"
+					"modifier"		"models/items/drow/anuxi_wurm_head/anuxi_wurm_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/gaze_of_the_zebulon_set_head/gaze_of_the_zebulon_set_head.vmdl"
+					"modifier"		"models/items/drow/gaze_of_the_zebulon_set_head/gaze_of_the_zebulon_set_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/frostivus2018_drow_gaze_of_the_zebulon_head/frostivus2018_drow_gaze_of_the_zebulon_head.vmdl"
+					"modifier"		"models/items/drow/frostivus2018_drow_gaze_of_the_zebulon_head/frostivus2018_drow_gaze_of_the_zebulon_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/frostfeather_huntress_head/frostfeather_huntress_head.vmdl"
+					"modifier"		"models/items/drow/frostfeather_huntress_head/frostfeather_huntress_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/vestment_of_the_dragonborn_maiden_head_01/vestment_of_the_dragonborn_maiden_head_01.vmdl"
+					"modifier"		"models/items/drow/vestment_of_the_dragonborn_maiden_head_01/vestment_of_the_dragonborn_maiden_head_01_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/ti9_cache_drow_goddess_of_woods_head/ti9_cache_drow_goddess_of_woods_head.vmdl"
+					"modifier"		"models/items/drow/ti9_cache_drow_goddess_of_woods_head/ti9_cache_drow_goddess_of_woods_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/deathblossom_drow_ranger_head/deathblossom_drow_ranger_head.vmdl"
+					"modifier"		"models/items/drow/deathblossom_drow_ranger_head/deathblossom_drow_ranger_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/dplus_teardrop_of_winterwood_head/dplus_teardrop_of_winterwood_head.vmdl"
+					"modifier"		"models/items/drow/dplus_teardrop_of_winterwood_head/dplus_teardrop_of_winterwood_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/wandering_ranger_head/wandering_ranger_head.vmdl"
+					"modifier"		"models/items/drow/wandering_ranger_head/wandering_ranger_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/secret_witch_head/secret_witch_head.vmdl"
+					"modifier"		"models/items/drow/secret_witch_head/secret_witch_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/snowstorm_ranger_head/snowstorm_ranger_head.vmdl"
+					"modifier"		"models/items/drow/snowstorm_ranger_head/snowstorm_ranger_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/drow/fangs_of_the_shadowcat/fangs_of_the_shadowcat.vmdl"
+					"modifier"		"models/items/drow/fangs_of_the_shadowcat/fangs_of_the_shadowcat_refit.vmdl"
+				}
+			}
+		}

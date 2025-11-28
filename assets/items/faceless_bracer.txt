@@ -1,0 +1,222 @@
+"92"
+		{
+			"name"		"Faceless Void's Bracer"
+			"prefab"		"default_item"
+			"creation_date"		"2017-07-14"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2017"
+			"image_inventory"		"econ/items/faceless_void/bracers_of_aeons/bracers_of_aeons"
+			"item_description"		"#DOTA_Item_Desc_Bracers_of_Aeons"
+			"item_name"		"#DOTA_Item_Bracers_of_Aeons"
+			"item_rarity"		"immortal"
+			"item_slot"		"arms"
+			"item_type_name"		"#DOTA_WearableType_Bracers"
+			"model_player"		"models/items/faceless_void/bracers_of_aeons/bracers_of_aeons.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"112.333023 58.737442 195.800629"
+					"PortraitLightAngles"		"47.438965 198.500977 0.000000"
+					"PortraitLightFOV"		"61"
+					"PortraitLightDistance"		"159"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"1.200000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"2.650000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_RUN"
+					"PortraitAnimationCycle"		"0.960000"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"-32.150 68.820 -47.150"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"289.313354 47.152096 163.727997"
+							"PortraitAngles"		"13.063082 183.114639 0.000000"
+							"PortraitFOV"		"20"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitVignetteItem"		"0"
+				}
+			}
+			"static_attributes"
+			{
+				"giftable"		"1"
+				"can_equip_as_ability_effects"		"2"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_faceless_void"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_timedialate.vpcf"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_timedialate.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"ti7"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"faceless_void_time_dilation"
+					"modifier"		"faceless_void/brancerofaeons/faceless_void_time_dilation"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_dialatedebuf.vpcf"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_dialatedebuf.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_ambient.vpcf"
+					"required_arcana_level"		"0"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_FacelessVoid.TimeDilation.Cast"
+					"modifier"		"Hero_FacelessVoid.TimeDilation.Cast.ti7"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_dialate.vpcf"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_dialate_combined.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_dialate_v2.vpcf"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_dialate_combined_v2.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_ambient_refit.vpcf"
+					"required_arcana_level"		"1"
+					"style"		"0"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Style_Bracers_of_Aeons_0"
+						"skin"		"0"
+						"alternate_icon"		"0"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Style_Bracers_of_Aeons_1"
+						"skin"		"1"
+						"alternate_icon"		"1"
+					}
+					"2"
+					{
+						"name"		"#DOTA_Style_Bracers_of_Aeons_2"
+						"skin"		"2"
+						"alternate_icon"		"2"
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_ambient_refit_v2.vpcf"
+					"required_arcana_level"		"1"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_ambient_refit_v3.vpcf"
+					"required_arcana_level"		"1"
+					"style"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_ambient_refit.vpcf"
+					"required_arcana_level"		"2"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_ambient_refit_v2.vpcf"
+					"required_arcana_level"		"2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_ambient_refit_v3.vpcf"
+					"required_arcana_level"		"2"
+					"style"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_ambient_v2.vpcf"
+					"required_arcana_level"		"0"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_bracers_of_aeons/fv_bracers_of_aeons_ambient_v3.vpcf"
+					"required_arcana_level"		"0"
+					"style"		"2"
+				}
+				"alternate_icons"
+				{
+					"0"
+					{
+						"icon_path"		"econ/items/faceless_void/bracers_of_aeons/bracers_of_aeons"
+					}
+					"1"
+					{
+						"icon_path"		"econ/items/faceless_void/bracers_of_aeons/bracers_of_aeons_style1"
+					}
+					"2"
+					{
+						"icon_path"		"econ/items/faceless_void/bracers_of_aeons/bracers_of_aeons_style2"
+					}
+				}
+			}
+		}

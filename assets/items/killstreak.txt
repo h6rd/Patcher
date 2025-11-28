@@ -1,0 +1,80 @@
+"13810"
+		{
+			"name"		"Ice Kill Streak Effect"
+			"prefab"		"streak_effect"
+			"baseitem"		"1"
+			"creation_date"		"2020-05-25"
+			"image_inventory"		"econ/tools/ti10_kill_streak_blue"
+			"item_name"		"#DOTA_Item_Ice_Kill_Streak_Effect"
+			"item_rarity"		"mythical"
+			"shards_purchase_price"		"150000"
+			"static_attributes"
+			{
+				"not marketable"
+				{
+					"attribute_class"		"not marketable"
+					"value"		"1"
+				}
+				"cannot trade"
+				{
+					"attribute_class"		"cannot_trade"
+					"value"		"1"
+				}
+				"giftable"
+				{
+					"attribute_class"		"giftable"
+					"value"		"0"
+				}
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"streak_effect"
+					"asset"		"top_bar_lvl1"
+					"modifier"		"particles/killstreak/killstreak_glow_topbar_lv1.vpcf"
+				}
+				"asset_modifier1"
+				{
+					"type"		"streak_effect"
+					"asset"		"top_bar_lvl2"
+					"modifier"		"particles/killstreak/killstreak_glow_topbar_lv2.vpcf"
+				}
+				"asset_modifier2"
+				{
+					"type"		"streak_effect"
+					"asset"		"portrait_lvl1"
+					"modifier"		"particles/killstreak/killstreak_glow_hud_lv1.vpcf"
+				}
+				"asset_modifier3"
+				{
+					"type"		"streak_effect"
+					"asset"		"portrait_lvl2"
+					"modifier"		"particles/killstreak/killstreak_glow_hud_lv2.vpcf"
+				}
+				"asset_modifier4"
+				{
+					"type"		"streak_effect"
+					"asset"		"class"
+					"modifier"		"BasicStreak"
+				}
+				"asset_modifier5"
+				{
+					"type"		"streak_effect"
+					"asset"		"health_bar"
+					"modifier"		"streak_blue_bg"
+				}
+				"asset_modifier6"
+				{
+					"type"		"streak_effect"
+					"asset"		"health_bar_particle_lv1"
+					"modifier"		"particles/killstreak/killstreak_glow_hpbar_lv1.vpcf"
+				}
+				"asset_modifier7"
+				{
+					"type"		"streak_effect"
+					"asset"		"health_bar_particle_lv2"
+					"modifier"		"particles/killstreak/killstreak_glow_hpbar_lv2.vpcf"
+				}
+			}
+		}

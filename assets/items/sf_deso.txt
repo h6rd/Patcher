@@ -1,0 +1,122 @@
+"488"
+        {
+            "name"      "Shadow Fiend's Arms"
+            "prefab"        "default_item"
+            "creation_date"     "2015-03-19"
+            "image_inventory"       "econ/items/shadow_fiend/arms_deso/arms_deso"
+            "item_description"      "#DOTA_Item_Desc_Arms_of_Desolation"
+            "item_name"     "#DOTA_Item_Arms_of_Desolation"
+            "item_rarity"       "immortal"
+            "item_slot"     "arms"
+            "item_type_name"        "#DOTA_WearableType_Arms"
+            "model_player"      "models/items/shadow_fiend/arms_deso/arms_deso.vmdl"
+            "particle_folder"       "particles/econ/items/shadow_fiend/sf_desolation"
+            "portraits"
+            {
+                "icon"
+                {
+                    "PortraitLightPosition"     "85.000000 9.680000 296.059998"
+                    "PortraitLightAngles"       "62.939999 185.360001 0.000000"
+                    "PortraitLightFOV"      "75"
+                    "PortraitLightDistance"     "249"
+                    "PortraitLightColor"        "254 254 254"
+                    "PortraitShadowColor"       "97 97 97"
+                    "PortraitShadowScale"       "5"
+                    "PortraitGroundShadowScale"     "1.500000"
+                    "PortraitAmbientColor"      "148 148 148"
+                    "PortraitAmbientScale"      "2.500000"
+                    "PortraitSpecularColor"     "251 74 84"
+                    "PortraitSpecularDirection"     "0.000000 0.000000 -1.000000"
+                    "PortraitSpecularPower"     "16"
+                    "PortraitBackgroundColor1"      "0.000000 0.000000 0.000000"
+                    "PortraitBackgroundColor2"      "0.000000 0.000000 0.000000"
+                    "PortraitBackgroundColor3"      "0.800000 0.200000 0.100000"
+                    "PortraitBackgroundColor4"      "0.000000 0.000000 0.000000"
+                    "PortraitBackgroundTexture"     "materials/vgui/econ/item_icon_bg.vmat"
+                    "PortraitAnimationActivity"     "ACT_DOTA_IDLE"
+                    "PortraitAnimationCycle"        "0"
+                    "PortraitAnimationRate"     "0"
+                    "PortraitHideHero"      "0"
+                    "PortraitLightScale"        "1.750000"
+                    "PortraitAmbientDirection"      "-75.850 -49.880 27.200"
+                    "cameras"
+                    {
+                        "default"
+                        {
+                            "PortraitPosition"      "393.917419 -84.983719 147.919189"
+                            "PortraitAngles"        "4.405848 168.739014 0.000000"
+                            "PortraitFOV"       "44"
+                            "PortraitFar"       "1000"
+                        }
+                    }
+                    "hero_presets"
+                    {
+                        "Default"
+                        {
+                            "PortraitHeroRotation"      "0.000000 0.000000 0.000000"
+                        }
+                    }
+                    "EffectDissolveColor"       "1.000000 1.000000 1.000000"
+                    "PortraitPlayIdleExpression"        "0"
+                    "PortraitHideParticles"     "0"
+                    "PortraitHideDropShadow"        "0"
+                    "PortraitDesaturateParticles"       "0"
+                    "PortraitDesaturateHero"        "1"
+                    "PortraitVignetteItem"      "0"
+                    "PortraitAllowAnimatedPortrait"     "1"
+                }
+            }
+            "static_attributes"
+            {
+                "international tag"     "2015"
+            }
+            "used_by_heroes"
+            {
+                "npc_dota_hero_nevermore"       "1"
+            }
+            "visuals"
+            {
+                "asset_modifier0"
+                {
+                    "type"      "activity"
+                    "asset"     "ALL"
+                    "modifier"      "desolation"
+                }
+                "asset_modifier1"
+                {
+                    "type"      "particle"
+                    "asset"     "particles/units/heroes/hero_nevermore/nevermore_base_attack.vpcf"
+                    "modifier"      "particles/econ/items/shadow_fiend/sf_desolation/sf_base_attack_desolation.vpcf"
+                }
+                "asset_modifier2"
+                {
+                    "type"      "particle_combined"
+                    "asset"     "particles/econ/items/shadow_fiend/sf_fire_arcana/sf_fire_arcana_base_attack.vpcf"
+                    "modifier"      "particles/econ/items/shadow_fiend/sf_desolation/sf_base_attack_desolation_fire_arcana.vpcf"
+                }
+                "asset_modifier4"
+                {
+                    "type"      "particle"
+                    "asset"     "particles/items_fx/desolator_projectile.vpcf"
+                    "modifier"      "particles/econ/items/shadow_fiend/sf_desolation/sf_base_attack_desolation_desolator.vpcf"
+                }
+                "asset_modifier3"
+                {
+                    "type"      "particle"
+                    "asset"     "particles/units/heroes/hero_nevermore/nvm_atk_blur.vpcf"
+                    "modifier"      "particles/econ/items/shadow_fiend/sf_desolation/nvm_atk_blur_dso.vpcf"
+                }
+                "asset_modifier5"
+                {
+                    "type"      "particle"
+                    "asset"     "particles/units/heroes/hero_nevermore/nvm_atk_blur_b.vpcf"
+                    "modifier"      "particles/econ/items/shadow_fiend/sf_desolation/nvm_atk_blur_b_dso.vpcf"
+                }
+                "skip_model_combine"        "0"
+                "asset_modifier6"
+                {
+                    "type"      "particle_create"
+                    "modifier"      "particles/econ/items/shadow_fiend/sf_desolation/shadow_fiend_desolation_ambient.vpcf"
+                }
+            }
+        }

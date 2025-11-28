@@ -1,0 +1,161 @@
+"205"
+		{
+			"name"		"Rubick's Shoulder Armor"
+			"prefab"		"default_item"
+            "creation_date"		"2018-08-01"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2018"
+			"image_inventory"		"econ/items/rubick/rubick_ti8_immortal_shoulders/rubick_ti8_immortal_shoulders"
+			"item_description"		"#DOTA_Item_Desc_Crux_of_Perplex"
+			"item_name"		"#DOTA_Item_Crux_of_Perplex"
+			"item_rarity"		"immortal"
+			"item_slot"		"shoulder"
+			"item_type_name"		"#DOTA_WearableType_Shoulders"
+			"match_cycle_to_parent"		"0"
+			"model_player"		"models/items/rubick/rubick_ti8_immortal_shoulders/rubick_ti8_immortal_shoulders.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"59.270000 46.279999 320.970001"
+					"PortraitLightAngles"		"53.830002 234.320007 0.000000"
+					"PortraitLightFOV"		"66"
+					"PortraitLightDistance"		"227"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"2.850000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.100000 0.500000 0.100000"
+					"PortraitBackgroundColor2"		"0.100000 0.500000 0.100000"
+					"PortraitBackgroundColor3"		"0.100000 0.500000 0.100000"
+					"PortraitBackgroundColor4"		"0.100000 0.500000 0.100000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"124.230 118.250 350.520"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"293.194244 -119.497589 255.880707"
+							"PortraitAngles"		"12.774392 154.764465 0.000000"
+							"PortraitFOV"		"49.950001"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"hero_presets"
+					{
+						"Default"
+						{
+							"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+						}
+					}
+					"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitVignetteItem"		"0"
+					"PortraitAllowAnimatedPortrait"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"tradable after date"		"1535682268"
+				"can_equip_as_ability_effects"		"2"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_rubick"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_rubick/rubick_fade_bolt.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_ti8_immortal/rubick_ti8_immortal_fade_bolt.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_rubick/rubick_fade_bolt_head.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_ti8_immortal/rubick_ti8_immortal_fade_bolt_head.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_rubick/rubick_fade_bolt_debuff.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_ti8_immortal/rubick_ti8_immortal_fade_bolt_debuff.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"ti8"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"rubick_fade_bolt"
+					"modifier"		"rubick/ti8_immortal_shoulder/rubick_fade_bolt_immortal"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/rubick/rubick_arcana/rubick_arc_shoulders_ambient.vpcf"
+					"custom_type"		"rubick_arcana"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/rubick/rubick_ti8_immortal/rubick_ti8_immortal_ambient.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"rubick_arcana_follower"
+					"style"		"0"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Style_Crux_of_Perplex_1"
+						"skin"		"1"
+						"alternate_icon"		"1"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Style_Crux_of_Perplex_1"
+						"skin"		"1"
+						"alternate_icon"		"1"
+					}
+				}
+				"alternate_icons"
+				{
+					"0"
+					{
+						"icon_path"		"econ/items/rubick/rubick_ti8_immortal_shoulders/rubick_ti8_immortal_shoulders_style1"
+					}
+					"1"
+					{
+						"icon_path"		"econ/items/rubick/rubick_ti8_immortal_shoulders/rubick_ti8_immortal_shoulders_style1"
+					}
+				}
+			}
+		}

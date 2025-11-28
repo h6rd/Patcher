@@ -1,0 +1,289 @@
+"38"
+		{
+			"name"		"Crystal Maiden's Cape"
+			"prefab"		"default_item"
+            "creation_date"		"2015-02-12"
+			"image_inventory"		"econ/heroes/crystal_maiden/crystal_maiden_arcana_back2"
+			"item_description"		"#DOTA_Item_Desc_Frost_Avalanche"
+			"item_name"		"#DOTA_Item_Frost_Avalanche"
+			"item_rarity"		"arcana"
+			"item_slot"		"back"
+			"item_type_name"		"#DOTA_WearableType_Icy_Shawl_and_Wolf_Pup"
+			"model_player"		"models/heroes/crystal_maiden/crystal_maiden_arcana_back.vmdl"
+			"particle_folder"		"particles/econ/items/crystal_maiden/crystal_maiden_maiden_of_icewrack"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"47.840000 4.520000 166.770004"
+					"PortraitLightAngles"		"30.280001 191.429993 0.000000"
+					"PortraitLightFOV"		"90"
+					"PortraitLightDistance"		"66"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"4.750000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"1"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"254.839996 51.369999 208.080002"
+							"PortraitAngles"		"14.220000 191.619995 0.000000"
+							"PortraitFOV"		"11"
+							"PortraitFar"		"1000"
+						}
+					}
+				}
+				"preview"
+				{
+					"PortraitLightPosition"		"162.820007 -117.080002 317.260010"
+					"PortraitLightAngles"		"55.380001 143.889999 0.000000"
+					"PortraitLightFOV"		"63"
+					"PortraitLightDistance"		"392"
+					"PortraitLightColor"		"234 243 254"
+					"PortraitShadowColor"		"56 56 56"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"79 93 93"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.000000 0.400000 0.730000"
+					"PortraitBackgroundColor2"		"0.000000 0.400000 0.730000"
+					"PortraitBackgroundColor3"		"0.000000 0.400000 0.730000"
+					"PortraitBackgroundColor4"		"0.000000 0.400000 0.730000"
+					"PortraitBackgroundTexture"		"materials/portraits_card/portrait_backgrounds/full_view_background.vmat"
+					"PortraitBackgroundModel"		"models/heroes/pedestal/pedestal_1_small.vmdl"
+					"PortraitAnimationActivity"		"ACT_DOTA_LOADOUT"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"1"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.450000"
+					"PortraitAmbientDirection"		"-27.230 -113.790 24.220"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"799.700012 -369.589996 130.000000"
+							"PortraitAngles"		"1.000000 155.100006 0.000000"
+							"PortraitFOV"		"17"
+							"PortraitFar"		"1000"
+						}
+						"econ_set_preview"
+						{
+							"PortraitPosition"		"819.700012 -294.589996 80.000000"
+							"PortraitAngles"		"-2.000000 160.25 0.000000"
+							"PortraitFOV"		"12"
+							"PortraitFar"		"1000"
+						}
+					}
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_crystal_maiden"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/heroes/crystal_maiden/crystal_maiden_arcana_back.vmdl"
+						"name"		"#DOTA_Item_Maiden_of_Icewrack"
+						"alternate_icon"		"0"
+					}
+					"1"
+					{
+						"model_player"		"models/heroes/crystal_maiden/crystal_maiden_arcana_back.vmdl"
+						"name"		"#DOTA_Item_Maiden_of_Icewrack_NoPet"
+						"alternate_icon"		"1"
+					}
+					"2"
+					{
+						"model_player"		"models/heroes/crystal_maiden/crystal_maiden_arcana_back.vmdl"
+						"name"		"#DOTA_Item_Maiden_of_Icewrack_Pet2"
+						"alternate_icon"		"2"
+						"unlock"
+						{
+							"gem"
+							{
+								"def_index"		"3015"
+								"type_field"		"strange_type"
+								"type_value"		"221"
+								"unlock_field"		"strange_value"
+								"unlock_value"		"50"
+							}
+						}
+					}
+					"3"
+					{
+						"model_player"		"models/heroes/crystal_maiden/crystal_maiden_arcana_back.vmdl"
+						"name"		"#DOTA_Item_Maiden_of_Icewrack_Pet3"
+						"alternate_icon"		"3"
+					}
+				}
+				"alternate_icons"
+				{
+					"0"
+					{
+						"icon_path"		"econ/heroes/crystal_maiden/crystal_maiden_arcana_back2"
+					}
+					"1"
+					{
+						"icon_path"		"econ/heroes/crystal_maiden/crystal_maiden_arcana_back2_nopet"
+					}
+					"2"
+					{
+						"icon_path"		"econ/heroes/crystal_maiden/crystal_maiden_arcana_back_petskin"
+					}
+					"3"
+					{
+						"icon_path"		"econ/heroes/crystal_maiden/crystal_maiden_arcana_back_pet_alt"
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_crystalmaiden/maiden_freezing_field_explosion.vpcf"
+					"modifier"		"particles/econ/items/crystal_maiden/crystal_maiden_maiden_of_icewrack/maiden_freezing_field_explosion_arcana1.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_crystalmaiden/maiden_freezing_field_snow.vpcf"
+					"modifier"		"particles/econ/items/crystal_maiden/crystal_maiden_maiden_of_icewrack/maiden_freezing_field_snow_arcana1.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"pet"
+					"asset"		"models/pets/icewrack_wolf/icewrack_wolf.vmdl"
+					"style"		"0"
+					"pickup_item"		"models/pets/items/bone001.vmdl"
+					"levelup_rule"		"killeater"
+					"strange_type"		"221"
+					"supports_coop_teleport"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"portrait_background_model"
+					"asset"		"models/heroes/crystal_maiden/pedestal_cm_arcana.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_hero_crystal_maiden"
+					"modifier"		"models/heroes/crystal_maiden/crystal_maiden_arcana.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_crystal_maiden"
+					"modifier"		"npc_dota_hero_crystal_maiden_alt1"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"crystal_maiden_freezing_field"
+					"modifier"		"crystal_maiden_freezing_field_alt1"
+				}
+				"asset_modifier"
+				{
+					"type"		"healthbar_offset"
+					"offset"		"230"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_crystalmaiden/maiden_death.vpcf"
+					"modifier"		"particles/econ/items/crystal_maiden/crystal_maiden_maiden_of_icewrack/maiden_death_arcana.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"hero_Crystal.freezingField.wind"
+					"modifier"		"Hero_Crystal.FreezingField.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"pet"
+					"asset"		"models/pets/icewrack_wolf/icewrack_wolf.vmdl"
+					"style"		"2"
+					"pickup_item"		"models/pets/items/bone001.vmdl"
+					"levelup_rule"		"killeater"
+					"strange_type"		"221"
+					"supports_coop_teleport"		"1"
+					"skin"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"pet"
+					"asset"		"models/pets/icewrack_wolf_alt/icewrack_wolf_alt.vmdl"
+					"style"		"3"
+					"pickup_item"		"models/pets/items/bone001.vmdl"
+					"levelup_rule"		"killeater"
+					"strange_type"		"221"
+					"supports_coop_teleport"		"1"
+					"loadout_default_offset"		"0 -50 0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/crystal_maiden/crystal_maiden_maiden_of_icewrack/maiden_arcana_body_ambient.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_crystal_maiden"
+					"modifier"		"npc_dota_hero_crystal_maiden_alt1"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"arcana_level"
+					"level"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_crystalmaiden/maiden_freezing_field_snow_shard.vpcf"
+					"modifier"		"particles/econ/items/crystal_maiden/crystal_maiden_maiden_of_icewrack/maiden_freezing_field_snow_arcana1_shard.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/crystal_maiden/cm_screeauk/cm_screeauk_shoulder.vmdl"
+					"modifier"		"models/items/crystal_maiden/cm_screeauk/cm_screeauk_shoulder_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/crystal_maiden/cm_screeauk/cm_screeauk_head.vmdl"
+					"modifier"		"models/items/crystal_maiden/cm_screeauk/cm_screeauk_head_refit.vmdl"
+				}
+			}
+		}

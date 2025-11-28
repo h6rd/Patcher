@@ -1,0 +1,88 @@
+"258"
+		{
+			"name"		"Pudge's Back Rings and Apron"
+			"prefab"		"default_item"
+			"creation_date"		"2024-06-14"
+			"image_inventory"		"econ/items/pudge/arcana/pudge_arcana_back"
+			"item_name"		"#DOTA_Item_Feast_of_Abscession__Back"
+			"item_rarity"		"legendary"
+			"item_slot"		"back"
+			"match_cycle_to_parent"		"0"
+			"model_player"		"models/items/pudge/arcana/pudge_arcana_back.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"-280.411011 351.408142 403.152405"
+							"PortraitAngles"		"35.119579 310.998810 3.905640"
+							"PortraitFOV"		"36"
+							"PortraitFar"		"1000"
+						}
+					}
+					"hero_presets"
+					{
+						"Default"
+						{
+							"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+						}
+					}
+					"PortraitLightPosition"		"-188.658401 -207.783997 238.066818"
+					"PortraitLightAngles"		"26.735229 49.409134 0.000000"
+					"PortraitLightFOV"		"54"
+					"PortraitLightDistance"		"430.089996"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitLightScale"		"1.750000"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"2"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"-80.370 -163.950 25.750"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"0.600000 1.000000 0.200000"
+					"PortraitBackgroundColor3"		"0.800000 1.000000 0.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+					"GodraysFXColor"		"1.000000 1.000000 1.000000"
+					"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+					"PortraitAllowAnimatedPortrait"		"1"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_pudge"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_red_back_ambient.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"arcana_back"
+				}
+			}
+		}

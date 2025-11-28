@@ -1,0 +1,828 @@
+"340"
+		{
+			"name"		"Razor's Weapon"
+			"prefab"		"default_item"
+			"creation_date"		"2022-03-15"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2022"
+			"image_inventory"		"econ/items/razor/razor_arcana/razor_arcana_weapon"
+			"item_description"		"#DOTA_Item_Desc_Voidstorm_Asylum_Tormentor"
+			"item_name"		"#DOTA_Item_Voidstorm_Asylum_Tormentor"
+			"item_rarity"		"arcana"
+			"model_player"		"models/items/razor/razor_arcana/razor_arcana_weapon.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"174.911255 -83.156265 234.392700"
+							"PortraitAngles"		"9.096755 124.820641 20.549927"
+							"PortraitFOV"		"45"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitLightPosition"		"27.544409 61.634995 239.244797"
+					"PortraitLightAngles"		"66.406860 194.342651 0.000000"
+					"PortraitLightFOV"		"90"
+					"PortraitLightDistance"		"95"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitLightScale"		"1.750000"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"8.460 65.500 10.300"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.700000 0.500000 1.000000"
+					"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+					"PortraitBackgroundColor3"		"0.100000 0.200000 1.000000"
+					"PortraitBackgroundColor4"		"0.300000 0.500000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_VICTORY"
+					"PortraitAnimationCycle"		"0.990826"
+					"PortraitAnimationRate"		"0"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+				}
+			}
+			"static_attributes"
+			{
+				"giftable"		"0"
+				"cannot trade"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_razor"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Style_Razor_Arcana_Style0"
+						"skin"		"0"
+						"alternate_icon"		"0"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Style_Razor_Arcana_Style1"
+						"skin"		"2"
+						"alternate_icon"		"1"
+						"unlock"
+						{
+							"gem"
+							{
+								"def_index"		"3043"
+								"type_field"		"strange_type"
+								"type_value"		"279"
+								"unlock_field"		"strange_value"
+								"unlock_value"		"500"
+							}
+						}
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"buff_modifier"
+					"modifier"		"modifier_razor_arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"custom_kill_effect"
+					"asset"		"kill"
+					"modifier"		"modifier_razor_arcana_kill_effect"
+				}
+				"asset_modifier"
+				{
+					"type"		"model_skin"
+					"style"		"0"
+					"skin"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"model_skin"
+					"style"		"1"
+					"skin"		"3"
+				}
+				"asset_modifier"
+				{
+					"type"		"arcana_level"
+					"level"		"1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"arcana_level"
+					"level"		"2"
+					"style"		"1"
+				}
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_hero_razor"
+					"modifier"		"models/items/razor/razor_arcana/razor_arcana.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"hero_scale"
+					"asset"		"npc_dota_hero_razor"
+					"LoadoutScale"		"0.820000"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_ambient.vpcf"
+					"modifier"		"particles/error/null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_ambient_main.vpcf"
+					"modifier"		"particles/error/null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_whip.vpcf"
+					"modifier"		"particles/error/null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_weapon_ambient_control_points.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_storm_lightning_strike.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_eye_of_the_storm.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_base_attack.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_base_attack.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_plasmafield.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_plasma_field.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_weapon_ambient.vpcf"
+					"style"		"0"
+					"spawn_in_loadout_only"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_weapon_ambient_sword_aura.vpcf"
+					"spawn_in_loadout_only"		"1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_shield_ambient.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_rain_storm.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_eye_of_the_storm_rain.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_static_link.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_static_link.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/items_fx/cyclone.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_cyclone.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_static_link_buff.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_static_link_buff.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_static_link_debuff.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_static_link_debuff.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_loadout.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_loadout_storm_clouds.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_base_ambient_tornado.vpcf"
+					"spawn_in_loadout_only"		"1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/msg_fx/msg_deny.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_deny.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_unstable_current.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_unstable_current.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/items2_fx/phase_boots.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_phase_boots.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"response_criteria"
+					"asset"		"rz_storm_arc"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_loadout.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_loadout_storm_clouds_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"teal"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_weapon_ambient_game.vpcf"
+					"style"		"0"
+					"spawn_in_loadout_only"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_base_ambient_v2_tornado.vpcf"
+					"style"		"1"
+					"spawn_in_loadout_only"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_loadout_storm_clouds.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_null.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_shoulder_ambient.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_shoulder_ambient_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_head_ambient.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_head_ambient_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_plasmafield.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_plasma_field_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_shield_v2_ambient.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_weapon_ambient_v2.vpcf"
+					"style"		"1"
+					"spawn_in_loadout_only"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_weapon_ambient_control_points_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_weapon_ambient_sword_v2_aura.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_static_link.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_static_link_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_static_link_buff.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_static_link_buff_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_static_link_debuff.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_static_link_debuff_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_base_attack.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_v2_base_attack.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_loadout_lightning_strike_trigger.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_loadout_lightning_strike_v2_trigger.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_storm_lightning_strike.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_v2_eye_of_the_storm.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_rain_storm.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_eye_of_the_storm_rain_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_razor"
+					"modifier"		"npc_dota_hero_razor_alt1"
+					"style"		"0"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_razor"
+					"modifier"		"npc_dota_hero_razor_alt2"
+					"style"		"1"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_razor"
+					"modifier"		"npc_dota_hero_razor_alt1"
+					"style"		"0"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_razor"
+					"modifier"		"npc_dota_hero_razor_alt2"
+					"style"		"1"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/razor/razor_arcana/razor_arcana_armor_refit.vmdl"
+					"modifier"		"models/items/razor/razor_arcana/razor_arcana_armor.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/heroes/razor/razor_robe_refit.vmdl"
+					"modifier"		"models/items/razor/razor_arcana/razor_arcana_belt.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/razor/eternal_torturer_armor/eternal_torturer_armor.vmdl"
+					"modifier"		"models/items/razor/eternal_torturer_armor/eternal_torturer_armor_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/razor/eight_headed_basilisk_armor/eight_headed_basilisk_armor.vmdl"
+					"modifier"		"models/items/razor/eight_headed_basilisk_armor/eight_headed_basilisk_armor_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_sword_attack_swoosh_left.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_sword_attack_swoosh_left_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_sword_attack_swoosh_right.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_sword_attack_swoosh_right_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_razor/razor_unstable_current.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_v2_unstable_current.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Razor.PreAttack"
+					"modifier"		"Hero_Razor.PreAttack.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Razor.Attack"
+					"modifier"		"Hero_Razor.Attack.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Razor.ProjectileImpact"
+					"modifier"		"Hero_Razor.ProjectileImpact.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/items_fx/cyclone.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_cyclone_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/items2_fx/phase_boots.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_phase_boots_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_base_ambient_game_v2_spray.vpcf"
+					"style"		"1"
+					"spawn_in_loadout_only"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_base_ambient.vpcf"
+					"spawn_in_loadout_only"		"1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_base_ambient_game.vpcf"
+					"spawn_in_loadout_only"		"2"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_base_ambient_game_v2.vpcf"
+					"style"		"1"
+					"spawn_in_loadout_only"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/msg_fx/msg_deny.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_deny_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"razor_eye_of_the_storm"
+					"modifier"		"razor/arcana/razor_eye_of_the_storm_alt1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"razor_plasma_field"
+					"modifier"		"razor/arcana/razor_plasma_field_alt1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"razor_static_link"
+					"modifier"		"razor/arcana/razor_static_link_alt1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"razor_storm_surge"
+					"modifier"		"razor/arcana/razor_unstable_current_alt1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"razor_eye_of_the_storm"
+					"modifier"		"razor/arcana/razor_eye_of_the_storm_alt2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"razor_plasma_field"
+					"modifier"		"razor/arcana/razor_plasma_field_alt2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"razor_static_link"
+					"modifier"		"razor/arcana/razor_static_link_alt2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"razor_storm_surge"
+					"modifier"		"razor/arcana/razor_unstable_current_alt2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_punctured_crest/razor_helmet_blade_ambient.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_punctured_crest/razor_helmet_blade_ambient_arcana_v1.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_punctured_crest/razor_helmet_blade_ambient.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_punctured_crest/razor_helmet_blade_ambient_arcana_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_alt_run_sword_illum.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_alt_run_sword_v2_illum.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_death.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_death_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_kill_effect_target.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_kill_effect_target_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_kill_effect_caster.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_kill_effect_caster_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_empowered_weapon.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_empowered_weapon_v2.vpcf"
+					"style"		"1"
+				}
+				"alternate_icons"
+				{
+					"0"
+					{
+						"icon_path"		"econ/items/razor/razor_arcana/razor_arcana_weapon"
+					}
+					"1"
+					{
+						"icon_path"		"econ/items/razor/razor_arcana/razor_arcana_weapon_style1"
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_weapon_ambient_game_v2.vpcf"
+					"style"		"1"
+					"spawn_in_loadout_only"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_base_attack_impact.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_v2_base_attack_impact.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_v2_base_ambient.vpcf"
+					"style"		"1"
+					"spawn_in_loadout_only"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"cyclone"
+					"modifier"		"cyclone_razor_arcana_alt1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"cyclone"
+					"modifier"		"cyclone_razor_arcana_alt2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"phase_boots"
+					"modifier"		"phase_boots_razor_arcana_alt1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"phase_boots"
+					"modifier"		"phase_boots_razor_arcana_alt2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"wind_waker"
+					"modifier"		"wind_waker_razor_arcana_alt1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"wind_waker"
+					"modifier"		"wind_waker_razor_arcana_alt2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_whip_attack_ranged_sparks_start.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_v2_whip_attack_ranged_sparks_start.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/razor/razor_arcana/razor_arcana_idle_rare_lightning_trigger.vpcf"
+					"modifier"		"particles/econ/items/razor/razor_arcana/razor_arcana_idle_rare_lightning_v2_trigger.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"razor_raz_laugh_05"
+					"modifier"		"razor_rz_vsa_wheel_laugh_02"
+					"label"		"#dota_chatwheel_label_razor_arcana_laugh"
+					"message"		"#dota_chatwheel_message_razor_arcana_laugh"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"razor_raz_ability_static_05"
+					"modifier"		"razor_rz_vsa_wheel_thanks_01"
+					"label"		"#dota_chatwheel_label_razor_arcana_thank"
+					"message"		"#dota_chatwheel_message_razor_arcana_thank"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"razor_raz_cast_01"
+					"modifier"		"razor_rz_vsa_wheel_deny_01"
+					"label"		"#dota_chatwheel_label_razor_arcana_deny"
+					"message"		"#dota_chatwheel_message_razor_arcana_deny"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"razor_raz_kill_03"
+					"modifier"		"razor_rz_vsa_wheel_all_14"
+					"label"		"#dota_chatwheel_label_razor_arcana_1"
+					"message"		"#dota_chatwheel_message_razor_arcana_1"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"razor_raz_kill_10"
+					"modifier"		"razor_rz_vsa_wheel_all_09"
+					"label"		"#dota_chatwheel_label_razor_arcana_2"
+					"message"		"#dota_chatwheel_message_razor_arcana_2"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"razor_raz_lasthit_02"
+					"modifier"		"razor_rz_vsa_wheel_all_06"
+					"label"		"#dota_chatwheel_label_razor_arcana_3"
+					"message"		"#dota_chatwheel_message_razor_arcana_3"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"razor_raz_kill_05"
+					"modifier"		"razor_rz_vsa_wheel_all_15"
+					"label"		"#dota_chatwheel_label_razor_arcana_4"
+					"message"		"#dota_chatwheel_message_razor_arcana_4"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"razor_raz_kill_09"
+					"modifier"		"razor_rz_vsa_wheel_deny_03"
+					"label"		"#dota_chatwheel_label_razor_arcana_5"
+					"message"		"#dota_chatwheel_message_razor_arcana_5"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"razor_raz_fastres_01"
+					"modifier"		"razor_rz_vsa_wheel_all_13"
+					"label"		"#dota_chatwheel_label_razor_arcana_6"
+					"message"		"#dota_chatwheel_message_razor_arcana_6"
+				}
+				"asset_modifier"
+				{
+					"type"		"mvp_map_override"
+					"modifier"		"maps/scenes/mvp/mvp_razor_arcana.vmap"
+				}
+			}
+		}

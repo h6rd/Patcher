@@ -1,0 +1,67 @@
+"419"
+		{
+			"name"		"Rubick's Head"
+			"prefab"		"default_item"
+            "event_id"		"EVENT_ID_WINTER_MAJOR_2016"
+			"image_inventory"		"econ/items/rubick/puppet_master_head/puppet_master_head"
+			"item_name"		"#DOTA_Item_Hat_of_Fantoccinis_Dilemma"
+			"item_rarity"		"mythical"
+			"item_slot"		"head"
+			"item_type_name"		"#DOTA_WearableType_Hat"
+			"model_player"		"models/items/rubick/puppet_master_head/puppet_master_head.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"59.270000 46.279999 320.970001"
+					"PortraitLightAngles"		"53.830002 234.320007 0.000000"
+					"PortraitLightFOV"		"66"
+					"PortraitLightDistance"		"227"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"2.850000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.100000 0.500000 0.100000"
+					"PortraitBackgroundColor2"		"0.100000 0.500000 0.100000"
+					"PortraitBackgroundColor3"		"0.100000 0.500000 0.100000"
+					"PortraitBackgroundColor4"		"0.100000 0.500000 0.100000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"1"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"124.230 118.250 350.520"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"127.236320 -53.500076 204.282654"
+							"PortraitAngles"		"355.416290 155.277740 0.000000"
+							"PortraitFOV"		"45.945000"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_rubick"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/rubick/rubick_puppet_master/rubick_head_puppet_ambient.vpcf"
+				}
+			}
+		}

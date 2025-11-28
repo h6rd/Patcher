@@ -1,0 +1,70 @@
+"460"
+		{
+			"name"		"Earthshaker's Bracers"
+			"prefab"		"default_item"
+			"creation_date"		"2025-07-03"
+			"image_inventory"		"econ/items/earthshaker/es_cosmic/es_cosmic_arms"
+			"item_name"		"#DOTA_Item_Intergalactic_Orbliterator__Arms"
+			"item_rarity"		"mythical"
+			"item_slot"		"arms"
+			"model_player"		"models/items/earthshaker/es_cosmic/es_cosmic_arms.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"156.438843 -61.955276 39.446041"
+					"PortraitLightAngles"		"18.506470 146.694946 0.000000"
+					"PortraitLightFOV"		"57"
+					"PortraitLightDistance"		"200"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"2.450000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 0.500000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 0.500000"
+					"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"-2.300 31.360 5.980"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"328.076691 89.894363 74.290733"
+							"PortraitAngles"		"8.679199 189.799805 0.000000"
+							"PortraitFOV"		"24"
+							"PortraitFar"		"1000"
+						}
+					}
+				}
+			}
+			"static_attributes"
+			{
+				"tradable after date"		"1773601200"
+				"workshop accepted"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_earthshaker"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"hide_styles_from_ui"		"1"
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/earthshaker/es_cosmic/default/es_cosmic_arms_ambient.vpcf"
+				}
+			}
+		}

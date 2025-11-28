@@ -1,0 +1,81 @@
+"395"
+		{
+			"name"		"Spectre's weapon"
+			"prefab"		"default_item"
+			"creation_date"		"2021-06-24"
+			"event_id"		"EVENT_ID_SPRING_2021"
+			"image_inventory"		"econ/items/spectre/spectre_arcana/spectre_arcana_weapon"
+			"item_name"		"#DOTA_Item_Phantom_Advent__Weapon"
+			"item_rarity"		"legendary"
+			"model_player"		"models/items/spectre/spectre_arcana/spectre_arcana_weapon.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"-165.482498 -384.623352 338.432190"
+							"PortraitAngles"		"34.486084 65.797119 28.493042"
+							"PortraitFOV"		"38"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitLightPosition"		"-111.928772 -163.735657 233.134186"
+					"PortraitLightAngles"		"44.588013 48.054199 0.000000"
+					"PortraitLightFOV"		"80"
+					"PortraitLightDistance"		"185"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitLightScale"		"1.750000"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"-14.590 42.120 -5.590"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0.332542"
+					"PortraitAnimationRate"		"0"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideHero"		"1"
+					"PortraitHideParticles"		"1"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+				}
+			}
+			"static_attributes"
+			{
+				"cannot trade"		"1"
+				"giftable"		"0"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_spectre"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/spectre/spectre_arcana/spectre_arcana_weapon_ambient.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Spectre.Attack"
+					"modifier"		"Hero_Spectre.Attack.Arcana"
+				}
+			}
+		}

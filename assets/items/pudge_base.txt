@@ -1,0 +1,1133 @@
+"810"
+		{
+			"name"		"Pudge's Base"
+			"prefab"		"default_item"
+            "creation_date"		"2018-04-03"
+			"image_inventory"		"econ/items/pudge/arcana/pudge_arcana"
+			"item_description"		"#DOTA_Item_Desc_Feast_of_Abscession"
+			"item_name"		"#DOTA_Item_Feast_of_Abscession"
+			"item_rarity"		"arcana"
+			"item_slot"		"hero_base"
+			"match_cycle_to_parent"		"0"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"-307.545349 -270.020416 356.638977"
+							"PortraitAngles"		"29.141161 43.841034 3.905640"
+							"PortraitFOV"		"36"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitLightPosition"		"189.808914 14.975607 238.066818"
+					"PortraitLightAngles"		"26.735229 162.312012 0.000000"
+					"PortraitLightFOV"		"54"
+					"PortraitLightDistance"		"299"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitLightScale"		"1.750000"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"2"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"-80.370 -163.950 25.750"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"0.600000 1.000000 0.200000"
+					"PortraitBackgroundColor3"		"0.800000 1.000000 0.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"price_info"
+			{
+				"category_tags"		"Equipment"
+				"date"		"4/2/2018"
+				"price"		"0"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_pudge"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Item_Desc_Pudge_Arcana_Base"
+						"skin"		"0"
+						"alternate_icon"		"0"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Item_Desc_Pudge_Arcana_Style1"
+						"skin"		"1"
+						"alternate_icon"		"1"
+						"unlock"
+						{
+							"gem"
+							{
+								"def_index"		"3020"
+								"type_field"		"strange_type"
+								"type_value"		"257"
+								"unlock_field"		"strange_value"
+								"unlock_value"		"12"
+							}
+						}
+					}
+				}
+				"alternate_icons"
+				{
+					"0"
+					{
+						"icon_path"		"econ/items/pudge/arcana/pudge_arcana"
+					}
+					"1"
+					{
+						"icon_path"		"econ/items/pudge/arcana/pudge_arcana_style1"
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_hero_pudge"
+					"modifier"		"models/items/pudge/arcana/pudge_arcana_base.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"healthbar_offset"
+					"offset"		"220"
+				}
+				"asset_modifier"
+				{
+					"type"		"model_skin"
+					"style"		"0"
+					"skin"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"model_skin"
+					"style"		"1"
+					"skin"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"arcana_level"
+					"level"		"1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"arcana_level"
+					"level"		"2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"portrait_background_model"
+					"asset"		"models/items/pudge/arcana/pudge_arcana_pedestal.vmdl"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"portrait_background_model"
+					"asset"		"models/items/pudge/arcana/pudge_arcana_pedestal.vmdl"
+					"style"		"1"
+					"skin"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Pudge.Dismember"
+					"modifier"		"Hero_Pudge.Dismember.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"green"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Pudge.Dismember.Cast"
+					"modifier"		"Hero_Pudge.Dismember.Cast.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"response_criteria"
+					"asset"		"pudarc_chains"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_red_base_ambient.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_base_ambient.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_red_back_ambient.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_back_ambient.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/pudge/aberrant/red/aberrant_red_back_ambient.vpcf"
+					"modifier"		"particles/econ/items/pudge/aberrant/red_arcana/aberrant_red_arcana_back_ambient.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/pudge/aberrant/red/aberrant_red_back_ambient.vpcf"
+					"modifier"		"particles/econ/items/pudge/aberrant/green_arcana/aberrant_green_arcana_back_ambient.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/pudge/aberrant/default/aberrant_default_hook_ambient.vpcf"
+					"modifier"		"particles/econ/items/pudge/aberrant/red_arcana/aberrant_red_arcana_hook_ambient.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/pudge/aberrant/default/aberrant_default_hook_ambient.vpcf"
+					"modifier"		"particles/econ/items/pudge/aberrant/green_arcana/aberrant_green_arcana_hook_ambient.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/aberrant/default/aberrant_default_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/aberrant/red_arcana/aberrant_red_arcana_meathook.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/aberrant/default/aberrant_default_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/aberrant/green_arcana/aberrant_green_arcana_meathook.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_ti10_immortal/pudge_ti10_immortal_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_ti10_immortal/pudge_ti10_immortal_meathook.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_ti10_immortal/pudge_ti10_immortal_meathook_arcana_green.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_ti10_immortal/pudge_ti10_immortal_meathook_arcana_green.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_trapper_beam_chain/pudge_nx_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_trapper_beam_chain/pudge_nx_meathook.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_trapper_beam_chain/pudge_nx_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_trapper_beam_chain/pudge_nx_meathook.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_dragonclaw/pudge_meathook_dragonclaw.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_dragonclaw/pudge_meathook_dragonclaw.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_dragonclaw/pudge_meathook_dragonclaw.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_dragonclaw/pudge_meathook_dragonclaw.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_ti6_immortal/pudge_ti6_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_ti6_immortal/pudge_ti6_meathook.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_ti6_immortal/pudge_ti6_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_ti6_immortal/pudge_ti6_meathook.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_ti6_immortal/pudge_ti6_witness_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_ti6_immortal/pudge_ti6_witness_meathook.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_ti6_immortal/pudge_ti6_witness_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_ti6_immortal/pudge_ti6_witness_meathook.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_ti6_immortal_gold/pudge_ti6_meathook_gold.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_ti6_immortal_gold/pudge_ti6_meathook_gold.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_ti6_immortal_gold/pudge_ti6_meathook_gold.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_ti6_immortal_gold/pudge_ti6_meathook_gold.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_harvester/pudge_meathook_harvester.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_harvester/pudge_meathook_harvester.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_harvester/pudge_meathook_harvester.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_harvester/pudge_meathook_harvester.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_scorching_talon/pudge_scorching_talon_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_scorching_talon/pudge_scorching_talon_meathook.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_scorching_talon/pudge_scorching_talon_meathook.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_scorching_talon/pudge_scorching_talon_meathook.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_hook_whale/pudge_meathook_whale.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_hook_whale/pudge_meathook_whale.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/pudge/pudge_hook_whale/pudge_meathook_whale.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_hook_whale/pudge_meathook_whale.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_ambient_flies.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_red_ambient_flies.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_ambient_flies.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_ambient_flies.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_hook_streak.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_red_hook_streak.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_hook_streak.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_hook_streak.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_dismember_null.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_default.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_pudge_dismember_null.vpcf"
+					"modifier"		"particles/status_fx/status_effect_pudge_dismember_default.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_dismember_ethereal.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_ethereal.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_pudge_dismember_ethereal.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/status_effect_pudge_arcana_dismember_null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_dismember_goo.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_goo.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_pudge_dismember_goo.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/status_effect_pudge_arcana_dismember_null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_dismember_motor.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_motor.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_pudge_dismember_motor.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/status_effect_pudge_arcana_dismember_null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_dismember_ice.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_ice.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_pudge_dismember_ice.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/status_effect_pudge_arcana_dismember_null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_dismember_fire.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_fire.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_pudge_dismember_fire.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/status_effect_pudge_arcana_dismember_null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_dismember_electric.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_electric.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_pudge_dismember_electric.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/status_effect_pudge_arcana_dismember_null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_dismember_wood.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_wood.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_pudge_dismember_wood.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/status_effect_pudge_arcana_dismember_null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_pudge/pudge_dismember_stone.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_stone.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_pudge_dismember_stone.vpcf"
+					"modifier"		"particles/econ/items/pudge/pudge_arcana/status_effect_pudge_arcana_dismember_null.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_default.vpcf"
+					"control_point_number"		"15"
+					"cp_position"		"247 91 77"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_default.vpcf"
+					"style"		"1"
+					"control_point_number"		"15"
+					"cp_position"		"150 255 70"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_default.vpcf"
+					"style"		"0"
+					"control_point_number"		"14"
+					"cp_position"		"0 0 0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_default.vpcf"
+					"style"		"1"
+					"control_point_number"		"14"
+					"cp_position"		"1 1 1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_ethereal.vpcf"
+					"control_point_number"		"15"
+					"cp_position"		"247 91 77"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_ethereal.vpcf"
+					"style"		"1"
+					"control_point_number"		"15"
+					"cp_position"		"150 255 70"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_ethereal.vpcf"
+					"style"		"0"
+					"control_point_number"		"14"
+					"cp_position"		"0 0 0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_ethereal.vpcf"
+					"style"		"1"
+					"control_point_number"		"14"
+					"cp_position"		"1 1 1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_goo.vpcf"
+					"control_point_number"		"15"
+					"cp_position"		"247 91 77"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_goo.vpcf"
+					"style"		"1"
+					"control_point_number"		"15"
+					"cp_position"		"150 255 70"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_goo.vpcf"
+					"style"		"0"
+					"control_point_number"		"14"
+					"cp_position"		"0 0 0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_goo.vpcf"
+					"style"		"1"
+					"control_point_number"		"14"
+					"cp_position"		"1 1 1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_motor.vpcf"
+					"control_point_number"		"15"
+					"cp_position"		"247 91 77"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_motor.vpcf"
+					"style"		"1"
+					"control_point_number"		"15"
+					"cp_position"		"150 255 70"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_motor.vpcf"
+					"style"		"0"
+					"control_point_number"		"14"
+					"cp_position"		"0 0 0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_motor.vpcf"
+					"style"		"1"
+					"control_point_number"		"14"
+					"cp_position"		"1 1 1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_ice.vpcf"
+					"control_point_number"		"15"
+					"cp_position"		"247 91 77"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_ice.vpcf"
+					"style"		"1"
+					"control_point_number"		"15"
+					"cp_position"		"150 255 70"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_ice.vpcf"
+					"style"		"0"
+					"control_point_number"		"14"
+					"cp_position"		"0 0 0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_ice.vpcf"
+					"style"		"1"
+					"control_point_number"		"14"
+					"cp_position"		"1 1 1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_fire.vpcf"
+					"control_point_number"		"15"
+					"cp_position"		"247 91 77"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_fire.vpcf"
+					"style"		"1"
+					"control_point_number"		"15"
+					"cp_position"		"150 255 70"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_fire.vpcf"
+					"style"		"0"
+					"control_point_number"		"14"
+					"cp_position"		"0 0 0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_fire.vpcf"
+					"style"		"1"
+					"control_point_number"		"14"
+					"cp_position"		"1 1 1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_electric.vpcf"
+					"control_point_number"		"15"
+					"cp_position"		"247 91 77"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_electric.vpcf"
+					"style"		"1"
+					"control_point_number"		"15"
+					"cp_position"		"150 255 70"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_electric.vpcf"
+					"style"		"0"
+					"control_point_number"		"14"
+					"cp_position"		"0 0 0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_electric.vpcf"
+					"style"		"1"
+					"control_point_number"		"14"
+					"cp_position"		"1 1 1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_wood.vpcf"
+					"control_point_number"		"15"
+					"cp_position"		"247 91 77"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_wood.vpcf"
+					"style"		"1"
+					"control_point_number"		"15"
+					"cp_position"		"150 255 70"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_wood.vpcf"
+					"style"		"0"
+					"control_point_number"		"14"
+					"cp_position"		"0 0 0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_wood.vpcf"
+					"style"		"1"
+					"control_point_number"		"14"
+					"cp_position"		"1 1 1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_stone.vpcf"
+					"control_point_number"		"15"
+					"cp_position"		"247 91 77"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_stone.vpcf"
+					"style"		"1"
+					"control_point_number"		"15"
+					"cp_position"		"150 255 70"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_stone.vpcf"
+					"style"		"0"
+					"control_point_number"		"14"
+					"cp_position"		"0 0 0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/pudge/pudge_arcana/pudge_arcana_dismember_stone.vpcf"
+					"style"		"1"
+					"control_point_number"		"14"
+					"cp_position"		"1 1 1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_dismember"
+					"modifier"		"pudge/arcana/pudge_dismember_arcana"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_dismember"
+					"modifier"		"pudge/arcana/pudge_dismember_arcana_style1"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_flesh_heap"
+					"modifier"		"pudge/arcana/pudge_flesh_heap_arcana"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_flesh_heap"
+					"modifier"		"pudge/arcana/pudge_flesh_heap_arcana_style1"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_meat_hook"
+					"modifier"		"pudge/arcana/pudge_meat_hook_arcana"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_meat_hook"
+					"modifier"		"pudge/arcana/pudge_meat_hook_arcana_style1"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_rot"
+					"modifier"		"pudge/arcana/pudge_rot_arcana"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"pudge_rot"
+					"modifier"		"pudge/arcana/pudge_rot_arcana_style1"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_pudge"
+					"modifier"		"npc_dota_hero_pudge_alt1"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_pudge"
+					"modifier"		"npc_dota_hero_pudge_alt1"
+					"force_display"		"1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_pudge"
+					"modifier"		"npc_dota_hero_pudge_alt2"
+					"force_display"		"1"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"pudge_pud_laugh_05"
+					"modifier"		"pudge_pud_arc_laugh_05"
+					"message"		"#dota_chatwheel_message_pudge_arcana_laugh"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"pudge_pud_thanks_02"
+					"modifier"		"pudge_pud_arc_thanks_02"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"pudge_pud_ability_rot_07"
+					"modifier"		"pudge_pud_arc_ability_rot_07"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"pudge_pud_attack_08"
+					"modifier"		"pudge_pud_arc_attack_03"
+					"label"		"#dota_chatwheel_label_pudge_arcana_1"
+					"message"		"#dota_chatwheel_message_pudge_arcana_1"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"pudge_pud_rare_05"
+					"modifier"		"pudge_pud_purch_04"
+					"label"		"#dota_chatwheel_label_pudge_arcana_2"
+					"message"		"#dota_chatwheel_message_pudge_arcana_2"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"pudge_pud_acknow_05"
+					"modifier"		"pudge_pud_arc_respawn_11"
+					"label"		"#dota_chatwheel_label_pudge_arcana_3"
+					"message"		"#dota_chatwheel_message_pudge_arcana_3"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"pudge_pud_lasthit_07"
+					"modifier"		"pudge_pud_arc_ability_devour_17"
+					"label"		"#dota_chatwheel_label_pudge_arcana_4"
+					"message"		"#dota_chatwheel_message_pudge_arcana_4"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"pudge_pud_kill_07"
+					"modifier"		"pudge_pud_arc_ability_dismember_07"
+					"label"		"#dota_chatwheel_label_pudge_arcana_5"
+					"message"		"#dota_chatwheel_message_pudge_arcana_5"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"pudge_pud_rare_06"
+					"modifier"		"pudge_pud_arc_ability_hook_10"
+					"label"		"#dota_chatwheel_label_pudge_arcana_6"
+					"message"		"#dota_chatwheel_message_pudge_arcana_6"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/heroes/pudge/back.vmdl"
+					"modifier"		"models/heroes/pudge/back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/arlekino_back/arlekino_back.vmdl"
+					"modifier"		"models/items/pudge/arlekino_back/arlekino_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/blackdeath_back/blackdeath_back.vmdl"
+					"modifier"		"models/items/pudge/blackdeath_back/blackdeath_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/bogatyr_pudge_back_lv/bogatyr_pudge_back_lv.vmdl"
+					"modifier"		"models/items/pudge/bogatyr_pudge_back_lv/bogatyr_pudge_back_lv_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/candy_cat_back/candy_cat_back.vmdl"
+					"modifier"		"models/items/pudge/candy_cat_back/candy_cat_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/delicacies_back/delicacies_back.vmdl"
+					"modifier"		"models/items/pudge/delicacies_back/delicacies_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/demon_queller_back/demon_queller_back.vmdl"
+					"modifier"		"models/items/pudge/demon_queller_back/demon_queller_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/doomsday_ripper_back/doomsday_ripper_back.vmdl"
+					"modifier"		"models/items/pudge/doomsday_ripper_back/doomsday_ripper_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/frostivus2018_pudge_walrus_slaughterer_back/frostivus2018_pudge_walrus_slaughterer_back.vmdl"
+					"modifier"		"models/items/pudge/frostivus2018_pudge_walrus_slaughterer_back/frostivus2018_pudge_walrus_slaughterer_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/ftp_dendi_back/ftp_dendi_back.vmdl"
+					"modifier"		"models/items/pudge/ftp_dendi_back/ftp_dendi_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/gladiators_revenge_chain/gladiators_revenge_chain.vmdl"
+					"modifier"		"models/items/pudge/gladiators_revenge_chain/gladiators_revenge_chain_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/aberrant_observer_head/aberrant_observer_head.vmdl"
+					"modifier"		"models/items/pudge/aberrant_observer_arcana/aberrant_observer_arcana_head.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/aberrant_observer_back/aberrant_observer_back.vmdl"
+					"modifier"		"models/items/pudge/aberrant_observer_arcana/aberrant_observer_arcana_back.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/pudge_hungry_clown_head/pudge_hungry_clown_head.vmdl"
+					"modifier"		"models/items/pudge/pudge_hungry_clown_arcana/pudge_hungry_clown_arcana_head.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/pudge_hungry_clown_back/pudge_hungry_clown_back.vmdl"
+					"modifier"		"models/items/pudge/pudge_hungry_clown_arcana/pudge_hungry_clown_arcana_back.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/aberrant_observer_hook/aberrant_observer_hook.vmdl"
+					"modifier"		"models/items/pudge/aberrant_observer_arcana/aberrant_observer_arcana_hook.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/the_devarque_fugitive_back/the_devarque_fugitive_back.vmdl"
+					"modifier"		"models/items/pudge/the_devarque_fugitive_back/the_devarque_fugitive_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/the_ol_choppers_back/the_ol_choppers_back.vmdl"
+					"modifier"		"models/items/pudge/the_ol_choppers_back/the_ol_choppers_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/trapper_back/trapper_back.vmdl"
+					"modifier"		"models/items/pudge/trapper_back/trapper_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/promo_trapper_back/promo_trapper_back.vmdl"
+					"modifier"		"models/items/pudge/promo_trapper_back/promo_trapper_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/war_path_back/war_path_back.vmdl"
+					"modifier"		"models/items/pudge/war_path_back/war_path_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/pudge_insanity_intestines/pudge_insanity_intestines.vmdl"
+					"modifier"		"models/items/pudge/pudge_insanity_intestines/pudge_insanity_intestines_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/pudge_lord_of_decay_back/pudge_lord_of_decay_back.vmdl"
+					"modifier"		"models/items/pudge/pudge_lord_of_decay_back/pudge_lord_of_decay_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/scavenger_dragons_hook/scavenger_dragons_hook.vmdl"
+					"modifier"		"models/items/pudge/scavenger_dragons_hook/scavenger_dragons_hook_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/skedaddlebritches4/skedaddlebritches4.vmdl"
+					"modifier"		"models/items/pudge/skedaddlebritches4/skedaddlebritches4_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/pudge_forbidden_regrowth_back/pudge_forbidden_regrowth_back.vmdl"
+					"modifier"		"models/items/pudge/pudge_forbidden_regrowth_back/pudge_forbidden_regrowth_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/pudge_frozen_pig_face_back/pudge_frozen_pig_face_back.vmdl"
+					"modifier"		"models/items/pudge/pudge_frozen_pig_face_back/pudge_frozen_pig_face_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/pudge_deep_sea_abomination_back/pudge_deep_sea_abomination_back.vmdl"
+					"modifier"		"models/items/pudge/pudge_deep_sea_abomination_back/pudge_deep_sea_abomination_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/nightmare_scarecrow_back/nightmare_scarecrow_back.vmdl"
+					"modifier"		"models/items/pudge/nightmare_scarecrow_back/nightmare_scarecrow_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/plague_doctor_back/plague_doctor_back.vmdl"
+					"modifier"		"models/items/pudge/plague_doctor_back/plague_doctor_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/pudge/pudge_dapper_disguise_back/pudge_dapper_disguise_back.vmdl"
+					"modifier"		"models/items/pudge/pudge_dapper_disguise_back/pudge_dapper_disguise_back_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"mvp_map_override"
+					"modifier"		"maps/scenes/mvp/mvp_pudge_arcana.vmap"
+				}
+			}
+		}

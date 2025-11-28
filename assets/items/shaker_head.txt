@@ -1,0 +1,104 @@
+"8655"
+		{
+			"name"		"Earthshaker's Uncoiffed Head"
+			"prefab"		"default_item"
+            "creation_date"		"2025-07-03"
+			"image_inventory"		"econ/items/earthshaker/es_cosmic/es_cosmic_head"
+			"item_name"		"#DOTA_Item_Intergalactic_Orbliterator__Head"
+			"item_rarity"		"mythical"
+			"item_slot"		"head"
+			"model_player"		"models/items/earthshaker/es_cosmic/es_cosmic_head.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"297.330292 -77.618179 242.388763"
+							"PortraitAngles"		"26.993408 162.279053 355.187988"
+							"PortraitFOV"		"19"
+							"PortraitFar"		"1000"
+						}
+					}
+					"hero_presets"
+					{
+						"Default"
+						{
+							"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+						}
+					}
+					"PortraitLightPosition"		"95.242569 -45.228737 147.754272"
+					"PortraitLightAngles"		"27.339478 86.627197 0.000000"
+					"PortraitLightFOV"		"57"
+					"PortraitLightDistance"		"200"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitLightScale"		"1.750000"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"2.450000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"-2.300 31.360 5.980"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 0.500000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 0.500000"
+					"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+					"GodraysFXColor"		"1.000000 1.000000 1.000000"
+					"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"1"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+					"PortraitAllowAnimatedPortrait"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"tradable after date"		"1773601200"
+				"workshop accepted"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_earthshaker"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"es_cosmic_arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/earthshaker/es_cosmic/default/es_cosmic_head_ambient.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/earthshaker_arcana/earthshaker_arcana_pedestal.vmdl"
+					"modifier"		"models/items/earthshaker/es_cosmic_arcana/es_cosmic_arcana_pedestal.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/earthshaker_arcana/earthshaker_arcana_pedestal_style1.vmdl"
+					"modifier"		"models/items/earthshaker/es_cosmic_arcana/es_cosmic_arcana_pedestal_style1.vmdl"
+				}
+			}
+		}

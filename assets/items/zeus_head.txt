@@ -1,0 +1,299 @@
+"604"
+		{
+			"name"		"Zeus' Head"
+			"prefab"		"default_item"
+            "creation_date"		"2015-12-16"
+			"image_inventory"		"econ/items/zeus/tempest_helm/zeus_arcana"
+			"item_description"		"#DOTA_Item_Desc_Tempest_Helm_of_the_Thundergod"
+			"item_name"		"#DOTA_Item_Tempest_Helm_of_the_Thundergod"
+			"item_rarity"		"arcana"
+			"item_slot"		"head"
+			"item_type_name"		"#DOTA_WearableType_Helmet"
+			"model_player"		"models/heroes/zeus/zeus_hair_arcana.vmdl"
+			"override_attack_attachments"		"1"
+			"particle_folder"		"particles/econ/items/zeus/lightning_weapon_fx"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"-80.069107 172.940186 194.650589"
+					"PortraitLightAngles"		"25.323486 297.564697 0.000000"
+					"PortraitLightFOV"		"40"
+					"PortraitLightDistance"		"259"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 0.500000 0.300000"
+					"PortraitBackgroundColor2"		"0.000000 0.100000 0.000000"
+					"PortraitBackgroundColor3"		"1.000000 0.000000 0.000000"
+					"PortraitBackgroundColor4"		"1.000000 0.000000 0.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"-14.090 -6.340 8.790"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"-13.118551 -261.999237 301.303162"
+							"PortraitAngles"		"33.881836 92.235718 356.385498"
+							"PortraitFOV"		"32"
+							"PortraitFar"		"1000"
+						}
+					}
+				}
+				"preview"
+				{
+					"PortraitLightPosition"		"145.697906 -76.902260 233.957153"
+					"PortraitLightAngles"		"52.922768 168.593964 0.873411"
+					"PortraitLightFOV"		"65"
+					"PortraitLightDistance"		"392"
+					"PortraitLightColor"		"254 230 216"
+					"PortraitShadowColor"		"56 56 56"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"53 112 120"
+					"PortraitAmbientScale"		"2.500000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.050000 0.180000 0.410000"
+					"PortraitBackgroundColor2"		"0.050000 0.180000 0.410000"
+					"PortraitBackgroundColor3"		"0.050000 0.180000 0.410000"
+					"PortraitBackgroundColor4"		"0.050000 0.180000 0.410000"
+					"PortraitBackgroundTexture"		"materials/portraits_card/portrait_backgrounds/full_view_background.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_LOADOUT"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"1"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"2.500000"
+					"PortraitAmbientDirection"		"0.634 0.488 -0.600"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"799.700012 -369.589996 150.000000"
+							"PortraitAngles"		"1.000000 155.000000 0.000000"
+							"PortraitFOV"		"17"
+							"PortraitFar"		"1000"
+						}
+						"econ_set_preview"
+						{
+							"PortraitPosition"		"819.700012 -299.589996 110.000000"
+							"PortraitAngles"		"-2.000000 160.250000 0.000000"
+							"PortraitFOV"		"12"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+				}
+			}
+			"price_info"
+			{
+				"category_tags"		"Equipment"
+				"date"		"12/14/2015"
+				"price"		"0"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_zuus"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"arcana"
+				}
+				"asset_modifier1"
+				{
+					"type"		"response_criteria"
+					"asset"		"arcana"
+					"style"		"0"
+				}
+				"asset_modifier2"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_hero_zuus"
+					"modifier"		"models/heroes/zeus/zeus_arcana.vmdl"
+				}
+				"asset_modifier3"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_zeus/zeus_ambient_eyes.vpcf"
+					"modifier"		"particles/econ/items/zeus/arcana_chariot/zeus_ambient_arcana_eyes.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier4"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/zeus/arcana_chariot/zeus_arcana_chariot.vpcf"
+				}
+				"asset_modifier5"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_zeus/zues_kill_empty.vpcf"
+					"modifier"		"particles/econ/items/zeus/arcana_chariot/zeus_arcana_kill_remnant.vpcf"
+				}
+				"asset_modifier6"
+				{
+					"type"		"model"
+					"asset"		"models/heroes/zeus/zeus_vest.vmdl"
+					"modifier"		"models/development/invisiblebox.vmdl"
+				}
+				"asset_modifier7"
+				{
+					"type"		"model"
+					"asset"		"models/heroes/zeus/zeus_bracers.vmdl"
+					"modifier"		"models/development/invisiblebox.vmdl"
+				}
+				"asset_modifier8"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_zuus/zuus_thundergods_wrath_start.vpcf"
+					"modifier"		"particles/econ/items/zeus/arcana_chariot/zeus_arcana_thundergods_wrath_start.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier9"
+				{
+					"type"		"healthbar_offset"
+					"offset"		"200"
+				}
+				"asset_modifier10"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_zuus/zuus_thundergods_wrath.vpcf"
+					"modifier"		"particles/econ/items/zeus/arcana_chariot/zeus_arcana_thundergods_wrath.vpcf"
+				}
+				"asset_modifier11"
+				{
+					"type"		"particle"
+					"asset"		"particles/items_fx/blink_dagger_end.vpcf"
+					"modifier"		"particles/econ/items/zeus/arcana_chariot/zeus_arcana_blink_end.vpcf"
+				}
+				"asset_modifier12"
+				{
+					"type"		"particle"
+					"asset"		"particles/items_fx/blink_dagger_start.vpcf"
+					"modifier"		"particles/econ/items/zeus/arcana_chariot/zeus_arcana_blink_start.vpcf"
+				}
+				"asset_modifier13"
+				{
+					"type"		"sound"
+					"asset"		"DOTA_Item.BlinkDagger.Activate"
+					"modifier"		"Hero_Zeus.BlinkDagger.Arcana"
+					"style"		"0"
+				}
+				"asset_modifier14"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Zuus.GodsWrath.PreCast"
+					"modifier"		"Hero_Zuus.GodsWrath.PreCast.Arcana"
+					"style"		"0"
+				}
+				"asset_modifier15"
+				{
+					"type"		"arcana_level"
+					"level"		"1"
+				}
+				"asset_modifier16"
+				{
+					"type"		"ability_icon"
+					"asset"		"zuus_thundergods_wrath"
+					"modifier"		"zuus_thundergods_wrath_alt1"
+				}
+				"asset_modifier17"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_zuus"
+					"modifier"		"npc_dota_hero_zuus_alt1"
+					"force_display"		"1"
+				}
+				"asset_modifier18"
+				{
+					"type"		"ability_icon"
+					"asset"		"zuus_static_field"
+					"modifier"		"zuus_static_field_alt1"
+				}
+				"asset_modifier19"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_zuus"
+					"modifier"		"npc_dota_hero_zuus_alt1"
+					"force_display"		"1"
+				}
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"zuus_zuus_laugh_01"
+					"modifier"		"zuus_zuus_arc_laugh_01"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"zuus_zuus_level_03"
+					"modifier"		"zuus_zuus_arc_level_03"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"zuus_zuus_win_05"
+					"modifier"		"zuus_zuus_arc_win_05"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"zuus_zuus_cast_02"
+					"modifier"		"zuus_zuus_arc_cast_02"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"zuus_zuus_kill_05"
+					"modifier"		"zuus_zuus_arc_kill_05"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"zuus_zuus_death_07"
+					"modifier"		"zuus_zuus_arc_death_07"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"zuus_zuus_ability_thunder_01"
+					"modifier"		"zuus_zuus_arc_ability_thunder_01"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"zuus_zuus_rival_13"
+					"modifier"		"zuus_zuus_arc_rival_13"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"zuus_zuus_respawn_06"
+					"modifier"		"zuus_zuus_arc_respawn_06"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/zeus/zeus_cosmic/zeus_cosmic_arms.vmdl"
+					"modifier"		"models/items/zeus/zeus_cosmic/zeus_cosmic_arms_refit.vmdl"
+				}
+			}
+		}

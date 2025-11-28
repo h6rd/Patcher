@@ -1,0 +1,946 @@
+"12692"
+		{
+			"name"		"Planetfall"
+			"prefab"		"wearable"
+            "baseitem"		"1"
+			"creation_date"		"2019-05-24"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+			"image_inventory"		"econ/items/earthshaker/arcana/earthshaker_arcana"
+			"item_description"		"#DOTA_Item_Desc_Planetfall"
+			"item_name"		"#DOTA_Item_Planetfall"
+			"item_rarity"		"arcana"
+			"item_slot"		"hero_base"
+			"portraits"
+			{
+				"game"
+				{
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"215.323151 -70.693619 233.642761"
+							"PortraitAngles"		"27.031509 166.239578 0.000000"
+							"PortraitFOV"		"20"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitLightPosition"		"143.919525 -215.133667 360.735596"
+					"PortraitLightAngles"		"51.471516 124.877419 -5.712144"
+					"PortraitLightFOV"		"90"
+					"PortraitLightDistance"		"212.979996"
+					"PortraitLightColor"		"240 252 255"
+					"PortraitLightScale"		"3.358000"
+					"PortraitShadowColor"		"74 74 74"
+					"PortraitShadowScale"		"1"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+					"PortraitAmbientColor"		"79 108 108"
+					"PortraitAmbientScale"		"1"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_oracle.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_CAPTURE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"1"
+					"PortraitHideHero"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"cannot trade"		"1"
+				"giftable"		"0"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_earthshaker"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Style_Earthshaker_Arcana_Head_Item_Style0"
+						"skin"		"0"
+						"alternate_icon"		"0"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Style_Earthshaker_Arcana_Head_Item_Style1"
+						"skin"		"1"
+						"alternate_icon"		"1"
+						"unlock"
+						{
+							"gem"
+							{
+								"def_index"		"3023"
+								"type_field"		"strange_type"
+								"type_value"		"803"
+								"unlock_field"		"strange_value"
+								"unlock_value"		"500"
+							}
+						}
+					}
+				}
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_hero_earthshaker"
+					"modifier"		"models/items/earthshaker/earthshaker_arcana/earthshaker_arcana.vmdl"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_hero_earthshaker"
+					"modifier"		"models/items/earthshaker/earthshaker_arcana/earthshaker_arcana.vmdl"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"model_skin"
+					"style"		"0"
+					"skin"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"model_skin"
+					"style"		"1"
+					"skin"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"arcana_level"
+					"level"		"1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"arcana_level"
+					"level"		"2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_echoslam_start.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_echoslam_start.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_echoslam_start.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_echoslam_start_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_echoslam_tgt.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_echoslam_ground.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_echoslam_tgt.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_echoslam_ground_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_echoslam.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_echoslam_proj.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_echoslam.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_echoslam_proj_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_aftershock_screen.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_aftershock_screen.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"custom_kill_effect"
+					"asset"		"kill"
+					"modifier"		"modifier_earthshaker_arcana_kill_effect"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"blink"
+					"modifier"		"es_arcana_blink"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"inventory_icon"
+					"asset"		"blink"
+					"modifier"		"es_arcana_blink_ult2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_target_death.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_target_death.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_target_death.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_target_death_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"buff_modifier"
+					"modifier"		"modifier_earthshaker_arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/items_fx/blink_dagger_start.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_blink_start.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/items_fx/blink_dagger_start.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_blink_start_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/items_fx/blink_dagger_end.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_blink_end.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/items_fx/blink_dagger_end.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_blink_end_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/generic_gameplay/generic_stunned.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_stunned.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/generic_gameplay/generic_stunned.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_stunned.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_counter.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_counter.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_totem_leap_blur.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_totem_leap.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_totem_leap_blur.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_totem_leap_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_aftershock.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_aftershock.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_aftershock.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_aftershock_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_totem_buff.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_totem_buff.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_totem_buff.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_totem_buff.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_totem_cast.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_totem_cast.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_totem_cast.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_totem_cast_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/earthshaker/earthshaker_totem_ti6/earthshaker_totem_ti6_buff.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_totem_buff_ti6_combined.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/earthshaker/earthshaker_totem_ti6/earthshaker_totem_ti6_cast.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_totem_cast_ti6_combined.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/earthshaker/earthshaker_totem_ti6/earthshaker_totem_ti6_cast.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_totem_cast_ti6_combined_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_loadout.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_debut_loadout.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_damage.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_damage.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_death.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_death.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_counter_update.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_counter_update.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_EarthShaker.EchoSlam"
+					"modifier"		"Hero_EarthShaker.EchoSlam.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_EarthShaker.EchoSlamEcho"
+					"modifier"		"Hero_EarthShaker.EchoSlamEcho.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Earthsaker.EchoProjectile.Target"
+					"modifier"		"Hero_Earthsaker.EchoProjectile.Target.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_EarthShaker.EchoSlamSmall"
+					"modifier"		"Hero_EarthShaker.EchoSlamSmall.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_EarthShaker.EchoSlam.Single"
+					"modifier"		"Hero_EarthShaker.EchoSlam.Single.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"portrait_background_model"
+					"asset"		"models/items/earthshaker/earthshaker_arcana/earthshaker_arcana_pedestal.vmdl"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"portrait_background_model"
+					"asset"		"models/items/earthshaker/earthshaker_arcana/earthshaker_arcana_pedestal_style1.vmdl"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_null.vpcf"
+					"modifier"		"particles/status_fx/status_effect_earthshaker_echo.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_null.vpcf"
+					"modifier"		"particles/status_fx/status_effect_earthshaker_echo.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_heatingup_null.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_heatingup.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_heatingup_null.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_heatingup_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_earthshaker"
+					"modifier"		"npc_dota_hero_earthshaker_alt1"
+					"force_display"		"1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"earthshaker_aftershock"
+					"modifier"		"earthshaker/earthshaker_arcana/earthshaker_aftershock"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"earthshaker_fissure"
+					"modifier"		"earthshaker/earthshaker_arcana/earthshaker_fissure"
+					"style"		"0"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"earthshaker_echo_slam"
+					"modifier"		"earthshaker/earthshaker_arcana/earthshaker_echo_slam"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"earthshaker_enchant_totem"
+					"modifier"		"earthshaker/earthshaker_arcana/earthshaker_enchant_totem"
+					"style"		"0"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_earthshaker"
+					"modifier"		"npc_dota_hero_earthshaker_alt1"
+					"style"		"0"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"response_criteria"
+					"asset"		"eartharc_cosmos"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"DOTA_Item.BlinkDagger.Activate"
+					"modifier"		"Hero_Earthshaker.BlinkDagger.Arcana"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_head_ambient.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_head_ambient_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_earthshaker/earthshaker_death.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_death_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_alt_run_ground.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_alt_run_ground_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_run_drum_beat.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_run_drum_beat_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_spawn.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_spawn_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_loadout.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_loadout_v2.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_earthshaker"
+					"modifier"		"npc_dota_hero_earthshaker_alt2"
+					"style"		"1"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_earthshaker"
+					"modifier"		"npc_dota_hero_earthshaker_alt2"
+					"style"		"1"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"earthshaker_aftershock"
+					"modifier"		"earthshaker/earthshaker_arcana/earthshaker_aftershock_alt2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"earthshaker_fissure"
+					"modifier"		"earthshaker/earthshaker_arcana/earthshaker_fissure_alt2"
+					"style"		"1"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"earthshaker_echo_slam"
+					"modifier"		"earthshaker/earthshaker_arcana/earthshaker_echo_slam_alt2"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"earthshaker_enchant_totem"
+					"modifier"		"earthshaker/earthshaker_arcana/earthshaker_enchant_totem_alt2"
+					"style"		"1"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/earthshaker_arcana/earthshaker_arcana_weapon.vmdl"
+					"modifier"		"models/items/earthshaker/earthshaker_arcana/earthshaker_arcana_weapon_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/earthshaker_arcana/earthshaker_arcana_head_refit.vmdl"
+					"modifier"		"models/items/earthshaker/earthshaker_arcana/earthshaker_arcana_head.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/es_cosmic/es_cosmic_head.vmdl"
+					"modifier"		"models/items/earthshaker/es_cosmic_arcana/es_cosmic_arcana_head.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/es_cosmic/es_cosmic_belt.vmdl"
+					"modifier"		"models/items/earthshaker/es_cosmic_arcana/es_cosmic_arcana_belt.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/es_cosmic/es_cosmic_arms.vmdl"
+					"modifier"		"models/items/earthshaker/es_cosmic_arcana/es_cosmic_arcana_arms.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/shaker_chess_knight_arms/shaker_chess_knight_arms.vmdl"
+					"modifier"		"models/items/earthshaker/shaker_chess_knight_arms/shaker_chess_knight_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/shatterhorn_weapon/shatterhorn_weapon.vmdl"
+					"modifier"		"models/items/earthshaker/shatterhorn_weapon/shatterhorn_weapon_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/corebender_weapon/corebender_weapon.vmdl"
+					"modifier"		"models/items/earthshaker/corebender_weapon/corebender_weapon_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/siege_beast_arms/siege_beast_arms.vmdl"
+					"modifier"		"models/items/earthshaker/siege_beast_arms/siege_beast_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/shatterhorn_arms/shatterhorn_arms.vmdl"
+					"modifier"		"models/items/earthshaker/shatterhorn_arms/shatterhorn_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/sar_beast_arms/sar_beast_arms.vmdl"
+					"modifier"		"models/items/earthshaker/sar_beast_arms/sar_beast_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/samurai_soul_arms/samurai_soul_arms.vmdl"
+					"modifier"		"models/items/earthshaker/samurai_soul_arms/samurai_soul_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/redguardian_arms/redguardian_arms.vmdl"
+					"modifier"		"models/items/earthshaker/redguardian_arms/redguardian_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/obsidianhoof_guardian_arms/obsidianhoof_guardian_arms.vmdl"
+					"modifier"		"models/items/earthshaker/obsidianhoof_guardian_arms/obsidianhoof_guardian_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/might_of_the_earth_arms/might_of_the_earth_arms.vmdl"
+					"modifier"		"models/items/earthshaker/might_of_the_earth_arms/might_of_the_earth_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/golden_reel_arms/golden_reel_arms.vmdl"
+					"modifier"		"models/items/earthshaker/golden_reel_arms/golden_reel_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/frostivus2018_es_frozen_wastes_arms/frostivus2018_es_frozen_wastes_arms.vmdl"
+					"modifier"		"models/items/earthshaker/frostivus2018_es_frozen_wastes_arms/frostivus2018_es_frozen_wastes_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/forest_hermit_es_arms/forest_hermit_es_arms.vmdl"
+					"modifier"		"models/items/earthshaker/forest_hermit_es_arms/forest_hermit_es_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/heroes/earthshaker/bracers.vmdl"
+					"modifier"		"models/heroes/earthshaker/bracers_refit.vmdl"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/deep_magma/deep_magma_arms.vmdl"
+					"modifier"		"models/items/earthshaker/deep_magma/deep_magma_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/corebender_arms/corebender_arms.vmdl"
+					"modifier"		"models/items/earthshaker/corebender_arms/corebender_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/baron_of_the_minotaur_arms/baron_of_the_minotaur_arms.vmdl"
+					"modifier"		"models/items/earthshaker/baron_of_the_minotaur_arms/baron_of_the_minotaur_arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/arms_stefco/arms_stefco.vmdl"
+					"modifier"		"models/items/earthshaker/arms_stefco/arms_stefco_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/stoneforged_horns/stoneforged_horns.vmdl"
+					"modifier"		"models/items/earthshaker/stoneforged_horns/stoneforged_horns_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/siege_beast_head/siege_beast_head.vmdl"
+					"modifier"		"models/items/earthshaker/siege_beast_head/siege_beast_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/shatterhorn_head/shatterhorn_head.vmdl"
+					"modifier"		"models/items/earthshaker/shatterhorn_head/shatterhorn_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/shaker_chess_knight_head/shaker_chess_knight_head.vmdl"
+					"modifier"		"models/items/earthshaker/shaker_chess_knight_head/shaker_chess_knight_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/sar_beast_head/sar_beast_head.vmdl"
+					"modifier"		"models/items/earthshaker/sar_beast_head/sar_beast_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/samurai_soul_head/samurai_soul_head.vmdl"
+					"modifier"		"models/items/earthshaker/samurai_soul_head/samurai_soul_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/redguardian_head/redguardian_head.vmdl"
+					"modifier"		"models/items/earthshaker/redguardian_head/redguardian_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/obsidianhoof_guardian_head/obsidianhoof_guardian_head.vmdl"
+					"modifier"		"models/items/earthshaker/obsidianhoof_guardian_head/obsidianhoof_guardian_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/helm_of_impasse/helm_of_impasse.vmdl"
+					"modifier"		"models/items/earthshaker/helm_of_impasse/helm_of_impasse_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/golden_reel_head/golden_reel_head.vmdl"
+					"modifier"		"models/items/earthshaker/golden_reel_head/golden_reel_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/frostivus2018_es_frozen_wastes_head/frostivus2018_es_frozen_wastes_head.vmdl"
+					"modifier"		"models/items/earthshaker/frostivus2018_es_frozen_wastes_head/frostivus2018_es_frozen_wastes_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/forest_hermit_es_head/forest_hermit_es_head.vmdl"
+					"modifier"		"models/items/earthshaker/forest_hermit_es_head/forest_hermit_es_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/corebender_head/corebender_head.vmdl"
+					"modifier"		"models/items/earthshaker/corebender_head/corebender_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/baron_of_the_minotaur_head/baron_of_the_minotaur_head.vmdl"
+					"modifier"		"models/items/earthshaker/baron_of_the_minotaur_head/baron_of_the_minotaur_head_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/earthshaker/es_fall_chess_knight_arms/es_fall_chess_knight_arms.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/es_fall_chess_knight_arms/es_fall_chess_knight_arms_refit.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/earthshaker/es_cosmic/default/es_cosmic_head_ambient.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/es_cosmic/arcana_style1/es_cosmic_arcana_style1_head_ambient.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/earthshaker/es_cosmic/default/es_cosmic_totem_ambient.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/es_cosmic/arcana_style1/es_cosmic_arcana_style1_totem_ambient.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/earthshaker/es_cosmic/default/es_cosmic_arms_ambient.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/es_cosmic/arcana/es_cosmic_arcana_arms_ambient.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/earthshaker/es_cosmic/default/es_cosmic_arms_ambient.vpcf"
+					"modifier"		"particles/econ/items/earthshaker/es_cosmic/arcana_style1/es_cosmic_arcana_style1_arms_ambient.vpcf"
+					"style"		"1"
+				}
+				"alternate_icons"
+				{
+					"0"
+					{
+						"icon_path"		"econ/items/earthshaker/arcana/earthshaker_arcana"
+					}
+					"1"
+					{
+						"icon_path"		"econ/items/earthshaker/arcana/earthshaker_arcana_style1"
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"earthshaker_erth_laugh_03"
+					"modifier"		"earthshaker_earth_arcana_laugh_03"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"earthshaker_erth_move_06"
+					"modifier"		"earthshaker_earth_arcana_move_06"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"earthshaker_erth_death_09"
+					"modifier"		"earthshaker_earth_arcana_death_09"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"earthshaker_erth_kill_08"
+					"modifier"		"earthshaker_earth_arcana_kill_08"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"earthshaker_erth_respawn_06"
+					"modifier"		"earthshaker_earth_arcana_respawn_06"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"earthshaker_erth_ability_echo_06"
+					"modifier"		"earthshaker_earth_arcana_ability_echo_06_03"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"earthshaker_erth_rival_20"
+					"modifier"		"earthshaker_earth_arcana_rival_20"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"earthshaker_erth_rare_05"
+					"modifier"		"earthshaker_earth_arcana_rare_05_02"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"earthshaker_erth_kill_11"
+					"modifier"		"earthshaker_earth_arcana_kill_11"
+				}
+				"asset_modifier"
+				{
+					"type"		"mvp_map_override"
+					"modifier"		"maps/scenes/mvp/mvp_earthshaker_arcana.vmap"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/ti6_immortal_bracer/mesh/ti6_immortal_bracer.vmdl"
+					"modifier"		"models/items/earthshaker/ti6_immortal_bracer/mesh/ti6_immortal_bracer_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/bindings_from_the_dragonforge__arms/bindings_from_the_dragonforge__arms.vmdl"
+					"modifier"		"models/items/earthshaker/bindings_from_the_dragonforge__arms/bindings_from_the_dragonforge__arms_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/earthshaker_arcana/earthshaker_arcana_bracers.vmdl"
+					"modifier"		"models/items/earthshaker/earthshaker_arcana/earthshaker_arcana_bracers_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/earthshaker/es_cosmic/es_cosmic_totem.vmdl"
+					"modifier"		"models/items/earthshaker/es_cosmic/es_cosmic_totem_refit.vmdl"
+				}
+			}
+		}

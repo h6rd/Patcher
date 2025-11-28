@@ -1,0 +1,235 @@
+"434"
+		{
+			"name"		"Legion Commander's Sword"
+			"prefab"		"default_item"
+            "creation_date"		"2013-12-12"
+			"has_store_custom_item_details_panel"		"1"
+			"image_inventory"		"econ/items/legion_commander/demon_sword"
+			"item_description"		"#DOTA_Item_Desc_Blades_of_Voth_Domosh"
+			"item_name"		"#DOTA_Item_Blades_of_Voth_Domosh"
+			"item_rarity"		"arcana"
+			"item_type_name"		"#DOTA_WearableType_Twin_Demon_Blades"
+			"model_player"		"models/items/legion_commander/demon_sword.vmdl"
+			"particle_folder"		"particles/econ/items/legion/legion_weapon_voth_domosh"
+			"particle_snapshot"		"particles/models/items/legion/legion_commander_voth_domosh_weapon/legion_commander_voth_domosh_weapon.vsnap"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"169.410004 155.570007 267.000000"
+					"PortraitLightAngles"		"34.860001 -118.620003 0.000000"
+					"PortraitLightFOV"		"63.000000"
+					"PortraitLightDistance"		"471.000000"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"1.025000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5.000000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16.000000"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"0.608706 0.252995 0.054506"
+					"PortraitBackgroundColor3"		"0.542325 0.465648 0.151083"
+					"PortraitBackgroundColor4"		"0.606996 0.568879 0.410672"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0.000000"
+					"PortraitAnimationRate"		"1.000000"
+					"PortraitHideHero"		"1"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"0.300 -0.510 -0.800"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"9.244945 -67.291557 256.354034"
+							"PortraitAngles"		"75.388184 101.854248 36.600952"
+							"PortraitFOV"		"26.000000"
+							"PortraitFar"		"1500.000000"
+						}
+					}
+				}
+				"game"
+				{
+					"PortraitLightPosition"		"-21.08 58.01 163.61"
+					"PortraitLightAngles"		"17.58 290.96 4.78"
+					"PortraitLightFOV"		"63"
+					"PortraitLightDistance"		"108"
+					"PortraitLightColor"		"219 252 254"
+					"PortraitShadowColor"		"56 38 38"
+					"PortraitShadowScale"		"5.000000"
+					"PortraitAmbientColor"		"155 129 129"
+					"PortraitAmbientScale"		"5.000000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_gradient_btm.vmat"
+					"PortraitBackgroundColor1"		"1 .3 0"
+					"PortraitBackgroundColor2"		".9 .5 0"
+					"PortraitBackgroundColor3"		"1 .4 0"
+					"PortraitBackgroundColor4"		"1 .5 0"
+					"PortraitLightScale"		"2.250000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"17.880 -12.370 -19.270"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"109.82 95.12 162.18"
+							"PortraitAngles"		"10.94 221.92 22.97"
+							"PortraitFOV"		"15"
+						}
+					}
+				}
+			}
+			"price_info"
+			{
+				"bucket"		"Normal"
+				"class"		"Legendary"
+				"category_tags"		"Bundles"
+				"date"		"12/12/2013"
+				"price"		"3499"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_legion_commander"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"dualwield"
+				}
+				"asset_modifier1"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"arcana"
+				}
+				"asset_modifier2"
+				{
+					"type"		"response_criteria"
+					"asset"		"voth_domosh"
+				}
+				"asset_modifier4"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_legion_commander/legion_duel_ring.vpcf"
+					"modifier"		"particles/econ/items/legion/legion_weapon_voth_domosh/legion_duel_ring_arcana.vpcf"
+				}
+				"asset_modifier3"
+				{
+					"type"		"sound"
+					"asset"		"Hero_LegionCommander.Duel.Cast"
+					"modifier"		"Hero_LegionCommander.Duel.Cast.Arcana"
+				}
+				"asset_modifier5"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_legion_commander"
+					"modifier"		"npc_dota_hero_legion_commander_alt1"
+					"force_display"		"1"
+				}
+				"asset_modifier6"
+				{
+					"type"		"ability_icon"
+					"asset"		"legion_commander_duel"
+					"modifier"		"legion_commander_duel_alt1"
+				}
+				"asset_modifier7"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/legion/legion_stonehall/legion_head_stonehall.vpcf"
+					"modifier"		"particles/econ/items/legion/legion_stonehall/legion_head_stonehall_voth.vpcf"
+				}
+				"asset_modifier8"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/legion/legion_weapon_voth_domosh/legion_ambient_arcana.vpcf"
+				}
+				"asset_modifier9"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/legion/legion_weapon_voth_domosh/legion_arcana_weapon.vpcf"
+				}
+				"asset_modifier10"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/legion/legion_weapon_voth_domosh/legion_arcana_weapon_offhand.vpcf"
+				}
+				"asset_modifier11"
+				{
+					"type"		"arcana_level"
+					"level"		"1"
+				}
+				"asset_modifier12"
+				{
+					"type"		"model_skin"
+					"skin"		"1"
+				}
+				"asset_modifier13"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_legion_commander"
+					"modifier"		"npc_dota_hero_legion_commander_alt1"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"legion_commander_legcom_laugh_05"
+					"modifier"		"legion_commander_legcom_dem_laugh_05"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"legion_commander_legcom_itemcommon_02"
+					"modifier"		"legion_commander_legcom_dem_itemcommon_02"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"legion_commander_legcom_deny_07"
+					"modifier"		"legion_commander_legcom_dem_deny_07"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"legion_commander_legcom_move_15"
+					"modifier"		"legion_commander_legcom_dem_move_15"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"legion_commander_legcom_ally_11"
+					"modifier"		"legion_commander_legcom_dem_ally_11"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"legion_commander_legcom_duel_08"
+					"modifier"		"legion_commander_legcom_dem_duel_08"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"legion_commander_legcom_duelfailure_06"
+					"modifier"		"legion_commander_legcom_dem_duelfailure_06"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"legion_commander_legcom_kill_14"
+					"modifier"		"legion_commander_legcom_dem_kill_14"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"legion_commander_legcom_grunt_02"
+					"modifier"		"legion_commander_legcom_dem_grunt_02"
+				}
+			}
+		}

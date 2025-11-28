@@ -1,0 +1,66 @@
+"261"
+		{
+			"name"		"Pudge's Bracer"
+			"prefab"		"default_item"
+            "creation_date"		"2020-05-25"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+			"hide_tradecraftdelete"		"1"
+			"image_inventory"		"econ/development/invisiblebox"
+			"item_name"		"#DOTA_Item_Pudges_Bare_Arm"
+			"item_rarity"		"immortal"
+			"item_slot"		"arms"
+			"model_player"		"models/development/invisiblebox.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"124.497986 -316.895691 203.480209"
+							"PortraitAngles"		"18.016062 119.337708 3.070679"
+							"PortraitFOV"		"20"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitLightPosition"		"162.171005 -107.280823 272.670380"
+					"PortraitLightAngles"		"40.858154 152.539673 0.000000"
+					"PortraitLightFOV"		"90"
+					"PortraitLightDistance"		"195"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitLightScale"		"1.750000"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"2"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"-80.370 -163.950 25.750"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"0.600000 1.000000 0.200000"
+					"PortraitBackgroundColor3"		"0.800000 1.000000 0.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitHideParticles"		"1"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_pudge"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"0"
+			}
+		}

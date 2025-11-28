@@ -1,0 +1,72 @@
+"151"
+		{
+			"name"		"Wraith King's Gauntlet"
+			"prefab"		"default_item"
+            "associated_item"		"21402"
+			"creation_date"		"2020-05-25"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+			"image_inventory"		"econ/items/wraith_king/arcana/wraith_king_arcana_arms"
+			"item_description"		"#DOTA_Item_Desc_Bracers_of_the_One_True_King"
+			"item_name"		"#DOTA_Item_Bracers_of_the_One_True_King"
+			"item_rarity"		"legendary"
+			"item_slot"		"arms"
+			"model_player"		"models/items/wraith_king/arcana/wraith_king_arcana_arms.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"187.858688 40.183319 179.659134"
+							"PortraitAngles"		"27.311947 182.820465 30.602417"
+							"PortraitFOV"		"29"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitLightPosition"		"-78.033058 -133.122223 254.399185"
+					"PortraitLightAngles"		"121.091309 253.482056 0.000000"
+					"PortraitLightFOV"		"75"
+					"PortraitLightDistance"		"99"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitLightScale"		"1.750000"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"1.500000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"-26.570 -12.970 -12.360"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"giftable"		"0"
+				"cannot trade"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_skeleton_king"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+			}
+		}

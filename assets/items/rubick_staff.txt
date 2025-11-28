@@ -1,0 +1,93 @@
+"203"
+		{
+			"name"		"Rubick's Staff"
+			"prefab"		"default_item"
+            "event_id"		"EVENT_ID_WINTER_MAJOR_2016"
+			"image_inventory"		"econ/items/rubick/puppet_master_weapon/puppet_master_weapon"
+			"item_name"		"#DOTA_Item_Torch_of_Fantoccinis_Dilemma"
+			"item_rarity"		"mythical"
+			"item_type_name"		"#DOTA_WearableType_Torch"
+			"model_player"		"models/items/rubick/puppet_master_weapon/puppet_master_weapon.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"129.220200 66.096352 249.114792"
+					"PortraitLightAngles"		"44.324341 198.737183 0.000000"
+					"PortraitLightFOV"		"90"
+					"PortraitLightDistance"		"203"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"1"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"-61.390 114.350 -5.260"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"277.654175 -176.582886 473.224762"
+							"PortraitAngles"		"49.200020 97.526550 0.000000"
+							"PortraitFOV"		"20"
+							"PortraitFar"		"997"
+						}
+					}
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+				}
+			}
+			"static_attributes"
+			{
+				"can_equip_as_ability_effects"
+				{
+					"attribute_class"		"can_equip_as_ability_effects"
+					"value"		"1"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_rubick"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_rubick/rubick_telekinesis.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_puppet_master/rubick_telekinesis_puppet.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier1"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_rubick/rubick_staff_ambient.vpcf"
+					"modifier"		"particles/econ/items/rubick/rubick_puppet_master/rubick_weapon_puppet_ambient.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier2"
+				{
+					"type"		"ability_icon"
+					"asset"		"rubick_telekinesis"
+					"modifier"		"rubick/fantoccinis_dilemma/rubick_telekinesis"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"skip_model_combine"		"1"
+			}
+		}

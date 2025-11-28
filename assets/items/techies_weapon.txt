@@ -1,4 +1,0 @@
-"489"
-		{
-			"name"		"Techies Slingshot"
-			"prefab"		"default_item"

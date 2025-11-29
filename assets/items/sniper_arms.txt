@@ -1,0 +1,57 @@
+"285"
+		{
+			"name"		"Sniper's Bracers"
+			"prefab"		"default_item"
+            "creation_date"		"2020-07-13"
+			"event_id"		"EVENT_ID_DIRETIDE_2020"
+			"image_inventory"		"econ/items/sniper/scifi_sniper_test_arms/scifi_sniper_test_arms"
+			"item_description"		"#DOTA_Item_Desc_Bracers_of_the_Ardalan_Interdictor"
+			"item_name"		"#DOTA_Item_Bracers_of_the_Ardalan_Interdictor"
+			"item_rarity"		"immortal"
+			"item_slot"		"arms"
+			"model_player"		"models/items/sniper/scifi_sniper_test_arms/scifi_sniper_test_arms.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"0.192303 -65.845947 78.430161"
+					"PortraitLightAngles"		"23.400879 130.248413 0.000000"
+					"PortraitLightFOV"		"39"
+					"PortraitLightDistance"		"50"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"4.950000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"0.000000 0.200000 0.700000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"39.910 -29.100 -18.910"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"-63.903458 -235.960968 113.337067"
+							"PortraitAngles"		"13.095703 79.332275 0.000000"
+							"PortraitFOV"		"18"
+							"PortraitFar"		"1000"
+						}
+					}
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sniper"		"1"
+			}
+		}

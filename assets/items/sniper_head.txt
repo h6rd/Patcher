@@ -1,0 +1,76 @@
+"283"
+		{
+			"name"		"Sniper's Head Gear"
+			"prefab"		"default_item"
+            "creation_date"		"2020-07-13"
+			"event_id"		"EVENT_ID_DIRETIDE_2020"
+			"image_inventory"		"econ/items/sniper/scifi_sniper_test_head/scifi_sniper_test_head"
+			"item_description"		"#DOTA_Item_Desc_Helm_of_the_Ardalan_Interdictor"
+			"item_name"		"#DOTA_Item_Helm_of_the_Ardalan_Interdictor"
+			"item_rarity"		"immortal"
+			"item_slot"		"head"
+			"model_player"		"models/items/sniper/scifi_sniper_test_head/scifi_sniper_test_head.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"81.525711 -81.088432 135.777267"
+					"PortraitLightAngles"		"25.235596 151.116943 0.000000"
+					"PortraitLightFOV"		"65"
+					"PortraitLightDistance"		"144"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"4.950000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"0.000000 0.200000 0.700000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"39.910 -29.100 -18.910"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"170.969482 -273.052826 84.127663"
+							"PortraitAngles"		"356.610718 120.184937 0.000000"
+							"PortraitFOV"		"12"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sniper"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_head.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"response_criteria"
+					"asset"		"sniper_helmet"
+				}
+			}
+		}

@@ -1,0 +1,84 @@
+"141"
+		{
+			"name"		"Phantom Assassin's Daggers"
+			"prefab"		"default_item"
+			"creation_date"		"2019-05-15"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+			"image_inventory"		"econ/items/phantom_assassin/ti9_cache_pa_gothic_hunter_belt/ti9_cache_pa_gothic_hunter_belt"
+			"item_name"		"#DOTA_Item_Gothic_Whisper_Belt"
+			"item_rarity"		"mythical"
+			"item_slot"		"belt"
+			"item_type_name"		"#DOTA_WearableType_Belt"
+			"model_player"		"models/items/phantom_assassin/ti9_cache_pa_gothic_hunter_belt/ti9_cache_pa_gothic_hunter_belt.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"76.932938 -29.410818 221.487381"
+					"PortraitLightAngles"		"57.661743 141.822510 0.000000"
+					"PortraitLightFOV"		"46"
+					"PortraitLightDistance"		"242"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"1.500000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"2.750000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_CAPTURE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"197.904 4.526 -33.190"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"180.583405 -50.599747 123.926201"
+							"PortraitAngles"		"12.628784 164.196167 2.109375"
+							"PortraitFOV"		"32"
+							"PortraitFar"		"1000"
+						}
+					}
+				}
+			}
+			"static_attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"		"cannot_trade"
+					"value"		"1"
+				}
+				"international tag"
+				{
+					"attribute_class"		"international_tag"
+					"value"		"2019"
+				}
+				"additional_tooltip_text"
+				{
+					"attribute_class"		"additional_tooltip_text"
+					"value"		"#DOTA_EconItemSet_Tooltip_Exclusive_TI9_Collectors_Cache"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_assassin"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/phantom_assassin/ti9_cache_pa_gothic_hunter_belt/ti9_cache_pa_gothic_belt_ambient.vpcf"
+				}
+				"skip_model_combine"		"1"
+			}
+		}

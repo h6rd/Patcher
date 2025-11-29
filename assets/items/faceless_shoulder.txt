@@ -1,0 +1,247 @@
+"91"
+		{
+			"name"		"Faceless Void's Shoulder"
+			"prefab"		"default_item"
+			"creation_date"		"2015-03-25"
+			"image_inventory"		"econ/items/faceless_void/jewel_of_aeons/jewel_of_aeons1"
+			"item_description"		"#DOTA_Item_Desc_Jewel_of_Aeons"
+			"item_name"		"#DOTA_Item_Jewel_of_Aeons"
+			"item_rarity"		"immortal"
+			"item_slot"		"shoulder"
+			"item_type_name"		"#DOTA_WearableType_Shoulder_Guard"
+			"model_player"		"models/items/faceless_void/jewel_of_aeons/jewel_of_aeons.vmdl"
+			"particle_folder"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"-140.303894 -94.836868 310.277954"
+					"PortraitLightAngles"		"44.170532 22.115479 0.000000"
+					"PortraitLightFOV"		"39"
+					"PortraitLightDistance"		"329"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"1.200000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.200000"
+					"PortraitBackgroundColor2"		"0.000000 0.000000 0.200000"
+					"PortraitBackgroundColor3"		"0.600000 0.200000 0.000000"
+					"PortraitBackgroundColor4"		"1.000000 0.100000 0.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"-53.510 78.600 -133.900"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"-276.989105 52.520191 493.203339"
+							"PortraitAngles"		"48.422241 350.540771 0.000000"
+							"PortraitFOV"		"14"
+							"PortraitFar"		"1000"
+						}
+					}
+				}
+			}
+			"static_attributes"
+			{
+				"international tag"		"2015"
+				"static socket 1"		"socket { required_hero: 'npc_dota_hero_sven' gem_def_index: 3005 } asset_modifier: 136"
+				"can_equip_as_ability_effects"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_faceless_void"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"aeons"
+				}
+				"asset_modifier1"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_time_walk.vpcf"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_time_walk_jewel.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier2"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_time_walk_slow.vpcf"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_time_walk_slow_jewel.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier3"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_time_walk_preimage.vpcf"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_time_walk_preimage_jewel.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier4"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_faceless_void/faceless_void_time_walk_debuff.vpcf"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_time_walk_debuff_jewel.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier5"
+				{
+					"type"		"sound"
+					"asset"		"Hero_FacelessVoid.TimeWalk"
+					"modifier"		"Hero_FacelessVoid.TimeWalk.Aeons"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier6"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_ambient_aeons.vpcf"
+					"required_arcana_level"		"0"
+					"style"		"0"
+				}
+				"asset_modifier7"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_core_ambient_aeons.vpcf"
+				}
+				"asset_modifier8"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk.vpcf"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk_combined.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier9"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk_preimage.vpcf"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk_preimage_combined.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier10"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk_v2.vpcf"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk_combined_v2.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier11"
+				{
+					"type"		"particle_combined"
+					"asset"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk_preimage_v2.vpcf"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_arcana/faceless_void_arcana_time_walk_preimage_combined_v2.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier12"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_ambient_aeons_refit.vpcf"
+					"required_arcana_level"		"1"
+					"style"		"0"
+				}
+				"asset_modifier13"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_ambient_aeons_refit_v2.vpcf"
+					"required_arcana_level"		"1"
+					"style"		"1"
+				}
+				"asset_modifier14"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_ambient_aeons_refit.vpcf"
+					"required_arcana_level"		"2"
+					"style"		"0"
+				}
+				"asset_modifier15"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_ambient_aeons_refit_v2.vpcf"
+					"required_arcana_level"		"2"
+					"style"		"1"
+				}
+				"asset_modifier16"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_ambient_aeons_v2.vpcf"
+					"required_arcana_level"		"0"
+					"style"		"1"
+				}
+				"asset_modifier17"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_ambient_aeons_refit_v3.vpcf"
+					"required_arcana_level"		"2"
+					"style"		"2"
+				}
+				"asset_modifier18"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_ambient_aeons_refit_v3.vpcf"
+					"required_arcana_level"		"1"
+					"style"		"2"
+				}
+				"asset_modifier19"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/faceless_void/faceless_void_jewel_of_aeons/fv_ambient_aeons_v3.vpcf"
+					"required_arcana_level"		"0"
+					"style"		"2"
+				}
+				"skip_model_combine"		"1"
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Style_Jewel_of_Aeons_0"
+						"skin"		"0"
+						"alternate_icon"		"0"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Style_Jewel_of_Aeons_1"
+						"skin"		"1"
+						"alternate_icon"		"1"
+					}
+					"2"
+					{
+						"name"		"#DOTA_Style_Jewel_of_Aeons_2"
+						"skin"		"2"
+						"alternate_icon"		"2"
+					}
+				}
+				"alternate_icons"
+				{
+					"0"
+					{
+						"icon_path"		"econ/items/faceless_void/jewel_of_aeons/jewel_of_aeons1"
+					}
+					"1"
+					{
+						"icon_path"		"econ/items/faceless_void/jewel_of_aeons/jewel_of_aeons1_style1"
+					}
+					"2"
+					{
+						"icon_path"		"econ/items/faceless_void/jewel_of_aeons/jewel_of_aeons1_style2"
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"faceless_void_time_walk"
+					"modifier"		"faceless_void/jewelofaeons/faceless_void_time_walk_1"
+				}
+			}
+		}

@@ -1,0 +1,465 @@
+"140"
+		{
+			"name"		"Phantom Assassin's Weapon"
+			"prefab"		"default_item"
+			"creation_date"		"2014-11-20"
+			"image_inventory"		"econ/items/phantom_assassin/manifold_paradox/arcana_pa"
+			"item_description"		"#DOTA_Item_Desc_Manifold_Paradox"
+			"item_name"		"#DOTA_Item_Manifold_Paradox"
+			"item_rarity"		"arcana"
+			"item_type_name"		"#DOTA_WearableType_Parallel_Blades"
+			"model_player"		"models/heroes/phantom_assassin/pa_arcana_weapons.vmdl"
+			"particle_folder"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"43.469486 -144.185776 278.407593"
+					"PortraitLightAngles"		"56.947632 169.584961 0.000000"
+					"PortraitLightFOV"		"69"
+					"PortraitLightDistance"		"377"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.500000 0.300000 0.000000"
+					"PortraitBackgroundColor2"		"1.000000 0.000000 0.000000"
+					"PortraitBackgroundColor3"		"1.000000 0.000000 0.000000"
+					"PortraitBackgroundColor4"		"0.600000 0.100000 0.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"1"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"-31.130146 -71.806107 187.477036"
+							"PortraitAngles"		"63.522949 84.309082 0.000000"
+							"PortraitFOV"		"90"
+							"PortraitFar"		"1000"
+						}
+					}
+				}
+				"game"
+				{
+					"PortraitLightPosition"		"54.62 36.72 198.40"
+					"PortraitLightAngles"		"63.06 209.38 0.00"
+					"PortraitLightFOV"		"46"
+					"PortraitLightDistance"		"138"
+					"PortraitLightColor"		"182 254 231"
+					"PortraitShadowColor"		"111 79 74"
+					"PortraitShadowScale"		"5"
+					"PortraitAmbientColor"		"0 169 229"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"0.2500000 0.750000 0.700000"
+					"PortraitBackgroundColor3"		"0.700000 1.0000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_whiteExterior.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_CAPTURE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"1"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"-20.080 -36.930 -52.650"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"154.92 19.83 183.77"
+							"PortraitAngles"		"16.30 184.53 2.11"
+							"PortraitFOV"		"15"
+						}
+					}
+				}
+			}
+			"price_info"
+			{
+				"category_tags"		"Equipment"
+				"date"		"11/17/2014"
+				"price"		"0"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_phantom_assassin"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Item_Desc_Manifold_Paradox_Style2"
+						"alternate_icon"		"2"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Item_Desc_Manifold_Paradox_Style0"
+						"alternate_icon"		"0"
+					}
+					"2"
+					{
+						"name"		"#DOTA_Item_Desc_Manifold_Paradox_Style1"
+						"alternate_icon"		"1"
+						"unlock"
+						{
+							"gem"
+							{
+								"def_index"		"3006"
+								"type_field"		"strange_type"
+								"type_value"		"219"
+								"unlock_field"		"strange_value"
+								"unlock_value"		"40"
+							}
+						}
+					}
+				}
+				"alternate_icons"
+				{
+					"0"
+					{
+						"icon_path"		"econ/items/phantom_assassin/manifold_paradox/arcana_pa"
+					}
+					"1"
+					{
+						"icon_path"		"econ/items/phantom_assassin/manifold_paradox/arcana_pa_style1"
+					}
+					"2"
+					{
+						"icon_path"		"econ/items/phantom_assassin/manifold_paradox/arcana_pa_style2"
+					}
+				}
+				"asset_modifier0"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_hero_phantom_assassin"
+					"modifier"		"models/heroes/phantom_assassin/pa_arcana.vmdl"
+				}
+				"asset_modifier1"
+				{
+					"type"		"buff_modifier"
+					"modifier"		"modifier_phantomassassin_gravestone"
+				}
+				"asset_modifier3"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_phantom_assassin/phantom_assassin_phantom_strike_start.vpcf"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_phantom_strike_start.vpcf"
+				}
+				"asset_modifier4"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_phantom_assassin/phantom_assassin_phantom_strike_end.vpcf"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_phantom_strike_end.vpcf"
+				}
+				"asset_modifier5"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"arcana"
+				}
+				"asset_modifier6"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_phantom_assassin/phantom_assassin_crit_impact.vpcf"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/phantom_assassin_crit_arcana_swoop.vpcf"
+				}
+				"asset_modifier7"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_phantom_assassin/phantom_assassin_ambient_blade.vpcf"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_blade_null.vpcf"
+				}
+				"asset_modifier8"
+				{
+					"type"		"response_criteria"
+					"asset"		"paradox"
+				}
+				"asset_modifier2"
+				{
+					"type"		"particle"
+					"asset"		"particles/reftononexistentsystem/cannotfindremap/phantom_assassin_screen_blood_splatter.vpcf"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_screen_blood_splatter.vpcf"
+				}
+				"asset_modifier10"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_phantom_assassin/phantom_assassin_crit_impact_mechanical.vpcf"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/phantom_assassin_crit_mechanical_arcana_swoop.vpcf"
+				}
+				"asset_modifier11"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_phantom_assassin/phantom_assassin_stifling_dagger.vpcf"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/phantom_assassin_stifling_dagger_arcana.vpcf"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier12"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_phantom_assassin/phantom_assassin_crit_impact_dagger.vpcf"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/phantom_assassin_crit_impact_dagger_arcana.vpcf"
+				}
+				"asset_modifier13"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_phantom_assassin/phantom_assassin_crit_impact_dagger_mechanical.vpcf"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/phantom_assassin_crit_impact_dagger_mechanical_arcana.vpcf"
+				}
+				"asset_modifier14"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_phantom_assassin/phantom_assassin_stifling_dagger_debuff.vpcf"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/phantom_assassin_stifling_dagger_debuff_arcana.vpcf"
+				}
+				"asset_modifier15"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_phantom_assassin/phantom_assassin_death.vpcf"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_death.vpcf"
+				}
+				"asset_modifier16"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_phantom_assassin/phantom_assassin_loadout.vpcf"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_loadout.vpcf"
+				}
+				"asset_modifier17"
+				{
+					"type"		"sound"
+					"asset"		"Hero_PhantomAssassin.CoupDeGrace"
+					"modifier"		"Hero_PhantomAssassin.CoupDeGrace.Arcana"
+				}
+				"asset_modifier18"
+				{
+					"type"		"portrait_background_model"
+					"asset"		"models/heroes/phantom_assassin/arcana_pedestal.vmdl"
+				}
+				"skip_model_combine"		"1"
+				"asset_modifier19"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_phantom_assassin"
+					"modifier"		"npc_dota_hero_phantom_assassin_alt1"
+					"force_display"		"1"
+				}
+				"asset_modifier20"
+				{
+					"type"		"ability_icon"
+					"asset"		"phantom_assassin_stifling_dagger"
+					"modifier"		"phantom_assassin_arcana_stifling_dagger"
+					"minimum_priority"		"1"
+				}
+				"asset_modifier21"
+				{
+					"type"		"ability_icon"
+					"asset"		"phantom_assassin_blur"
+					"modifier"		"phantom_assassin_arcana_blur"
+				}
+				"asset_modifier22"
+				{
+					"type"		"ability_icon"
+					"asset"		"phantom_assassin_phantom_strike"
+					"modifier"		"phantom_assassin_arcana_phantom_strike"
+				}
+				"asset_modifier23"
+				{
+					"type"		"ability_icon"
+					"asset"		"phantom_assassin_coup_de_grace"
+					"modifier"		"phantom_assassin_arcana_coup_de_grace"
+				}
+				"asset_modifier24"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_blade_ambient_a.vpcf"
+					"control_point_number"		"26"
+					"cp_position"		"100 0 0"
+					"style"		"0"
+				}
+				"asset_modifier25"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_blade_ambient_a.vpcf"
+					"control_point_number"		"26"
+					"cp_position"		"100 0 0"
+					"style"		"2"
+				}
+				"asset_modifier26"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_blade_ambient_b.vpcf"
+					"control_point_number"		"26"
+					"cp_position"		"100 0 0"
+					"style"		"0"
+				}
+				"asset_modifier27"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_blade_ambient_b.vpcf"
+					"control_point_number"		"26"
+					"cp_position"		"100 0 0"
+					"style"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_arcana_blade_ambient_a.vpcf"
+					"control_point_number"		"26"
+					"cp_position"		"100 0 0"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_arcana_blade_ambient_a.vpcf"
+					"control_point_number"		"26"
+					"cp_position"		"100 0 0"
+					"style"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_arcana_blade_ambient_b.vpcf"
+					"control_point_number"		"26"
+					"cp_position"		"100 0 0"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_arcana_blade_ambient_b.vpcf"
+					"control_point_number"		"26"
+					"cp_position"		"100 0 0"
+					"style"		"2"
+				}
+				"asset_modifier28"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_elder_ambient.vpcf"
+				}
+				"asset_modifier29"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_blade_ambient_a.vpcf"
+				}
+				"asset_modifier30"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_blade_ambient_b.vpcf"
+				}
+				"asset_modifier31"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_elder_eyes_l.vpcf"
+				}
+				"asset_modifier32"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/phantom_assassin/phantom_assassin_arcana_elder_smith/pa_arcana_elder_eyes_r.vpcf"
+				}
+				"asset_modifier33"
+				{
+					"type"		"arcana_level"
+					"level"		"1"
+					"style"		"1"
+				}
+				"asset_modifier34"
+				{
+					"type"		"arcana_level"
+					"level"		"2"
+					"style"		"2"
+				}
+				"asset_modifier35"
+				{
+					"type"		"arcana_level"
+					"level"		"3"
+					"style"		"0"
+				}
+				"asset_modifier36"
+				{
+					"type"		"icon_replacement_hero_minimap"
+					"asset"		"npc_dota_hero_phantom_assassin"
+					"modifier"		"npc_dota_hero_phantom_assassin_alt1"
+					"force_display"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"phantom_assassin_phass_laugh_07"
+					"modifier"		"phantom_assassin_phass_arc_laugh_07"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"phantom_assassin_phass_happy_09"
+					"modifier"		"phantom_assassin_phass_arc_happy_09"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"phantom_assassin_phass_kill_02"
+					"modifier"		"phantom_assassin_phass_arc_kill_02"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"phantom_assassin_phass_kill_10"
+					"modifier"		"phantom_assassin_phass_arc_kill_10"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"phantom_assassin_phass_kill_01"
+					"modifier"		"phantom_assassin_phass_arc_kill_01"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"phantom_assassin_phass_ability_blur_02"
+					"modifier"		"phantom_assassin_phass_arc_ability_blur_02"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"phantom_assassin_phass_deny_14"
+					"modifier"		"phantom_assassin_phass_arc_deny_14"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"phantom_assassin_phass_level_06"
+					"modifier"		"phantom_assassin_phass_arc_level_06"
+				}
+				"asset_modifier"
+				{
+					"type"		"chatwheel"
+					"asset"		"phantom_assassin_phass_kill_12"
+					"modifier"		"phantom_assassin_phass_arc_kill_12"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_back.vmdl"
+					"modifier"		"models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_back_arcana_refit.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"model"
+					"asset"		"models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_back_1.vmdl"
+					"modifier"		"models/items/phantom_assassin/lunar_dragon_pa/lunar_dragon_pa_back_arcana_refit_1.vmdl"
+				}
+			}
+		}

@@ -1,0 +1,81 @@
+"282"
+		{
+			"name"		"Sniper's Cape"
+			"prefab"		"default_item"
+            "creation_date"		"2020-07-13"
+			"event_id"		"EVENT_ID_DIRETIDE_2020"
+			"image_inventory"		"econ/items/sniper/scifi_sniper_test_back/scifi_sniper_test_back"
+			"item_description"		"#DOTA_Item_Desc_Tales_of_the_Ardalan_Interdictor"
+			"item_name"		"#DOTA_Item_Pack_of_the_Ardalan_Interdictor"
+			"item_rarity"		"immortal"
+			"item_slot"		"back"
+			"match_cycle_to_parent"		"0"
+			"model_player"		"models/items/sniper/scifi_sniper_test_back/scifi_sniper_test_back.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"-162.829575 -8.148069 151.254944"
+					"PortraitLightAngles"		"35.244141 2.219238 0.000000"
+					"PortraitLightFOV"		"65"
+					"PortraitLightDistance"		"317"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"4.950000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"0.000000 0.200000 0.700000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"39.910 -29.100 -18.910"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"-219.739258 -5.506701 203.406815"
+							"PortraitAngles"		"34.112549 1.400757 0.000000"
+							"PortraitFOV"		"39"
+							"PortraitFar"		"1000"
+						}
+					}
+				}
+			}
+			"static_attributes"
+			{
+				"is commodity"
+				{
+					"attribute_class"		"is commodity"
+					"value"		"1"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sniper"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"back"
+				}
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_jetpack.vpcf"
+				}
+			}
+		}

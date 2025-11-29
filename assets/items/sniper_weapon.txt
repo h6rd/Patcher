@@ -1,0 +1,148 @@
+"281"
+		{
+			"name"		"Sniper's Weapon"
+			"prefab"		"default_item"
+            "creation_date"		"2020-07-13"
+			"event_id"		"EVENT_ID_DIRETIDE_2020"
+			"image_inventory"		"econ/items/sniper/scifi_sniper_test_gun/scifi_sniper_test_gun"
+			"item_description"		"#DOTA_Item_Desc_Weapon_of_the_Ardalan_Interdictor"
+			"item_name"		"#DOTA_Item_Weapon_of_the_Ardalan_Interdictor"
+			"item_rarity"		"immortal"
+			"match_cycle_to_parent"		"0"
+			"model_player"		"models/items/sniper/scifi_sniper_test_gun/scifi_sniper_test_gun.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"-75.074516 -50.169971 140.933929"
+					"PortraitLightAngles"		"40.632935 27.377930 0.000000"
+					"PortraitLightFOV"		"44"
+					"PortraitLightDistance"		"190"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"4.950000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"0.000000 0.200000 0.700000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"1"
+					"PortraitLightScale"		"3.925000"
+					"PortraitAmbientDirection"		"39.910 -29.100 -18.910"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"240.493378 -261.196167 132.337494"
+							"PortraitAngles"		"13.039409 130.143066 17.279999"
+							"PortraitFOV"		"31.590000"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"1"
+					"PortraitDesaturateParticles"		"0"
+					"hero_presets"
+					{
+						"Default"
+						{
+							"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+						}
+					}
+					"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+					"PortraitAllowAnimatedPortrait"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"can_equip_as_ability_effects"		"1"
+				"can_equip_as_ability_effects"		"4"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sniper"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"gun"
+				}
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_weapon_ambient.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_sniper/sniper_assassinate.vpcf"
+					"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_assassinate.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_sniper/sniper_base_attack.vpcf"
+					"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_base_attack.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_sniper/sniper_shrapnel.vpcf"
+					"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_shrapnel.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_sniper/sniper_shrapnel_launch.vpcf"
+					"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_shrapnel_launch.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_sniper/sniper_crosshair.vpcf"
+					"modifier"		"particles/econ/items/sniper/sniper_fall20_immortal/sniper_fall20_immortal_crosshair.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"sniper_shrapnel"
+					"modifier"		"sniper_fall20_shrapnel"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"sniper_assassinate"
+					"modifier"		"sniper_fall20_assassinate"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Sniper.attack"
+					"modifier"		"Hero_Sniper.Attack.DT20"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+			}
+		}

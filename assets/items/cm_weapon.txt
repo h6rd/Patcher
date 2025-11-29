@@ -1,0 +1,103 @@
+"40"
+		{
+			"name"		"Crystal Maiden's Weapon"
+			"prefab"		"default_item"
+            "creation_date"		"2019-07-08"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+			"image_inventory"		"econ/items/crystal_maiden/cm_ti9_immortal_weapon/cm_ti9_immortal_weapon"
+			"item_description"		"#DOTA_Item_Desc_Ice_Blossom"
+			"item_name"		"#DOTA_Item_Ice_Blossom"
+			"item_rarity"		"immortal"
+			"item_type_name"		"#DOTA_WearableType_Staff"
+			"model_player"		"models/items/crystal_maiden/cm_ti9_immortal_weapon/cm_ti9_immortal_weapon.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"149.470490 8.490000 172.123657"
+					"PortraitLightAngles"		"42.580002 144.107666 0.000000"
+					"PortraitLightFOV"		"56.811001"
+					"PortraitLightDistance"		"226.910004"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"4.750000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_ATTACK"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"1"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"130.401779 -86.924843 -51.998474"
+							"PortraitAngles"		"316.214905 116.432838 27.720001"
+							"PortraitFOV"		"38"
+							"PortraitFar"		"995"
+						}
+					}
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"1"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"tradable after date"
+				{
+					"attribute_class"		"tradable_after_date"
+					"value"		"1567332000"
+				}
+				"can_equip_as_ability_effects"
+				{
+					"attribute_class"		"can_equip_as_ability_effects"
+					"value"		"3"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_crystal_maiden"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/ability_modifier_placeholder/brilliance_aura.vpcf"
+					"modifier"		"particles/econ/items/crystal_maiden/ti9_immortal_staff/cm_ti9_staff_lvlup_globe.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"3"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/crystal_maiden/ti9_immortal_staff/cm_ti9_staff_ambient.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"crystal_maiden_brilliance_aura"
+					"modifier"		"crystal_maiden_brilliance_aura_ti9"
+					"apply_when_equipped_in_ability_effects_slot"		"3"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"ti9"
+				}
+			}
+		}

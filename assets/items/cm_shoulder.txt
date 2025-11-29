@@ -1,0 +1,140 @@
+"39"
+		{
+			"name"		"Crystal Maiden's Shoulder Pads"
+			"prefab"		"default_item"
+            "creation_date"		"2017-05-04"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2017"
+			"hide_tradecraftdelete"		"1"
+			"image_inventory"		"econ/items/crystal_maiden/immortal_shoulders/cm_immortal_shoulders"
+			"item_description"		"#DOTA_Item_Desc_Yulsarias_Mantle"
+			"item_name"		"#DOTA_Item_Yulsarias_Mantle"
+			"item_rarity"		"immortal"
+			"item_slot"		"shoulder"
+			"item_type_name"		"#DOTA_WearableType_shawl"
+			"match_cycle_to_parent"		"0"
+			"model_player"		"models/items/crystal_maiden/immortal_shoulders/cm_immortal_shoulders.vmdl"
+			"particle_folder"		"particles/econ/items/crystal_maiden/crystal_maiden_cowl_of_ice"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"35.511364 6.644563 160.784561"
+					"PortraitLightAngles"		"36.603935 -148.925369 -1.986059"
+					"PortraitLightFOV"		"90"
+					"PortraitLightDistance"		"66"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"4.750000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"210.629807 -48.345013 102.292374"
+							"PortraitAngles"		"350.557251 166.728516 0.000000"
+							"PortraitFOV"		"37.133999"
+							"PortraitFar"		"272"
+						}
+					}
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"tradable after date"
+				{
+					"attribute_class"		"tradable_after_date"
+					"value"		"1535796000"
+				}
+				"additional_tooltip_text"
+				{
+					"attribute_class"		"additional_tooltip_text"
+					"value"		"#DOTA_EconItemSet_Tooltip_Immortals_Exclusive_To_TI7_BattlePass_Owners"
+				}
+				"can_equip_as_ability_effects"
+				{
+					"attribute_class"		"can_equip_as_ability_effects"
+					"value"		"2"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_crystal_maiden"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_crystalmaiden/maiden_frostbite_buff.vpcf"
+					"modifier"		"particles/econ/items/crystal_maiden/ti7_immortal_shoulder/cm_ti7_immortal_frostbite.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_crystalmaiden/maiden_frostbite.vpcf"
+					"modifier"		"particles/econ/items/crystal_maiden/ti7_immortal_shoulder/cm_ti7_immortal_frostbite_proj.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/crystal_maiden/ti7_immortal_shoulder/cm_ti7_immortal_ambient.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"immortal_shoulder"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_frost.vpcf"
+					"modifier"		"particles/status_fx/status_effect_snow_heavy.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"crystal_maiden_frostbite"
+					"modifier"		"crystal_maiden_frostbite_immortal"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_crystalmaiden/maiden_base_attack.vpcf"
+					"modifier"		"particles/econ/items/crystal_maiden/ti7_immortal_shoulder/cm_ti7_immortal_base_attack.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+			}
+		}

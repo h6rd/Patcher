@@ -1,0 +1,138 @@
+"311"
+		{
+			"name"		"Crystal Maiden's Headdress"
+			"prefab"		"default_item"
+            "creation_date"		"2014-05-22"
+			"image_inventory"		"econ/items/crystal_maiden/cowl_of_ice/cowl_of_ice"
+			"item_description"		"#DOTA_Item_Desc_Cowl_of_Ice"
+			"item_name"		"#DOTA_Item_Yulsarias_Glacier"
+			"item_rarity"		"immortal"
+			"item_slot"		"head"
+			"item_type_name"		"#DOTA_WearableType_Crown"
+			"model_player"		"models/items/crystal_maiden/cowl_of_ice/cowl_of_ice.vmdl"
+			"particle_folder"		"particles/econ/items/crystal_maiden/crystal_maiden_cowl_of_ice"
+			"portraits"
+			{
+				"game"
+				{
+					"PortraitLightPosition"		"62.97 14.27 196.06"
+					"PortraitLightAngles"		"36.34 197.45 0.00"
+					"PortraitLightFOV"		"90"
+					"PortraitLightDistance"		"97"
+					"PortraitLightColor"		"217 217 217"
+					"PortraitShadowColor"		"48 48 69"
+					"PortraitShadowScale"		"5"
+					"PortraitAmbientColor"		"117 84 74"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitBackgroundTexture"		"materials/vgui/hud/heroportraits/portraitbackground_whiteExterior.vmat"
+					"PortraitBackgroundColor1"		"0 .4 1"
+					"PortraitBackgroundColor2"		"1 1 1"
+					"PortraitBackgroundColor3"		"1 .7 .3"
+					"PortraitBackgroundColor4"		"1 .6 .3"
+					"PortraitLightScale"		"1"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"32.420 -10.920 5.570"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"152.80 -51.07 146.58"
+							"PortraitAngles"		"355.89 160.11 0.00"
+							"PortraitFOV"		"20"
+						}
+					}
+				}
+				"icon"
+				{
+					"PortraitLightPosition"		"30.620962 2.076556 156.418594"
+					"PortraitLightAngles"		"39.144287 212.294312 0.000000"
+					"PortraitLightFOV"		"90"
+					"PortraitLightDistance"		"66"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"4.750000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"18.200 -36.780 -11.370"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"210.629807 -48.345013 164.000717"
+							"PortraitAngles"		"0.868785 166.728516 0.000000"
+							"PortraitFOV"		"23"
+							"PortraitFar"		"272"
+						}
+					}
+					"hero_presets"
+					{
+						"Default"
+						{
+							"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+						}
+					}
+					"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+				}
+			}
+			"static_attributes"
+			{
+				"international tag"		"2014"
+				"can_equip_as_ability_effects"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_crystal_maiden"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_crystalmaiden/maiden_crystal_nova.vpcf"
+					"modifier"		"particles/econ/items/crystal_maiden/crystal_maiden_cowl_of_ice/maiden_crystal_nova_cowlofice.vpcf"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"skip_model_combine"		"1"
+				"asset_modifier1"
+				{
+					"type"		"ability_icon"
+					"asset"		"crystal_maiden_crystal_nova"
+					"modifier"		"crystal_maiden_crystal_nova_icecowl"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier2"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Crystal.CrystalNova"
+					"modifier"		"Hero_Crystal.CrystalNova.Yulsaria"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier3"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/crystal_maiden/crystal_maiden_cowl_of_ice/crystal_maiden_cowl_ambient.vpcf"
+				}
+			}
+		}

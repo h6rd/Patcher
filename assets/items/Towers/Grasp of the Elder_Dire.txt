@@ -1,14 +1,13 @@
-"677"
+"678"
 		{
-			"name"		"Default Radiant Towers"
-			"prefab"		"radianttowers"
+			"name"		"Default Dire Towers"
+			"prefab"		"diretowers"
 			"baseitem"		"1"
-            "creation_date"		"2020-05-25"
-			"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+			"creation_date"		"2021-04-20"
+			"event_id"		"EVENT_ID_NONE"
 			"hide_tradecraftdelete"		"1"
-			"image_inventory"		"econ/tools/ti10_radiant_tower"
-			"item_description"		"by @dota2pornfx"
-			"item_name"		"#DOTA_Item_Declaration_of_the_Divine_Light_Radiant_Towers"
+			"image_inventory"		"econ/tools/dire_tower_2021"
+			"item_name"		"#DOTA_Item_Grasp_of_the_Elder_Gods__Dire_Towers"
 			"item_rarity"		"legendary"
 			"portraits"
 			{
@@ -69,139 +68,120 @@
 					"attribute_class"		"cannot_trade"
 					"value"		"1"
 				}
-				"not marketable"
-				{
-					"attribute_class"		"not marketable"
-					"value"		"1"
-				}
-				"cannot delete"
-				{
-					"attribute_class"		"cannot_delete"
-					"value"		"1"
-				}
-				"additional_exclusive_tooltip_text"
-				{
-					"attribute_class"		"additional_exclusive_tooltip_text"
-					"value"		"#DOTA_EconItemSet_Tooltip_TI10_Exclusive_Item"
-				}
-				"giftable"
-				{
-					"attribute_class"		"giftable"
-					"value"		"0"
-				}
 			}
 			"visuals"
 			{
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
-					"asset"		"npc_dota_goodguys_tower1_top"
-					"modifier"		"models/items/world/towers/ti10_radiant_tower/ti10_radiant_tower.vmdl"
+					"asset"		"npc_dota_badguys_tower1_top"
+					"modifier"		"models/items/world/towers/dire_tower_2021/dire_tower_2021_right.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
-					"asset"		"npc_dota_goodguys_tower1_mid"
-					"modifier"		"models/items/world/towers/ti10_radiant_tower/ti10_radiant_tower.vmdl"
+					"asset"		"npc_dota_badguys_tower1_mid"
+					"modifier"		"models/items/world/towers/dire_tower_2021/dire_tower_2021_right.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
-					"asset"		"npc_dota_goodguys_tower1_bot"
-					"modifier"		"models/items/world/towers/ti10_radiant_tower/ti10_radiant_tower.vmdl"
+					"asset"		"npc_dota_badguys_tower1_bot"
+					"modifier"		"models/items/world/towers/dire_tower_2021/dire_tower_2021.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
-					"asset"		"npc_dota_goodguys_tower2_top"
-					"modifier"		"models/items/world/towers/ti10_radiant_tower/ti10_radiant_tower.vmdl"
+					"asset"		"npc_dota_badguys_tower2_top"
+					"modifier"		"models/items/world/towers/dire_tower_2021/dire_tower_2021_right.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
-					"asset"		"npc_dota_goodguys_tower2_mid"
-					"modifier"		"models/items/world/towers/ti10_radiant_tower/ti10_radiant_tower.vmdl"
+					"asset"		"npc_dota_badguys_tower2_mid"
+					"modifier"		"models/items/world/towers/dire_tower_2021/dire_tower_2021_right.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
-					"asset"		"npc_dota_goodguys_tower2_bot"
-					"modifier"		"models/items/world/towers/ti10_radiant_tower/ti10_radiant_tower.vmdl"
+					"asset"		"npc_dota_badguys_tower2_bot"
+					"modifier"		"models/items/world/towers/dire_tower_2021/dire_tower_2021.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
-					"asset"		"npc_dota_goodguys_tower3_top"
-					"modifier"		"models/items/world/towers/ti10_radiant_tower/ti10_radiant_tower.vmdl"
+					"asset"		"npc_dota_badguys_tower3_top"
+					"modifier"		"models/items/world/towers/dire_tower_2021/dire_tower_2021_right.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
-					"asset"		"npc_dota_goodguys_tower3_mid"
-					"modifier"		"models/items/world/towers/ti10_radiant_tower/ti10_radiant_tower.vmdl"
+					"asset"		"npc_dota_badguys_tower3_mid"
+					"modifier"		"models/items/world/towers/dire_tower_2021/dire_tower_2021_right.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
-					"asset"		"npc_dota_goodguys_tower3_bot"
-					"modifier"		"models/items/world/towers/ti10_radiant_tower/ti10_radiant_tower.vmdl"
+					"asset"		"npc_dota_badguys_tower3_bot"
+					"modifier"		"models/items/world/towers/dire_tower_2021/dire_tower_2021.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
-					"asset"		"npc_dota_goodguys_tower4"
-					"modifier"		"models/items/world/towers/ti10_radiant_tower/ti10_radiant_tower.vmdl"
+					"asset"		"dota_badguys_tower4_top"
+					"modifier"		"models/items/world/towers/dire_tower_2021/dire_tower_2021_right.vmdl"
+					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
+				}
+				"asset_modifier"
+				{
+					"type"		"entity_clientside_model"
+					"asset"		"dota_badguys_tower4_bot"
+					"modifier"		"models/items/world/towers/dire_tower_2021/dire_tower_2021.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"particle_clientside"
-					"asset"		"particles/base_attacks/ranged_tower_good.vpcf"
-					"modifier"		"particles/econ/world/towers/ti10_radiant_tower/ti10_radiant_tower_attack.vpcf"
+					"asset"		"particles/base_attacks/ranged_tower_bad.vpcf"
+					"modifier"		"particles/econ/world/towers/dire_tower_2021/dire_tower_2021_attack.vpcf"
 				}
 				"asset_modifier"
 				{
 					"type"		"particle_clientside"
-					"asset"		"particles/radiant_fx/tower_good3_lamp.vpcf"
-					"modifier"		"particles/econ/world/towers/ti10_radiant_tower/ti10_radiant_tower_ambient.vpcf"
+					"asset"		"particles/dire_fx/tower_bad_lamp.vpcf"
+					"modifier"		"particles/econ/world/towers/dire_tower_2021/dire_tower_2021_ambient.vpcf"
 				}
 				"asset_modifier"
 				{
 					"type"		"particle"
-					"asset"		"particles/units/radiant_towers_ambient_loadout.vpcf"
-					"modifier"		"particles/econ/world/towers/ti10_radiant_tower/ti10_radiant_tower_ambient.vpcf"
+					"asset"		"particles/units/dire_towers_ambient_loadout.vpcf"
+					"modifier"		"particles/econ/world/towers/dire_tower_2021/dire_tower_2021_ambient.vpcf"
 				}
 				"asset_modifier"
 				{
 					"type"		"particle_clientside"
-					"asset"		"particles/radiant_fx/radiant_tower002_destruction.vpcf"
-					"modifier"		"particles/econ/world/towers/ti10_radiant_tower/ti10_radiant_tower_destruction.vpcf"
+					"asset"		"particles/dire_fx/dire_tower002_destruction.vpcf"
+					"modifier"		"particles/econ/world/towers/dire_tower_2021/dire_tower_2021_destruction.vpcf"
 				}
 				"asset_modifier"
 				{
-					"type"		"sound_clientside"
-					"asset"		"Building_RadiantTower.Destruction"
-					"modifier"		"Building_RadiantTower.Destruction.TI10"
-				}
-				"asset_modifier"
-				{
-					"type"		"sound_clientside"
-					"asset"		"Tower.Water.Attack"
-					"modifier"		"Tower.Radiant.Attack.TI10"
+					"type"		"particle_clientside"
+					"asset"		"particles/econ/events/plus/high_five/high_five_lvl1_travel.vpcf"
+					"modifier"		"particles/econ/events/ti10/high_five/towers/dire_tower_2021/high_five_dire_tower_2021_travel.vpcf"
 				}
 				"asset_modifier"
 				{
 					"type"		"particle"
-					"asset"		"particles/base_attacks/ranged_tower_anticipation_good.vpcf"
+					"asset"		"particles/base_attacks/ranged_tower_anticipation_bad.vpcf"
 					"modifier"		"particles/error/null.vpcf"
 				}
 			}

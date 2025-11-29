@@ -3,12 +3,11 @@
 			"name"		"Default Dire Towers"
 			"prefab"		"diretowers"
 			"baseitem"		"1"
-            "creation_date"		"2020-05-25"
-			"event_id"		"EVENT_ID_INTERNATIONAL_2020"
+			"creation_date"		"2024-11-07"
+			"event_id"		"EVENT_ID_CROWNFALL"
 			"hide_tradecraftdelete"		"1"
-			"image_inventory"		"econ/tools/ti10_dire_tower"
-			"item_description"		"by @dota2pornfx"
-			"item_name"		"#DOTA_Item_Declaration_of_the_Divine_Shadow_Dire_Towers"
+			"image_inventory"		"econ/tools/dire_tower_crownfall"
+			"item_name"		"#DOTA_Item_The_Gaze_of_ScreeAuk__Dire_Towers"
 			"item_rarity"		"legendary"
 			"portraits"
 			{
@@ -64,31 +63,7 @@
 			}
 			"static_attributes"
 			{
-				"cannot trade"
-				{
-					"attribute_class"		"cannot_trade"
-					"value"		"1"
-				}
-				"not marketable"
-				{
-					"attribute_class"		"not marketable"
-					"value"		"1"
-				}
-				"cannot delete"
-				{
-					"attribute_class"		"cannot_delete"
-					"value"		"1"
-				}
-				"additional_exclusive_tooltip_text"
-				{
-					"attribute_class"		"additional_exclusive_tooltip_text"
-					"value"		"#DOTA_EconItemSet_Tooltip_TI10_Exclusive_Item"
-				}
-				"giftable"
-				{
-					"attribute_class"		"giftable"
-					"value"		"0"
-				}
+				"tradable after date"		"1745002800"
 			}
 			"visuals"
 			{
@@ -96,167 +71,83 @@
 				{
 					"type"		"entity_clientside_model"
 					"asset"		"npc_dota_badguys_tower1_top"
-					"modifier"		"models/items/world/towers/ti10_dire_tower/ti10_dire_tower.vmdl"
+					"modifier"		"models/items/world/towers/dire_tower_crownfall/dire_tower_crownfall.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
 					"asset"		"npc_dota_badguys_tower1_mid"
-					"modifier"		"models/items/world/towers/ti10_dire_tower/ti10_dire_tower.vmdl"
+					"modifier"		"models/items/world/towers/dire_tower_crownfall/dire_tower_crownfall.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
 					"asset"		"npc_dota_badguys_tower1_bot"
-					"modifier"		"models/items/world/towers/ti10_dire_tower/ti10_dire_tower.vmdl"
+					"modifier"		"models/items/world/towers/dire_tower_crownfall/dire_tower_crownfall.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
 					"asset"		"npc_dota_badguys_tower2_top"
-					"modifier"		"models/items/world/towers/ti10_dire_tower/ti10_dire_tower.vmdl"
+					"modifier"		"models/items/world/towers/dire_tower_crownfall/dire_tower_crownfall.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
 					"asset"		"npc_dota_badguys_tower2_mid"
-					"modifier"		"models/items/world/towers/ti10_dire_tower/ti10_dire_tower.vmdl"
+					"modifier"		"models/items/world/towers/dire_tower_crownfall/dire_tower_crownfall.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
 					"asset"		"npc_dota_badguys_tower2_bot"
-					"modifier"		"models/items/world/towers/ti10_dire_tower/ti10_dire_tower.vmdl"
+					"modifier"		"models/items/world/towers/dire_tower_crownfall/dire_tower_crownfall.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
 					"asset"		"npc_dota_badguys_tower3_top"
-					"modifier"		"models/items/world/towers/ti10_dire_tower/ti10_dire_tower.vmdl"
+					"modifier"		"models/items/world/towers/dire_tower_crownfall/dire_tower_crownfall.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
 					"asset"		"npc_dota_badguys_tower3_mid"
-					"modifier"		"models/items/world/towers/ti10_dire_tower/ti10_dire_tower.vmdl"
+					"modifier"		"models/items/world/towers/dire_tower_crownfall/dire_tower_crownfall.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
 					"asset"		"npc_dota_badguys_tower3_bot"
-					"modifier"		"models/items/world/towers/ti10_dire_tower/ti10_dire_tower.vmdl"
+					"modifier"		"models/items/world/towers/dire_tower_crownfall/dire_tower_crownfall.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
 				}
 				"asset_modifier"
 				{
 					"type"		"entity_clientside_model"
 					"asset"		"npc_dota_badguys_tower4"
-					"modifier"		"models/items/world/towers/ti10_dire_tower/ti10_dire_tower.vmdl"
+					"modifier"		"models/items/world/towers/dire_tower_crownfall/dire_tower_crownfall.vmdl"
 					"portrait_activity"		"ACT_DOTA_CUSTOM_TOWER_IDLE"
-				}
-				"asset_modifier"
-				{
-					"type"		"particle_clientside"
-					"asset"		"particles/base_attacks/ranged_tower_bad.vpcf"
-					"modifier"		"particles/econ/world/towers/ti10_dire_tower/ti10_dire_tower_attack.vpcf"
 				}
 				"asset_modifier"
 				{
 					"type"		"particle_clientside"
 					"asset"		"particles/dire_fx/tower_bad_lamp.vpcf"
-					"modifier"		"particles/econ/world/towers/ti10_dire_tower/ti10_dire_tower_ambient.vpcf"
+					"modifier"		"particles/econ/world/towers/dire_tower_2024_crownfall/dire_tower_2024_crownfall_ambient.vpcf"
 				}
 				"asset_modifier"
 				{
 					"type"		"particle"
 					"asset"		"particles/units/dire_towers_ambient_loadout.vpcf"
-					"modifier"		"particles/econ/world/towers/ti10_dire_tower/ti10_dire_tower_ambient.vpcf"
-				}
-				"asset_modifier"
-				{
-					"type"		"particle_clientside"
-					"asset"		"particles/dire_fx/dire_tower002_destruction.vpcf"
-					"modifier"		"particles/econ/world/towers/ti10_dire_tower/ti10_dire_tower_destruction.vpcf"
-				}
-				"asset_modifier"
-				{
-					"type"		"entity_scale"
-					"asset"		"npc_dota_badguys_tower1_top"
-					"scale_size"		"1.000000"
-				}
-				"asset_modifier"
-				{
-					"type"		"entity_scale"
-					"asset"		"npc_dota_badguys_tower1_mid"
-					"scale_size"		"1.000000"
-				}
-				"asset_modifier"
-				{
-					"type"		"entity_scale"
-					"asset"		"npc_dota_badguys_tower1_bot"
-					"scale_size"		"1.000000"
-				}
-				"asset_modifier"
-				{
-					"type"		"entity_scale"
-					"asset"		"npc_dota_badguys_tower2_top"
-					"scale_size"		"1.000000"
-				}
-				"asset_modifier"
-				{
-					"type"		"entity_scale"
-					"asset"		"npc_dota_badguys_tower2_mid"
-					"scale_size"		"1.000000"
-				}
-				"asset_modifier"
-				{
-					"type"		"entity_scale"
-					"asset"		"npc_dota_badguys_tower2_bot"
-					"scale_size"		"1.000000"
-				}
-				"asset_modifier"
-				{
-					"type"		"entity_scale"
-					"asset"		"npc_dota_badguys_tower3_top"
-					"scale_size"		"1.000000"
-				}
-				"asset_modifier"
-				{
-					"type"		"entity_scale"
-					"asset"		"npc_dota_badguys_tower3_mid"
-					"scale_size"		"1.000000"
-				}
-				"asset_modifier"
-				{
-					"type"		"entity_scale"
-					"asset"		"npc_dota_badguys_tower3_bot"
-					"scale_size"		"1.000000"
-				}
-				"asset_modifier"
-				{
-					"type"		"entity_scale"
-					"asset"		"npc_dota_badguys_tower4"
-					"scale_size"		"1.000000"
-				}
-				"asset_modifier"
-				{
-					"type"		"sound_clientside"
-					"asset"		"Building_DireTower.Destruction"
-					"modifier"		"Building_DireTower.Destruction.TI10"
-				}
-				"asset_modifier"
-				{
-					"type"		"sound_clientside"
-					"asset"		"Tower.Fire.Attack"
-					"modifier"		"Tower.Dire.Attack.TI10"
+					"modifier"		"particles/econ/world/towers/dire_tower_2024_crownfall/dire_tower_2024_crownfall_ambient.vpcf"
 				}
 				"asset_modifier"
 				{
@@ -264,5 +155,12 @@
 					"asset"		"particles/base_attacks/ranged_tower_anticipation_bad.vpcf"
 					"modifier"		"particles/error/null.vpcf"
 				}
+				"asset_modifier"
+				{
+					"type"		"particle_clientside"
+					"asset"		"particles/dire_fx/dire_tower002_destruction.vpcf"
+					"modifier"		"particles/econ/world/towers/dire_tower_2024_crownfall/dire_tower_2024_crownfall_destruction.vpcf"
+				}
+				"skip_model_combine"		"0"
 			}
 		}

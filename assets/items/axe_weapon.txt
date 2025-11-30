@@ -1,0 +1,186 @@
+"2"
+		{
+			"name"		"Axe's Axe"
+            "prefab"		"default_item"
+            "creation_date"		"2019-05-07"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+			"image_inventory"		"econ/items/axe/ti9_jungle_axe/ti9_jungle_axe_weapon"
+			"item_description"		"#DOTA_Item_Desc_Fists_of_Axe_Unleashed"
+			"item_name"		"#DOTA_Item_Fists_of_Axe_Unleashed"
+			"item_rarity"		"immortal"
+			"model_player"		"models/development/invisiblebox.vmdl"
+			"static_attributes"
+			{
+				"international tag"
+				{
+					"attribute_class"		"international_tag"
+					"value"		"2019"
+				}
+				"giftable"
+				{
+					"attribute_class"		"giftable"
+					"value"		"0"
+				}
+				"not marketable"
+				{
+					"attribute_class"		"not marketable"
+					"value"		"1"
+				}
+				"cannot trade"
+				{
+					"attribute_class"		"cannot_trade"
+					"value"		"1"
+				}
+				"can_equip_as_ability_effects"
+				{
+					"attribute_class"		"can_equip_as_ability_effects"
+					"value"		"3"
+				}
+				"can_equip_as_ability_effects"
+				{
+					"attribute_class"		"can_equip_as_ability_effects"
+					"value"		"4"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"entity_model"
+					"asset"		"npc_dota_hero_axe"
+					"modifier"		"models/items/axe/ti9_jungle_axe/axe_bare.vmdl"
+				}
+				"asset_modifier"
+				{
+					"type"		"hero_scale"
+					"asset"		"npc_dota_hero_axe"
+					"ModelScale"		"1.030000"
+					"VersusScale"		"0.916700"
+					"LoadoutScale"		"0.978500"
+					"SpectatorLoadoutScale"		"0.875500"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"ti9"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_axe/axe_culling_blade_kill.vpcf"
+					"modifier"		"particles/econ/items/axe/ti9_jungle_axe/ti9_jungle_axe_culling_blade_kill.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_axe/axe_attack_blur_counterhelix.vpcf"
+					"modifier"		"particles/econ/items/axe/ti9_jungle_axe/ti9_jungle_axe_attack_blur_counterhelix.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"3"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_axe/axe_cullingblade_sprint.vpcf"
+					"modifier"		"particles/econ/items/axe/ti9_jungle_axe/ti9_jungle_axe_culling_blade_sprint.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_axe/axe_cullingblade_sprint_creep.vpcf"
+					"modifier"		"particles/econ/items/axe/ti9_jungle_axe/ti9_jungle_axe_culling_blade_sprint_creep.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_axe/axe_culling_blade_boost.vpcf"
+					"modifier"		"particles/econ/items/axe/ti9_jungle_axe/ti9_jungle_axe_culling_blade_boost.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_axe/axe_loadout.vpcf"
+					"modifier"		"particles/econ/items/axe/ti9_jungle_axe/ti9_jungle_axe_loadout.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Axe.PreAttack"
+					"modifier"		"Hero_Axe.PreAttack.Jungle"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Axe.Attack"
+					"modifier"		"Hero_Axe.Attack.Jungle"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"response_criteria"
+					"asset"		"jungle_axe"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_axe/axe_culling_blade_hero_effect.vpcf"
+					"modifier"		"particles/econ/items/axe/ti9_jungle_axe/ti9_jungle_axe_culling_blade_hero_effect.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_axe/axe_cullingblade_sprint_axe.vpcf"
+					"modifier"		"particles/econ/items/axe/ti9_jungle_axe/ti9_jungle_axe_cullingblade_sprint_axe.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/axe/ti9_jungle_axe/ti9_jungle_axe_misc_ambient.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"icon_replacement_hero"
+					"asset"		"npc_dota_hero_axe"
+					"modifier"		"npc_dota_hero_axe_alt"
+					"force_display"		"1"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"axe_counter_helix"
+					"modifier"		"axe_counter_helix_unleashed"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"3"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"axe_culling_blade"
+					"modifier"		"axe_culling_blade_unleashed"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"4"
+				}
+			}
+		}

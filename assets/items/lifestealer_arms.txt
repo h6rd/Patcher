@@ -1,0 +1,137 @@
+"444"
+		{
+			"name"		"Lifestealer's Chains"
+			"prefab"		"default_item"
+            "creation_date"		"2019-05-07"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+			"image_inventory"		"econ/items/lifestealer/ls_ti9_immortal_arms/ls_ti9_immortal_arms1"
+			"item_description"		"#DOTA_Item_Desc_Copy_of_Dread_Requisition"
+			"item_name"		"#DOTA_Item_Golden_Dread_Requisition"
+			"item_rarity"		"immortal"
+			"item_slot"		"arms"
+			"item_type_name"		"#DOTA_WearableType_Arms"
+			"model_player"		"models/items/lifestealer/ls_ti9_immortal_arms/ls_ti9_immortal_arms.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"180.893585 -59.332306 111.809998"
+					"PortraitLightAngles"		"28.080000 154.041412 0.000000"
+					"PortraitLightFOV"		"90"
+					"PortraitLightDistance"		"134"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 0.500000 0.000000"
+					"PortraitBackgroundColor2"		"1.000000 0.600000 0.000000"
+					"PortraitBackgroundColor3"		"0.000000 0.100000 0.100000"
+					"PortraitBackgroundColor4"		"0.000000 0.610000 0.600000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"0.055 -0.998 -0.000"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"356.685883 -273.646851 237.088898"
+							"PortraitAngles"		"28.832895 136.124207 0.000000"
+							"PortraitFOV"		"25"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"additional_tooltip_text"
+				{
+					"attribute_class"		"additional_tooltip_text"
+					"value"		"#DOTA_EconItemSet_Tooltip_Immortals_Exclusive_To_TI7_BattlePass_Owners"
+				}
+				"tradable after date"
+				{
+					"attribute_class"		"tradable_after_date"
+					"value"		"1598997600"
+				}
+				"can_equip_as_ability_effects"
+				{
+					"attribute_class"		"can_equip_as_ability_effects"
+					"value"		"3"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_life_stealer"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_life_stealer/life_stealer_open_wounds_impact.vpcf"
+					"modifier"		"particles/econ/items/lifestealer/ls_ti9_immortal_gold/ls_ti9_open_wounds_gold_impact.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"3"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"life_stealer_open_wounds"
+					"modifier"		"life_stealer_open_wounds_ti9_gold"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"3"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_life_stealer_open_wounds.vpcf"
+					"modifier"		"particles/econ/items/lifestealer/ls_ti9_immortal_gold/status_effect_ls_ti9_open_wounds_gold.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"3"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_life_stealer/life_stealer_open_wounds.vpcf"
+					"modifier"		"particles/econ/items/lifestealer/ls_ti9_immortal_gold/ls_ti9_open_wounds_gold.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"3"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/lifestealer/ls_ti9_immortal_gold/ls_ti9_immortal_ambient_gold.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"ti9_arms"
+					"style"		"0"
+				}
+				"skin"		"1"
+				"skip_model_combine"		"0"
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_LifeStealer.OpenWounds"
+					"modifier"		"Hero_LifeStealer.OpenWounds.TI9"
+					"apply_when_equipped_in_ability_effects_slot"		"3"
+				}
+			}
+		}

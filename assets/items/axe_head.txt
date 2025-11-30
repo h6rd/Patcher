@@ -1,0 +1,94 @@
+"4"
+		{
+			"name"		"Axe's Hair"
+			"prefab"		"default_item"
+            "creation_date"		"2019-05-07"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2019"
+			"image_inventory"		"econ/items/axe/ti9_jungle_axe/ti9_jungle_axe_hair"
+			"item_description"		"#DOTA_Item_Desc_Axes_Unleashed_Hair"
+			"item_name"		"#DOTA_Item_Hair_of_Axe_Unleashed"
+			"item_rarity"		"immortal"
+			"item_slot"		"head"
+			"model_player"		"models/items/axe/ti9_jungle_axe/ti9_jungle_axe_hair.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"128.820908 -36.531082 223.903809"
+					"PortraitLightAngles"		"56.509998 182.289993 0.000000"
+					"PortraitLightFOV"		"63"
+					"PortraitLightDistance"		"207"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"1.025000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 0.500000 0.500000"
+					"PortraitBackgroundColor2"		"1.000000 0.800000 0.900000"
+					"PortraitBackgroundColor3"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor4"		"1.000000 0.500000 0.500000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"-76.520 7.960 38.340"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"120.337807 -103.873955 121.534805"
+							"PortraitAngles"		"340.396271 145.585327 0.000000"
+							"PortraitFOV"		"30"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"international tag"
+				{
+					"attribute_class"		"international_tag"
+					"value"		"2019"
+				}
+				"giftable"
+				{
+					"attribute_class"		"giftable"
+					"value"		"0"
+				}
+				"not marketable"
+				{
+					"attribute_class"		"not marketable"
+					"value"		"1"
+				}
+				"cannot trade"
+				{
+					"attribute_class"		"cannot_trade"
+					"value"		"1"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_axe"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"0"
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/axe/ti9_jungle_axe/ti9_jungle_axe_head_ambient.vpcf"
+					"style"		"0"
+				}
+			}
+		}

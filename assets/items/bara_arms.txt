@@ -1,0 +1,79 @@
+"115"
+		{
+			"name"		"Spirit Breaker's Bracers"
+			"prefab"		"default_item"
+            "creation_date"		"2024-10-01"
+			"event_id"		"EVENT_ID_CROWNFALL"
+			"image_inventory"		"econ/items/spirit_breaker/frost_beast_arms/frost_beast_arms"
+			"item_name"		"#DOTA_Item_Crystal_Colossus__Arms"
+			"item_rarity"		"mythical"
+			"item_slot"		"arms"
+			"model_player"		"models/items/spirit_breaker/frost_beast_arms/frost_beast_arms.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"217.592636 2.886064 92.417343"
+					"PortraitLightAngles"		"16.885986 144.310913 0.000000"
+					"PortraitLightFOV"		"58"
+					"PortraitLightDistance"		"239"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"2.275000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.900000 0.200000 0.200000"
+					"PortraitBackgroundColor2"		"0.300000 0.150000 0.150000"
+					"PortraitBackgroundColor3"		"0.300000 0.150000 0.150000"
+					"PortraitBackgroundColor4"		"0.300000 0.150000 0.150000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitParticle"		"particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0.979592"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"1"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"197.590 -236.880 -23.980"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"288.166016 13.253326 79.054970"
+							"PortraitAngles"		"12.628784 170.524292 298.646851"
+							"PortraitFOV"		"18"
+							"PortraitFar"		"1000"
+						}
+					}
+					"hero_presets"
+					{
+						"Default"
+						{
+							"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+						}
+					}
+					"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+					"GodraysFXColor"		"1.000000 1.000000 1.000000"
+					"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+					"PortraitAllowAnimatedPortrait"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"cannot trade"		"1"
+				"not marketable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_spirit_breaker"		"1"
+			}
+		}

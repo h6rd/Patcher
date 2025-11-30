@@ -1,0 +1,91 @@
+"118"
+		{
+			"name"		"Alchemist's Weapon"
+			"prefab"		"default_item"
+            "creation_date"		"2015-01-22"
+			"image_inventory"		"econ/items/alchemist/eternal_radiance_blades/eternal_radiance_blades"
+			"item_description"		"#DOTA_Item_Desc_The_Twin_Blades_of_Aurelian"
+			"item_name"		"#DOTA_Item_Eternal_Radiance_Blades"
+			"item_quality"		"genuine"
+			"item_rarity"		"immortal"
+			"item_type_name"		"#DOTA_WearableType_Swords"
+			"model_player"		"models/items/alchemist/twin_blades_aurelian/twin_blades_aurelian.vmdl"
+			"particle_folder"		"particles/econ/items/alchemist/alchemist_aurelian_weapon"
+			"static_attributes"
+			{
+				"tradable after date"
+				{
+					"attribute_class"		"tradable_after_date"
+					"value"		"1425168000"
+				}
+			}
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"-132.828934 -15.227607 229.558273"
+					"PortraitLightAngles"		"34.101563 8.272705 0.000000"
+					"PortraitLightFOV"		"63.000000"
+					"PortraitLightDistance"		"271.000000"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5.000000"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5.000000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16.000000"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0.000000"
+					"PortraitAnimationRate"		"0.000000"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"-0.850 75.650 30.680"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"-246.822754 52.152809 185.590088"
+							"PortraitAngles"		"167.849121 169.024658 181.829224"
+							"PortraitFOV"		"55.000000"
+							"PortraitFar"		"995.000000"
+						}
+					}
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_alchemist"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_alchemist/alchemist_chemical_rage.vpcf"
+					"modifier"		"particles/econ/items/alchemist/alchemist_aurelian_weapon/alchemist_chemical_rage_aurelian.vpcf"
+				}
+				"asset_modifier1"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_alchemist/alchemist_loadout.vpcf"
+					"modifier"		"particles/econ/items/alchemist/alchemist_aurelian_weapon/alchemist_loadout_aurelian.vpcf"
+				}
+				"asset_modifier2"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/alchemist/alchemist_aurelian_weapon/alchemist_ambient_aurelian_l.vpcf"
+				}
+				"asset_modifier3"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/alchemist/alchemist_aurelian_weapon/alchemist_ambient_aurelian_r.vpcf"
+				}
+			}
+		}

@@ -1,0 +1,71 @@
+"112"
+		{
+			"name"		"Spirit Breaker's Shoulder Armor"
+			"prefab"		"default_item"
+            "creation_date"		"2024-10-01"
+			"event_id"		"EVENT_ID_CROWNFALL"
+			"image_inventory"		"econ/items/spirit_breaker/frost_beast_shoulders/frost_beast_shoulders"
+			"item_name"		"#DOTA_Item_Crystal_Colossus__Shoulder"
+			"item_rarity"		"mythical"
+			"item_slot"		"shoulder"
+			"model_player"		"models/items/spirit_breaker/frost_beast_shoulders/frost_beast_shoulders.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"6.823201 -200.180801 264.301819"
+					"PortraitLightAngles"		"26.932983 94.927368 0.000000"
+					"PortraitLightFOV"		"58"
+					"PortraitLightDistance"		"239"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"2.275000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.900000 0.200000 0.200000"
+					"PortraitBackgroundColor2"		"0.300000 0.150000 0.150000"
+					"PortraitBackgroundColor3"		"0.300000 0.150000 0.150000"
+					"PortraitBackgroundColor4"		"0.300000 0.150000 0.150000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitParticle"		"particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"197.590 -236.880 -23.980"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"209.241592 -117.029366 221.901443"
+							"PortraitAngles"		"26.949463 152.473755 3.186035"
+							"PortraitFOV"		"41"
+							"PortraitFar"		"1000"
+						}
+					}
+				}
+			}
+			"static_attributes"
+			{
+				"cannot trade"		"1"
+				"not marketable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_spirit_breaker"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/spirit_breaker/sb_2024_cc_frostbeast_shoulders/sb_2024_cc_frostbeast_shoulders_ambient.vpcf"
+				}
+			}
+		}

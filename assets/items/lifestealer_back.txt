@@ -1,0 +1,178 @@
+"8659"
+		{
+			"name"		"Lifestealer's Back"
+			"prefab"		"default_item"
+            "creation_date"		"2017-05-04"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2017"
+			"hide_tradecraftdelete"		"1"
+			"image_inventory"		"econ/items/lifestealer/immortal_back/lifestealer_immortal_back_golden"
+			"item_description"		"#DOTA_Item_Desc_Golden_Profane_Union"
+			"item_name"		"#DOTA_Item_Golden_Profane_Union"
+			"item_rarity"		"immortal"
+			"item_slot"		"back"
+			"item_type_name"		"#DOTA_WearableType_Back"
+			"model_player"		"models/items/lifestealer/immortal_back/lifestealer_immortal_back_golden.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"480.132111 302.748627 403.187500"
+							"PortraitAngles"		"28.598427 212.830063 0.000000"
+							"PortraitFOV"		"16"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitLightPosition"		"202.699997 -23.150000 308.170013"
+					"PortraitLightAngles"		"54.790001 171.699997 0.000000"
+					"PortraitLightFOV"		"120"
+					"PortraitLightDistance"		"336"
+					"PortraitLightColor"		"254 248 242"
+					"PortraitLightScale"		"2"
+					"PortraitShadowColor"		"74 74 74"
+					"PortraitShadowScale"		"1"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+					"PortraitAmbientColor"		"79 108 108"
+					"PortraitAmbientScale"		"1"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"1"
+					"PortraitHideHero"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"hero_presets"
+					{
+						"Default"
+						{
+							"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+						}
+					}
+					"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitVignetteItem"		"0"
+					"PortraitAllowAnimatedPortrait"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"tradable after date"		"1535796000"
+				"additional_tooltip_text"		"#DOTA_EconItemSet_Tooltip_Immortals_Exclusive_To_TI7_BattlePass_Owners"
+				"can_equip_as_ability_effects"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_life_stealer"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"1"
+				"hide_styles_from_ui"		"1"
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Style_Lifestealer_Immortal_Base"
+						"skin"		"0"
+						"auto_style_rule"		"modifier_life_stealer_rage <= 0"
+						"auto_style_reason"		"#DOTA_AutoStyle_Initial_Style_Reason"
+						"model_player"		"models/items/lifestealer/immortal_back/lifestealer_immortal_back_golden.vmdl"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Style_Lifestealer_Immortal_Rage"
+						"skin"		"1"
+						"auto_style_rule"		"modifier_life_stealer_rage > 0"
+						"auto_style_reason"		"#DOTA_Style_LifeStealer_Rage_Reason"
+						"model_player"		"models/items/lifestealer/immortal_back/lifestealer_immortal_back_rage_golden.vmdl"
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/status_fx/status_effect_life_stealer_rage.vpcf"
+					"modifier"		"particles/econ/items/lifestealer/lifestealer_immortal_backbone_gold/status_effect_life_stealer_immortal_rage_gold.vpcf"
+					"style"		"1"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_life_stealer/life_stealer_rage.vpcf"
+					"modifier"		"particles/econ/items/lifestealer/lifestealer_immortal_backbone_gold/lifestealer_immortal_backbone_gold_rage.vpcf"
+					"style"		"1"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/lifestealer/lifestealer_immortal_backbone_gold/lifestealer_immortal_backbone_gold_ambient.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"model_skin"
+					"skin"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"back"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"rage"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/econ/items/lifestealer/lifestealer_immortal_backbone_gold/lifestealer_immortal_backbone_gold_ambient.vpcf"
+					"modifier"		"particles/econ/items/lifestealer/lifestealer_immortal_backbone_gold/lifestealer_immortal_backbone_gold_lv_null.vpcf"
+					"style"		"1"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/lifestealer/lifestealer_immortal_backbone_gold/lifestealer_immortal_backbone_rage_ambient_gold.vpcf"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"life_stealer_rage"
+					"modifier"		"life_stealer_rage_immortal_gold"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"1"
+				}
+				"alternate_icons"
+				{
+					"0"
+					{
+						"icon_path"		"econ/items/lifestealer/immortal_back/lifestealer_immortal_back_golden"
+					}
+					"1"
+					{
+						"icon_path"		"econ/items/lifestealer/immortal_back/lifestealer_immortal_back_golden"
+					}
+				}
+			}
+		}

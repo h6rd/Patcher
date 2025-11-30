@@ -1,0 +1,65 @@
+"114"
+		{
+			"name"		"Spirit Breaker's Tail"
+			"prefab"		"default_item"
+            "creation_date"		"2024-10-01"
+			"event_id"		"EVENT_ID_CROWNFALL"
+			"image_inventory"		"econ/items/spirit_breaker/frost_beast_tail/frost_beast_tail"
+			"item_name"		"#DOTA_Item_Crystal_Colossus__Tail"
+			"item_rarity"		"mythical"
+			"item_slot"		"tail"
+			"model_player"		"models/items/spirit_breaker/frost_beast_tail/frost_beast_tail.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"-41.281410 78.618752 222.093689"
+					"PortraitLightAngles"		"50.344849 238.474731 0.000000"
+					"PortraitLightFOV"		"35"
+					"PortraitLightDistance"		"239"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"2.275000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.900000 0.200000 0.200000"
+					"PortraitBackgroundColor2"		"0.300000 0.150000 0.150000"
+					"PortraitBackgroundColor3"		"0.300000 0.150000 0.150000"
+					"PortraitBackgroundColor4"		"0.300000 0.150000 0.150000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitParticle"		"particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"1"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"197.590 -236.880 -23.980"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"-164.753815 133.105301 86.175026"
+							"PortraitAngles"		"12.958375 293.340454 0.000000"
+							"PortraitFOV"		"26"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitHideParticles"		"1"
+					"PortraitHideDropShadow"		"1"
+					"PortraitDesaturateParticles"		"0"
+				}
+			}
+			"static_attributes"
+			{
+				"cannot trade"		"1"
+				"not marketable"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_spirit_breaker"		"1"
+			}
+		}

@@ -1,0 +1,110 @@
+"113"
+		{
+			"name"		"Spirit Breaker's Mace"
+			"prefab"		"default_item"
+            "creation_date"		"2018-03-16"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2018"
+			"image_inventory"		"econ/items/spirit_breaker/spirit_breaker_ti8_immortal_weapon/spirit_breaker_ti8_immortal_weapon"
+			"item_description"		"#DOTA_Item_Desc_Savage_Mettle"
+			"item_name"		"#DOTA_Item_Savage_Mettle"
+			"item_rarity"		"immortal"
+			"item_type_name"		"#DOTA_WearableType_Weapon"
+			"model_player"		"models/items/spirit_breaker/spirit_breaker_ti8_immortal_weapon/spirit_breaker_ti8_immortal_weapon.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"-121.276047 -357.908478 185.514359"
+					"PortraitLightAngles"		"23.056000 75.171570 6.812840"
+					"PortraitLightFOV"		"58"
+					"PortraitLightDistance"		"622.919983"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"10"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.900000 0.200000 0.200000"
+					"PortraitBackgroundColor2"		"0.300000 0.150000 0.150000"
+					"PortraitBackgroundColor3"		"0.300000 0.150000 0.150000"
+					"PortraitBackgroundColor4"		"0.300000 0.150000 0.150000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitParticle"		"particles/units/heroes/hero_spirit_breaker/spirit_breaker_portrait.vpcf"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.981000"
+					"PortraitAmbientDirection"		"-0.781 -0.561 -0.275"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"130.015350 -381.997375 79.380081"
+							"PortraitAngles"		"356.861023 114.895401 -7.199997"
+							"PortraitFOV"		"48.526001"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"hero_presets"
+					{
+						"Default"
+						{
+							"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+						}
+					}
+					"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitVignetteItem"		"0"
+					"PortraitAllowAnimatedPortrait"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"tradable after date"		"1567296000"
+				"additional_tooltip_text"		"#DOTA_EconItemSet_Tooltip_Immortals_Exclusive_To_TI7_BattlePass_Owners"
+				"can_equip_as_ability_effects"		"3"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_spirit_breaker"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/spirit_breaker/spirit_breaker_weapon_ti8/spirit_breaker_ambient_ti8.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_spirit_breaker/spirit_breaker_greater_bash.vpcf"
+					"modifier"		"particles/econ/items/spirit_breaker/spirit_breaker_weapon_ti8/spirit_breaker_bash_ti8.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"3"
+				}
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"ti8"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"spirit_breaker_greater_bash"
+					"modifier"		"spiritbreaker/ti8_immortal_weapon/spirit_breaker_greater_bash_immortal"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"3"
+				}
+			}
+		}

@@ -1,0 +1,143 @@
+"20"
+		{
+			"name"		"Sven's Shoulder"
+			"prefab"		"default_item"
+            "creation_date"		"2021-07-21"
+			"event_id"		"EVENT_ID_SPRING_2021"
+			"image_inventory"		"econ/items/sven/endless_fury_sven_shoulder/endless_fury_sven_shoulder"
+			"item_name"		"#DOTA_Item_Indomitable_Legacy__Shoulder"
+			"item_rarity"		"mythical"
+			"item_slot"		"shoulder"
+			"item_type_name"		"#DOTA_WearableType_shoulder"
+			"model_player"		"models/items/sven/endless_fury_sven_shoulder/endless_fury_sven_shoulder.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"109.153259 15.954762 242.068542"
+					"PortraitLightAngles"		"45.911865 186.141357 0.000000"
+					"PortraitLightFOV"		"45"
+					"PortraitLightDistance"		"211"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.000000 0.000000 0.200000"
+					"PortraitBackgroundColor2"		"0.000000 0.000000 0.200000"
+					"PortraitBackgroundColor3"		"0.600000 0.200000 0.000000"
+					"PortraitBackgroundColor4"		"1.000000 0.100000 0.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0.050000"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"148.947189 10.516361 169.866776"
+							"PortraitAngles"		"10.678711 183.471680 0.000000"
+							"PortraitFOV"		"42"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"PortraitVignetteItem"		"0"
+				}
+			}
+			"static_attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"		"cannot_trade"
+					"value"		"1"
+				}
+				"giftable"
+				{
+					"attribute_class"		"giftable"
+					"value"		"0"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sven"		"1"
+			}
+			"visuals"
+			{
+				"hide_styles_from_ui"		"1"
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Style_Endless_Fury__Sven_Weapon_0"
+						"auto_style_rule"		"modifier_sven_gods_strength == 0"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Style_Endless_Fury__Sven_Weapon_1"
+						"auto_style_rule"		"modifier_sven_gods_strength > 0"
+					}
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/sven/sven_endless_fury/sven_endless_fury_shoulder.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/sven/sven_endless_fury/sven_endless_fury_shoulder.vpcf"
+					"control_point_number"		"1"
+					"cp_position"		"58 118 255"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/sven/sven_endless_fury/sven_endless_fury_shoulder.vpcf"
+					"control_point_number"		"2"
+					"cp_position"		"0 0 0"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/sven/sven_endless_fury/sven_endless_fury_shoulder.vpcf"
+					"control_point_number"		"1"
+					"cp_position"		"255 50 10"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_control_point"
+					"asset"		"particles/econ/items/sven/sven_endless_fury/sven_endless_fury_shoulder.vpcf"
+					"control_point_number"		"2"
+					"cp_position"		"1 0 0"
+					"style"		"1"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Style_Endless_Fury__Sven_Weapon_0"
+						"auto_style_rule"		"modifier_sven_gods_strength == 0"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Style_Endless_Fury__Sven_Weapon_1"
+						"auto_style_rule"		"modifier_sven_gods_strength > 0"
+					}
+				}
+			}
+		}

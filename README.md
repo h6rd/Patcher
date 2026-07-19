@@ -33,8 +33,8 @@ A tool for installing custom weather, killstreaks, towers, terrains, creeps, HUD
 ---
 
 ## Custom Skins
-
 When skins are enabled, the script utilizes the contents of the `Custom` folder.
+- **You can find the ready-made files here:** *[MOR](https://vk.com/amir4anmods)* / *[MOR Hub](https://vk.com/zzzhub)* / *[Arkadium](https://discord.gg/C7VFuju5WD)*
 
 ### Adding Skins from MOR
 1. Create your skin in MOR, which will generate an output archive.

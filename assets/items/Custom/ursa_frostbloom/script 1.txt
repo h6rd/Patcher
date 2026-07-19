@@ -1,0 +1,90 @@
+		{
+			"name"		"Ursa's Bracers"
+			"prefab"		"default_item"
+			"creation_date"		"2019-11-27"
+			"event_id"		"EVENT_ID_FROSTIVUS_2019"
+			"image_inventory"		"econ/items/ursa/ice_claw_wendigo_arms/ice_claw_wendigo_arms"
+			"item_name"		"#DOTA_Item_Claws_of_the_Crystal_Drift"
+			"item_rarity"		"mythical"
+			"item_slot"		"arms"
+			"item_type_name"		"#DOTA_WearableType_arms"
+			"model_player"		"models/items/ursa/ice_claw_wendigo_arms/ice_claw_wendigo_arms.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"PortraitLightPosition"		"201.391571 -136.032532 214.926483"
+					"PortraitLightAngles"		"25.070801 151.446533 0.000000"
+					"PortraitLightFOV"		"36"
+					"PortraitLightDistance"		"377"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"5"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"0.200000 0.600000 1.000000"
+					"PortraitBackgroundColor2"		"0.300000 0.500000 1.000000"
+					"PortraitBackgroundColor3"		"0.300000 0.500000 1.000000"
+					"PortraitBackgroundColor4"		"0.000000 0.000000 0.000000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0.960784"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitLightScale"		"1.750000"
+					"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+					"cameras"
+					{
+						"default"
+						{
+							"PortraitPosition"		"266.725494 -205.723602 35.676544"
+							"PortraitAngles"		"350.953369 135.981888 0.000000"
+							"PortraitFOV"		"54"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitPlayIdleExpression"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+					"hero_presets"
+					{
+						"Default"
+						{
+							"PortraitHeroRotation"		"0.000000 0.000000 0.000000"
+						}
+					}
+					"EffectDissolveColor"		"1.000000 1.000000 1.000000"
+					"GodraysFXColor"		"1.000000 1.000000 1.000000"
+					"GroundfogFXColor"		"1.000000 1.000000 1.000000"
+					"PortraitVignetteItem"		"0"
+					"PortraitAllowAnimatedPortrait"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"can roll unusual"		"1"
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_ursa"		"1"
+			}
+			"visuals"
+			{
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/ursa/ursa_wendigo/ursa_wendigo_arms_ambient.vpcf"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/seasonal/seasonal_ambient_silver.vpcf"
+				}
+			}
+		}

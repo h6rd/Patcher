@@ -1,0 +1,73 @@
+"202"
+		{
+			"name"		"Default Cursor Pack"
+			"prefab"		"cursor_pack"
+			"baseitem"		"1"
+			"creation_date"		"2024-04-18"
+			"event_id"		"EVENT_ID_CROWNFALL"
+			"image_inventory"		"econ/cursor_pack/vengeful_spirit_arcana_cursor_pack"
+			"item_name"		"#DOTA_Item_The_Resurrection_of_Shen__Cursor_Pack"
+			"item_rarity"		"legendary"
+			"static_attributes"
+			{
+				"tradable after date"		"1745002800"
+				"giftable"		"0"
+			}
+			"visuals"
+			{
+				"asset_modifier"
+				{
+					"type"		"cursor_pack"
+					"asset"		"resource/cursor/valve/vengeful_spirit_arcana"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"cursor_pack"
+					"asset"		"resource/cursor/valve/vengeful_spirit_arcana_alt"
+					"style"		"1"
+				}
+				"asset_modifier"
+				{
+					"type"		"cursor_pack"
+					"asset"		"resource/cursor/valve/imperia_arcana"
+					"style"		"2"
+				}
+				"alternate_icons"
+				{
+					"0"
+					{
+						"icon_path"		"econ/cursor_pack/vengeful_spirit_arcana_cursor_pack"
+					}
+					"1"
+					{
+						"icon_path"		"econ/cursor_pack/vengeful_spirit_arcana_cursor_pack_style1"
+					}
+					"2"
+					{
+						"icon_path"		"econ/cursor_pack/vengeful_spirit_arcana_cursor_pack_style2"
+					}
+				}
+				"styles"
+				{
+					"0"
+					{
+						"name"		"#DOTA_Style_Vengeful_Spirit_Arcana_Style0"
+						"skin"		"0"
+						"alternate_icon"		"0"
+					}
+					"1"
+					{
+						"name"		"#DOTA_Style_Vengeful_Spirit_Arcana_Style1"
+						"skin"		"1"
+						"alternate_icon"		"1"
+					}
+					"2"
+					{
+						"name"		"#DOTA_Style_Vengeful_Spirit_Arcana_Style2"
+						"skin"		"2"
+						"alternate_icon"		"2"
+					}
+				}
+			}
+		}

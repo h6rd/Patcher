@@ -1,0 +1,25 @@
+"202"
+		{
+			"name"		"Default Cursor Pack"
+			"prefab"		"cursor_pack"
+			"baseitem"		"1"
+			"creation_date"		"2014-11-10"
+			"image_inventory"		"econ/cursor_pack/necronub"
+			"item_name"		"#DOTA_Item_Wrath_of_Ka_Cursor_Pack"
+			"item_rarity"		"mythical"
+			"price_info"
+			{
+				"category_tags"		"Equipment"
+				"date"		"11/11/2014"
+				"price"		"0"
+			}
+			"used_by_heroes"		"1"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"cursor_pack"
+					"asset"		"resource/cursor/workshop/necronub"
+				}
+			}
+		}

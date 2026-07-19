@@ -1,0 +1,19 @@
+"202"
+		{
+			"name"		"Default Cursor Pack"
+			"prefab"		"cursor_pack"
+			"baseitem"		"1"
+			"creation_date"		"2020-10-20"
+			"event_id"		"EVENT_ID_DIRETIDE_2020"
+			"image_inventory"		"econ/cursor_pack/diretide2020_cursor_pack"
+			"item_name"		"#DOTA_Item_Diretide_2020_Cursor_Pack"
+			"item_rarity"		"mythical"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"cursor_pack"
+					"asset"		"resource/cursor/valve/diretide2020"
+				}
+			}
+		}

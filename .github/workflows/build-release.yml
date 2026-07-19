@@ -1,0 +1,83 @@
+name: Build & Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyinstaller vpk rich SteamPathFinder
+
+      - name: Build
+        run: pyinstaller --onefile --console --name=Patcher --icon=icon.ico --collect-all=vpk --collect-all=rich --collect-all=SteamPathFinder --collect-all=vdf Patcher.py
+
+      - name: Assemble release folder
+        run: |
+          New-Item -ItemType Directory -Path Patcher
+          Copy-Item dist\Patcher.exe Patcher\Patcher.exe
+          Copy-Item -Recurse assets Patcher\assets
+          Compress-Archive -Path Patcher -DestinationPath Patcher-Win.zip
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows-build
+          path: Patcher-Win.zip
+
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyinstaller vpk rich
+
+      - name: Build
+        run: pyinstaller --onefile --console --name=Patcher --collect-all=vpk --collect-all=rich --exclude-module=SteamPathFinder --exclude-module=vdf --exclude-module=winreg Patcher.py
+
+      - name: Assemble release folder
+        run: |
+          mkdir -p Patcher
+          cp dist/Patcher Patcher/Patcher
+          chmod +x Patcher/Patcher
+          cp -r assets Patcher/assets
+          zip -r Patcher-Linux.zip Patcher
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux-build
+          path: Patcher-Linux.zip
+
+  release:
+    needs: [build-windows, build-linux]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: windows-build
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: linux-build
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            Patcher-Win.zip
+            Patcher-Linux.zip

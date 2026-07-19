@@ -1,0 +1,32 @@
+"202"
+		{
+			"name"		"Default Cursor Pack"
+			"prefab"		"cursor_pack"
+			"baseitem"		"1"
+			"creation_date"		"2016-05-16"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2016"
+			"image_inventory"		"econ/cursor_pack/ti6_cursor_pack"
+			"item_name"		"#DOTA_Item_The_International_2016_Cursor_Pack"
+			"item_rarity"		"mythical"
+			"static_attributes"
+			{
+				"international tag"
+				{
+					"attribute_class"		"international_tag"
+					"value"		"2016"
+				}
+				"tradable after date"
+				{
+					"attribute_class"		"tradable_after_date"
+					"value"		"1471158000"
+				}
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"cursor_pack"
+					"asset"		"resource/cursor/valve/ti6"
+				}
+			}
+		}

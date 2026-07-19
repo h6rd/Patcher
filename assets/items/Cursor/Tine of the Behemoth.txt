@@ -1,0 +1,26 @@
+"202"
+		{
+			"name"		"Default Cursor Pack"
+			"prefab"		"cursor_pack"
+			"baseitem"		"1"
+			"creation_date"		"2015-04-01"
+			"image_inventory"		"econ/cursor_pack/sltv_shaker_cursor_pack"
+			"item_name"		"#DOTA_Item_Tine_of_the_Behemoth_Cursor_Pack"
+			"item_rarity"		"rare"
+			"price_info"
+			{
+				"category_tags"		"Equipment"
+				"date"		"4/1/2015"
+				"price"		"0"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"cursor_pack"
+					"asset"		"resource/cursor/workshop/sltv_shaker_cursor_pack"
+					"modifier"		"resource/cursor/workshop/sltv_shaker_cursor_pack"
+					"frequency"		"1"
+				}
+			}
+		}

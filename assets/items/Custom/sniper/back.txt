@@ -1,0 +1,120 @@
+        "282"
+		{
+			"name"		"Sniper's Cape"
+			"prefab"		"default_item"
+			"creation_date"		"2017-08-03"
+			"event_id"		"EVENT_ID_INTERNATIONAL_2017"
+			"hide_tradecraftdelete"		"1"
+			"image_inventory"		"econ/items/sniper/sniper_cape_immortal/sniper_cape_immortal1"
+			"item_description"		"#DOTA_Item_Desc_Golden_FullBore_Bonanza"
+			"item_name"		"#DOTA_Item_Golden_FullBore_Bonanza"
+			"item_rarity"		"immortal"
+			"item_slot"		"back"
+			"item_type_name"		"#DOTA_WearableType_Wearable"
+			"model_player"		"models/items/sniper/sniper_cape_immortal/sniper_cape_immortal.vmdl"
+			"portraits"
+			{
+				"icon"
+				{
+					"cameras"
+					{
+						"Default"
+						{
+							"PortraitPosition"		"-403.856110 -105.858452 201.133286"
+							"PortraitAngles"		"17.312553 15.001129 0.000000"
+							"PortraitFOV"		"39"
+							"PortraitFar"		"1000"
+						}
+					}
+					"PortraitLightPosition"		"-221.270416 54.274155 186.428131"
+					"PortraitLightAngles"		"35.244141 2.219238 0.000000"
+					"PortraitLightFOV"		"65"
+					"PortraitLightDistance"		"317"
+					"PortraitLightColor"		"254 254 254"
+					"PortraitLightScale"		"1.750000"
+					"PortraitShadowColor"		"97 97 97"
+					"PortraitShadowScale"		"5"
+					"PortraitGroundShadowScale"		"1.500000"
+					"PortraitAmbientDirection"		"39.910 -29.100 -18.910"
+					"PortraitAmbientColor"		"148 148 148"
+					"PortraitAmbientScale"		"4.950000"
+					"PortraitSpecularColor"		"251 74 84"
+					"PortraitSpecularDirection"		"0.000000 0.000000 -1.000000"
+					"PortraitSpecularPower"		"16"
+					"PortraitBackgroundColor1"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor2"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor3"		"1.000000 1.000000 1.000000"
+					"PortraitBackgroundColor4"		"0.000000 0.200000 0.700000"
+					"PortraitBackgroundTexture"		"materials/vgui/econ/item_icon_bg.vmat"
+					"PortraitAnimationActivity"		"ACT_DOTA_IDLE"
+					"PortraitAnimationCycle"		"0"
+					"PortraitAnimationRate"		"0"
+					"PortraitHideHero"		"0"
+					"PortraitHideParticles"		"0"
+					"PortraitHideDropShadow"		"0"
+					"PortraitDesaturateParticles"		"0"
+					"PortraitDesaturateHero"		"1"
+				}
+			}
+			"static_attributes"
+			{
+				"can_equip_as_ability_effects"
+				{
+					"attribute_class"		"can_equip_as_ability_effects"
+					"value"		"2"
+				}
+			}
+			"used_by_heroes"
+			{
+				"npc_dota_hero_sniper"		"1"
+			}
+			"visuals"
+			{
+				"skip_model_combine"		"0"
+				"asset_modifier"
+				{
+					"type"		"activity"
+					"asset"		"ALL"
+					"modifier"		"immortal_cape"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_sniper/sniper_headshot_slow.vpcf"
+					"modifier"		"particles/econ/items/sniper/sniper_immortal_cape_golden/sniper_immortal_cape_golden_headshot_slow.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle_create"
+					"modifier"		"particles/econ/items/sniper/sniper_immortal_cape_golden/sniper_immortal_cape_golden_ambient.vpcf"
+					"style"		"0"
+				}
+				"asset_modifier"
+				{
+					"type"		"particle"
+					"asset"		"particles/units/heroes/hero_sniper/sniper_headshot_slow_caster.vpcf"
+					"modifier"		"particles/econ/items/sniper/sniper_immortal_cape_golden/sniper_immortal_cape_golden_headshot_slow_caster.vpcf"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"sound"
+					"asset"		"Hero_Sniper.Headshot"
+					"modifier"		"Hero_Sniper.DuckTarget"
+					"style"		"0"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"asset_modifier"
+				{
+					"type"		"ability_icon"
+					"asset"		"sniper_headshot"
+					"modifier"		"sniper_headshot_immortal_gold"
+					"apply_when_equipped_in_ability_effects_slot"		"2"
+				}
+				"skin"		"1"
+			}
+		}

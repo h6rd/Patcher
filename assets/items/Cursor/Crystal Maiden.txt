@@ -1,0 +1,30 @@
+"202"
+		{
+			"name"		"Default Cursor Pack"
+			"prefab"		"cursor_pack"
+			"baseitem"		"1"
+			"creation_date"		"2014-12-12"
+			"image_inventory"		"econ/cursor_pack/pw_crystal_maiden_cursors"
+			"item_description"		"#DOTA_Item_Desc_DAC_2015_Crystal_Maiden_Cursor_Pack"
+			"item_name"		"#DOTA_Item_DAC_2015_Crystal_Maiden_Cursor_Pack"
+			"item_quality"		"genuine"
+			"item_rarity"		"mythical"
+			"static_attributes"
+			{
+				"tradable after date"
+				{
+					"attribute_class"		"tradable_after_date"
+					"value"		"1425168000"
+				}
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"cursor_pack"
+					"asset"		"resource/cursor/workshop/pw_crystal_maiden_cursors"
+					"modifier"		"resource/cursor/workshop/pw_crystal_maiden_cursors"
+					"frequency"		"1"
+				}
+			}
+		}

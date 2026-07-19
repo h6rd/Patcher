@@ -1,0 +1,26 @@
+"202"
+		{
+			"name"		"Default Cursor Pack"
+			"prefab"		"cursor_pack"
+			"baseitem"		"1"
+			"creation_date"		"2014-11-07"
+			"image_inventory"		"econ/cursor_pack/dcveno_cursor"
+			"item_name"		"#DOTA_Item_Acid_Hydra_Cursor_Pack"
+			"item_rarity"		"mythical"
+			"price_info"
+			{
+				"category_tags"		"Equipment"
+				"date"		"11/10/2014"
+				"price"		"0"
+			}
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"cursor_pack"
+					"asset"		"resource/cursor/workshop/dcveno_cursor"
+					"modifier"		"resource/cursor/workshop/dcveno_cursor"
+					"frequency"		"1"
+				}
+			}
+		}

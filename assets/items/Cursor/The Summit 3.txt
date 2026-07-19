@@ -1,0 +1,20 @@
+"202"
+		{
+			"name"		"Default Cursor Pack"
+			"prefab"		"cursor_pack"
+			"baseitem"		"1"
+			"creation_date"		"2015-03-04"
+			"image_inventory"		"econ/cursor_pack/bts3_cursor_pack"
+			"item_name"		"#DOTA_Item_The_Summit_3_Cursor_Pack"
+			"item_rarity"		"rare"
+			"visuals"
+			{
+				"asset_modifier0"
+				{
+					"type"		"cursor_pack"
+					"asset"		"resource/cursor/workshop/bts3_cursor_pack"
+					"modifier"		"resource/cursor/workshop/bts3_cursor_pack"
+					"frequency"		"1"
+				}
+			}
+		}

@@ -26,6 +26,7 @@ jobs:
           New-Item -ItemType Directory -Path Patcher
           Copy-Item dist\Patcher.exe Patcher\Patcher.exe
           Copy-Item -Recurse assets Patcher\assets
+          Copy-Item Guide.txt Patcher\Guide.txt
           Compress-Archive -Path Patcher -DestinationPath Patcher-Win.zip
 
       - uses: actions/upload-artifact@v4
@@ -54,6 +55,7 @@ jobs:
           cp dist/Patcher Patcher/Patcher
           chmod +x Patcher/Patcher
           cp -r assets Patcher/assets
+          cp Guide.txt Patcher/Guide.txt
           zip -r Patcher-Linux.zip Patcher
 
       - uses: actions/upload-artifact@v4

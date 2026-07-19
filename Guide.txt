@@ -1,0 +1,18 @@
+RU
+-----
+Не рекомендую использовать, патчит dota.signatures
+
+Позволяет устанавливать: погоду, киллстрик, башни, крипов, ландшафт, худ, курсор.
+После обновления доты, запустите ещё раз Install. Если не пускает в катку - Fix MM.
+
+Подробнее о скинах можно прочитать здесь: https://github.com/h6rd/Patcher#custom-skins
+
+
+EN
+-----
+I do not recommend to use, patches dota.signatures
+
+Allows you to set: weather, killstreak, towers, creeps, terrain, hud, cursor.
+After updating the dota, run Install again. If it doesn't let you into the rink - Fix MM.
+
+You can read more about skins here: https://github.com/h6rd/Patcher#custom-skins

@@ -17,6 +17,18 @@ from pathlib import Path
 
 IS_WINDOWS = sys.platform == 'win32'
 
+
+def clean_subprocess_env():
+    env = os.environ.copy()
+    for key in ('LD_LIBRARY_PATH', 'DYLD_LIBRARY_PATH'):
+        orig = env.pop(f'{key}_ORIG', None)
+        if orig is not None:
+            env[key] = orig
+        else:
+            env.pop(key, None)
+    return env
+
+
 if IS_WINDOWS:
     import winreg
 
@@ -105,7 +117,7 @@ else:
         return None
 
     def platform_launch_dota2():
-        subprocess.Popen(['xdg-open', 'steam://rungameid/570'])
+        subprocess.Popen(['xdg-open', 'steam://rungameid/570'], env=clean_subprocess_env())
 
 
 if getattr(sys, 'frozen', False):
@@ -1050,6 +1062,7 @@ def kill_dota2():
                     ["pkill", "-9", "-x", name],
                     stdout=subprocess.DEVNULL,
                     stderr=subprocess.DEVNULL,
+                    env=clean_subprocess_env(),
                 )
         time.sleep(1)
     except FileNotFoundError:

@@ -15,7 +15,7 @@ A tool for installing custom weather, killstreaks, towers, terrains, creeps, HUD
 | Platform | Link |
 |----------|------|
 | **Windows** | [Patcher-Win.zip](https://github.com/h6rd/Patcher/releases/latest/download/Patcher-Win.zip) |
-| **Linux** `Not Tested` | [Patcher-Linux.zip](https://github.com/h6rd/Patcher/releases/latest/download/Patcher-Linux.zip) |
+| **Linux** | [Patcher-Linux.zip](https://github.com/h6rd/Patcher/releases/latest/download/Patcher-Linux.zip) |
 
 ---
 

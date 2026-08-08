@@ -59,6 +59,14 @@ else:
         os.system('clear')
 
     def bin_subdir():
+        if dota_path:
+            bin_root = Path(dota_path) / 'game' / 'bin'
+            for candidate in ('linuxsteamrt64', 'win64'):
+                if (bin_root / candidate / 'dota.signatures').exists():
+                    return candidate
+            for candidate in ('linuxsteamrt64', 'win64'):
+                if (bin_root / candidate).exists():
+                    return candidate
         return 'linuxsteamrt64'
 
     def get_steam_roots():
@@ -181,31 +189,26 @@ else:
 
     def read_key(timeout=0.05):
         try:
-            r, _, _ = select.select([sys.stdin], [], [], timeout)
+            r, _, _ = select.select([stdin_fd], [], [], timeout)
         except (OSError, ValueError):
             return None
         if not r:
             return None
-        ch = sys.stdin.read(1)
+        ch = os.read(stdin_fd, 1).decode(errors='ignore')
         if ch == '':
             return None
         if ch == '\x1b':
-            r2, _, _ = select.select([sys.stdin], [], [], 0.01)
+            r2, _, _ = select.select([stdin_fd], [], [], 0.05)
             if not r2:
                 return 'esc'
-            ch2 = sys.stdin.read(1)
-            if ch2 != '[':
+            ch2 = os.read(stdin_fd, 1).decode(errors='ignore')
+            if ch2 not in ('[', 'O'):
                 return 'esc'
-            ch3 = sys.stdin.read(1)
-            if ch3 == 'A':
-                return 'up'
-            if ch3 == 'B':
-                return 'down'
-            if ch3 == 'C':
-                return 'right'
-            if ch3 == 'D':
-                return 'left'
-            return None
+            r3, _, _ = select.select([stdin_fd], [], [], 0.05)
+            if not r3:
+                return None
+            ch3 = os.read(stdin_fd, 1).decode(errors='ignore')
+            return {'A': 'up', 'B': 'down', 'C': 'right', 'D': 'left'}.get(ch3)
         if ch in ('\r', '\n'):
             return 'enter'
         if ch in ('\x7f', '\x08'):

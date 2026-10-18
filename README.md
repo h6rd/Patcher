@@ -1,4 +1,6 @@
-# Patcher for Dota 2
+# Use [Dota2 Mod Manager](https://github.com/dota2modmanager/dota2-mod-manager) with Safe Mode disabled. This script is no longer maintained.
+
+## Patcher for Dota 2
 
 A tool for installing custom weather, killstreaks, towers, terrains, creeps, HUDs, cursors, and manually adding custom in-game items.
 
